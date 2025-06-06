@@ -23,7 +23,8 @@
 - [ ] Find the first duplicate in an array
 - [ ] Solve the producer-consumer problem using multithreading
 - [ ] Implement a cache using a HashMap
-- [ ] The rest of Tausig's problems
+- [ ] The rest of [Tausig's problems](https://tausiq.wordpress.com/easy-programming-problems-with-solutions/)
+- [ ] The rest of [DO's problems](https://www.indeed.com/career-advice/interviewing/java-coding-interview-questions)
 - Arrays
   - [ ] [Two Sum](https://leetcode.com/problems/two-sum/)
   - [ ] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
