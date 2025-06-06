@@ -16,9 +16,10 @@
 - [x] Bits Manipulation formulas
 - [x] Check if a number is a power of 2
 - [x] Hamming Weight implementation (return 1-bits of a binary representation of a number)
+- [x] Find the middle element of a linked list
+
 
 ## To Do
-- [ ] Find the middle element of a linked list
 - [ ] Implement a stack using two queues
 - [ ] Find the first duplicate in an array
 - [ ] Solve the producer-consumer problem using multithreading
