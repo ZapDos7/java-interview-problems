@@ -19,14 +19,15 @@
 - [x] Find the middle element of a linked list
 - [x] [Factorial](https://tausiq.wordpress.com/2009/07/27/uab-2005-problem-1-factorial-calculator/)
 - [x] [Searching 101](https://tausiq.wordpress.com/2009/07/27/uab-2005-problem-2-searching-101/)
+- [x] [Binary to Decimal Converter](https://tausiq.wordpress.com/2009/07/27/uab-2005-problem-3-binary-to-decimal-converter/)
 
 ## To Do
-- [ ] Implement a stack using two queues
-- [ ] Find the first duplicate in an array
-- [ ] Solve the producer-consumer problem using multithreading
-- [ ] Implement a cache using a HashMap
-- [ ] The rest of [Tausig's problems](https://tausiq.wordpress.com/easy-programming-problems-with-solutions/)
-- [ ] The rest of [DO's problems](https://www.indeed.com/career-advice/interviewing/java-coding-interview-questions)
+  - [ ] Implement a stack using two queues
+  - [ ] Find the first duplicate in an array
+  - [ ] Solve the producer-consumer problem using multithreading
+  - [ ] Implement a cache using a HashMap
+  - [ ] The rest of [Tausig's problems](https://tausiq.wordpress.com/easy-programming-problems-with-solutions/)
+  - [ ] The rest of [DO's problems](https://www.indeed.com/career-advice/interviewing/java-coding-interview-questions)
 - Arrays
   - [ ] [Two Sum](https://leetcode.com/problems/two-sum/)
   - [ ] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
