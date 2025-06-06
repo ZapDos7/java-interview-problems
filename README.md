@@ -22,9 +22,9 @@
 - [x] [Binary to Decimal Converter](https://tausiq.wordpress.com/2009/07/27/uab-2005-problem-3-binary-to-decimal-converter/)
 - [x] Implement a stack using two queues
 - [x] Find the first duplicate in an array
+- [x] Solve the producer-consumer problem using multithreading
 
 ## To Do
-  - [ ] Solve the producer-consumer problem using multithreading
   - [ ] Implement a cache using a HashMap
   - [ ] The rest of Tausig's problems
     - [ ] [Push Ups with Blaze](https://tausiq.wordpress.com/2009/07/27/push-ups-with-blaze/)
