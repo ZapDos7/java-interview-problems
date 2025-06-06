@@ -24,10 +24,10 @@
 - [x] Find the first duplicate in an array
 - [x] Solve the producer-consumer problem using multithreading
 - [x] Implement a cache using a HashMap
+- [x] [Push Ups with Blaze](https://tausiq.wordpress.com/2009/07/27/push-ups-with-blaze/)
 
 ## To Do
   - [ ] The rest of Tausig's problems
-    - [ ] [Push Ups with Blaze](https://tausiq.wordpress.com/2009/07/27/push-ups-with-blaze/)
     - [ ] [Valid Identifier Checker](https://tausiq.wordpress.com/2009/07/27/valid-identifier-checker/)
     - [ ] [Shortest path in Alabama](https://tausiq.wordpress.com/2013/08/08/uab-2005-problem-6-shortest-path-in-alabama/)
     - [ ] [Stack Machine Interpretation](https://tausiq.wordpress.com/2009/07/27/stack-machine-interpretation/)
