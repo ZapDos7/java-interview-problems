@@ -17,7 +17,8 @@
 - [x] Check if a number is a power of 2
 - [x] Hamming Weight implementation (return 1-bits of a binary representation of a number)
 - [x] Find the middle element of a linked list
-- [x] Factorial
+- [x] [Factorial](https://tausiq.wordpress.com/2009/07/27/uab-2005-problem-1-factorial-calculator/)
+- [x] [Searching 101](https://tausiq.wordpress.com/2009/07/27/uab-2005-problem-2-searching-101/)
 
 ## To Do
 - [ ] Implement a stack using two queues
