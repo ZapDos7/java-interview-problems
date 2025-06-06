@@ -1,8 +1,7 @@
 package searching101;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import utils.InputReader;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -26,18 +25,6 @@ public class Search {
         } else {
             System.out.print("Enter the number to be searched: ");
         }
-        // Enter data using BufferReader
-        BufferedReader r = new BufferedReader(new InputStreamReader(System.in));
-
-        // Reading data using readLine
-        String s = null;
-        try {
-            s = r.readLine();
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-
-        // Printing the read line
-        return Integer.parseInt(s);
+        return Integer.parseInt(InputReader.read());
     }
 }
