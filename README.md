@@ -21,9 +21,9 @@
 - [x] [Searching 101](https://tausiq.wordpress.com/2009/07/27/uab-2005-problem-2-searching-101/)
 - [x] [Binary to Decimal Converter](https://tausiq.wordpress.com/2009/07/27/uab-2005-problem-3-binary-to-decimal-converter/)
 - [x] Implement a stack using two queues
+- [x] Find the first duplicate in an array
 
 ## To Do
-  - [ ] Find the first duplicate in an array
   - [ ] Solve the producer-consumer problem using multithreading
   - [ ] Implement a cache using a HashMap
   - [ ] The rest of Tausig's problems

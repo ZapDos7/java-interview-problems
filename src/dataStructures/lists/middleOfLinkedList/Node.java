@@ -1,4 +1,4 @@
-package lists.middleOfLinkedList;
+package dataStructures.lists.middleOfLinkedList;
 
 public class Node {
     int data;
