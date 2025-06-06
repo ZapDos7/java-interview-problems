@@ -26,10 +26,9 @@
 - [x] Implement a cache using a HashMap
 - [x] [Push Ups with Blaze](https://tausiq.wordpress.com/2009/07/27/push-ups-with-blaze/)
 - [x] [Valid Identifier Checker](https://tausiq.wordpress.com/2009/07/27/valid-identifier-checker/)
-
+- [x] [Shortest path in Alabama](https://tausiq.wordpress.com/2013/08/08/uab-2005-problem-6-shortest-path-in-alabama/) - Dijkstra
 ## To Do
   - [ ] The rest of Tausig's problems
-    - [ ] [Shortest path in Alabama](https://tausiq.wordpress.com/2013/08/08/uab-2005-problem-6-shortest-path-in-alabama/)
     - [ ] [Stack Machine Interpretation](https://tausiq.wordpress.com/2009/07/27/stack-machine-interpretation/)
     - [ ] [Verifying the 8-Queens](https://tausiq.wordpress.com/2009/07/27/verifying-the-8-queens/)
     - [ ] [Diamond Printer](https://tausiq.wordpress.com/2009/07/27/diamond-printer/)
