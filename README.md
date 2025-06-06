@@ -23,9 +23,9 @@
 - [x] Implement a stack using two queues
 - [x] Find the first duplicate in an array
 - [x] Solve the producer-consumer problem using multithreading
+- [x] Implement a cache using a HashMap
 
 ## To Do
-  - [ ] Implement a cache using a HashMap
   - [ ] The rest of Tausig's problems
     - [ ] [Push Ups with Blaze](https://tausiq.wordpress.com/2009/07/27/push-ups-with-blaze/)
     - [ ] [Valid Identifier Checker](https://tausiq.wordpress.com/2009/07/27/valid-identifier-checker/)
