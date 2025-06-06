@@ -1,0 +1,129 @@
+# Small Problems & their Solution in Java
+
+## Problems
+- [x] [One Loop Design](https://tausiq.wordpress.com/2009/08/21/one-loop-design/): print a star symbol in one loop
+- [x] [Java: Tricky Interview Problems](https://medium.com/@abhishek.talakeriv/java-tricky-interview-questions-fe3aa2b71c0b)
+- [x] Find the least amount of coins needed for an amount
+- [x] FizzBuzz
+- [x] Print the Fibonacci sequence
+- [x] Longest substring without repeating characters (micro1)
+- [x] [Guess the Output](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#42-49-guess-the-output)
+- [x] [Guess the Output - Tilde Bits](https://www.geeksforgeeks.org/bitwise-complement-operator-tilde/)
+- [x] [Training Times](https://tausiq.wordpress.com/2009/11/03/training-times/)
+- [x] [Anything you can do, I can do better](https://tausiq.wordpress.com/2009/11/03/anything-you-can-do-i-can-do-better/)
+- [x] [The next number](https://tausiq.wordpress.com/2009/11/10/the-next-number/)
+- [x] Maths formulas
+- [x] Bits Manipulation formulas
+- [x] Check if a number is a power of 2
+- [x] Hamming Weight implementation (return 1-bits of a binary representation of a number)
+
+## To Do
+- [ ] Find the middle element of a linked list
+- [ ] Implement a stack using two queues
+- [ ] Find the first duplicate in an array
+- [ ] Solve the producer-consumer problem using multithreading
+- [ ] Implement a cache using a HashMap
+- [ ] The rest of Tausig's problems
+- Arrays
+  - [ ] [Two Sum](https://leetcode.com/problems/two-sum/)
+  - [ ] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+  - [ ] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
+  - [ ] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
+  - [ ] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
+  - [ ] [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
+  - [ ] [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/maximum-product-subarray/)
+  - [ ] [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+  - [ ] [3Sum](https://leetcode.com/problems/3sum/)
+  - [ ] [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
+- Bits
+  - [ ] [Counting bits](https://leetcode.com/problems/counting-bits/)
+  - [ ] [Missing number](https://leetcode.com/problems/missing-number/)
+  - [ ] [Reverse bits](https://leetcode.com/problems/reverse-bits/)
+- Dynamic Programming
+  - [ ] [Knapsack](http://www.geeksforgeeks.org/knapsack-problem/)
+  - [ ] [Stairs](https://leetcode.com/problems/climbing-stairs/)
+  - [ ] [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
+  - [ ] [Longest Common Subsequence](https://github.com/yangshun/tech-interview-handbook/blob/master/algorithms)
+  - [ ] [Word Break](https://leetcode.com/problems/word-break/)
+  - [ ] [Combination Sum](https://leetcode.com/problems/combination-sum-iv/)
+  - [ ] [House Robber I](https://leetcode.com/problems/house-robber/)
+  - [ ] [House Robber II](https://leetcode.com/problems/house-robber-ii/)
+  - [ ] [Decode Ways](https://leetcode.com/problems/decode-ways/)
+  - [ ] [Unique Paths](https://leetcode.com/problems/unique-paths/)
+  - [ ] [Jump Game](https://leetcode.com/problems/jump-game/)
+- Graphs
+  - [ ] Given a list of edges and tasked to build your own graph from the edges
+  - [ ] Implement BFS
+  - [ ] Implement DFS
+  - [ ] Implement Dijkstra’s algorithm
+  - [ ] Implement Topological sort
+  - [ ] Implement Bellman-Ford algorithm
+  - [ ] Implement Floyd-Warshall algorithm
+  - [ ] Implement Prim’s algorithm
+  - [ ] Implement Kruskal’s algorithm
+  - [ ] [Clone graph](https://leetcode.com/problems/clone-graph/)
+  - [ ] [Course Schedule](https://leetcode.com/problems/course-schedule/)
+  - [ ] [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/)
+  - [ ] [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)
+  - [ ] [Number of Islands](https://leetcode.com/problems/number-of-islands/)
+  - [ ] [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)
+  - [ ] [Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/graph-valid-tree/)
+  - [ ] [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
+- LinkedLists
+  - [ ] [Reverse a LL](https://leetcode.com/problems/reverse-linked-list/)
+  - [ ] [Detect Cycle](https://leetcode.com/problems/linked-list-cycle/)
+  - [ ] [Merge 2 Sorted](https://leetcode.com/problems/merge-two-sorted-lists/)
+  - [ ] [Merge k Sorted](https://leetcode.com/problems/merge-k-sorted-lists/)
+  - [ ] [Remove n-th node from end of list](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
+  - [ ] [Reorder list](https://leetcode.com/problems/reorder-list/)
+- Maths
+  - [ ] [Power](https://leetcode.com/problems/powx-n/)
+  - [ ] [Square Root](https://leetcode.com/problems/sqrtx/)
+  - [ ] [Int to English](https://leetcode.com/problems/integer-to-english-words/)
+- Matrix
+    - [ ] [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
+    - [ ] [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
+    - [ ] [Rotate Image](https://leetcode.com/problems/rotate-image/)
+    - [ ] [Word Search](https://leetcode.com/problems/word-search/)
+- Strings
+    - [ ] [Rabin Karp](https://www.wikiwand.com/en/articles/Rabin%E2%80%93Karp_algorithm)
+    - [ ] [KMP](https://www.wikiwand.com/en/articles/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm)
+    - [ ] [Valid Anagram](https://leetcode.com/problems/valid-anagram)
+    - [ ] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses)
+    - [ ] [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
+    - [ ] [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
+    - [ ] [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
+
+- Tree
+    - [ ] [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
+    - [ ] [Same Tree](https://leetcode.com/problems/same-tree/)
+    - [ ] [Invert or Flip Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
+    - [ ] [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
+    - [ ] [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+    - [ ] [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
+    - [ ] [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)
+    - [ ] [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+    - [ ] [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
+    - [ ] [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
+    - [ ] [Lowest Common Ancestor of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
+- Heaps
+    - [ ] [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
+    - [ ] [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
+    - [ ] [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
+- Multithreading & Concurrency
+    - [ ] Implement a thread-safe singleton class.
+    - [ ] Write a program to demonstrate the use of synchronized blocks to achieve thread safety.
+    - [ ] Implement a producer-consumer problem using wait() and notify() methods.
+    - [ ] Java’s ExecutorService to execute a list of tasks concurrently.
+    - [ ] Implement a thread-safe cache using ConcurrentHashMap.
+    - [ ] Write a program to demonstrate the use of atomic variables for thread-safe operations.
+    - [ ] Implement a deadlock scenario and explain how to avoid it.
+    - [ ] Use Java’s Lock interface to implement a custom lock for thread synchronization.
+    - [ ] Implement a thread-safe queue using BlockingQueue.
+    - [ ] Write a program to demonstrate the use of CompletableFuture for asynchronous programming.
+
+
+#### Sources
+1. [Tausig's Easy Problems](https://tausiq.wordpress.com/easy-programming-problems-with-solutions/)
+2. [Digital Ocean's Interview Questions](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions)
+3. [Coding Interviews for Dummies](https://www.freecodecamp.org/news/coding-interviews-for-dummies-5e048933b82b/)
