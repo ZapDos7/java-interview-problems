@@ -45,6 +45,7 @@
 - [x] Print all unique words, excluding the same words
 - [x] Find the duplicate characters in a string
 - [x] [Find the mistakes in a code snippet](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#50-find-5-mistakes-in-the-following-code-snippet)
+- [x] Sort String Sequences
 
 ## To Do
 - [ ] The rest of Digital Ocean's problems
@@ -92,8 +93,6 @@
   - [ ] Write a program that accepts comma-separated strings, checks for duplicates and returns a message with 1 if there's a duplicate.
   - [ ] Write a program that can count the number of occurrences of consecutive digits in a sequence from 1 to 10.
   - [ ] Write a program to find out how many times two given characters appear in any text file.
-  - [ ] Write a program that can process two sequences of strings and return sorted sequences.
-  - [ ] Can you write me a Selenium code to switch to the previous tab?
 
 - Arrays
   - [ ] [Two Sum](https://leetcode.com/problems/two-sum/)
