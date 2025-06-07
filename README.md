@@ -33,11 +33,10 @@
 - [x] [Diamond Printer](https://tausiq.wordpress.com/2009/08/01/uab-2006-problem-3-diamond-printer/)
 - [x] [Circle Intersection](https://tausiq.wordpress.com/2013/08/11/uab-2006-problem-2-circle-intersection/)
 - [x] [Reverse a String](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#1-how-do-you-reverse-a-string-in-java)
-
+- [x] [Check if a vowel exists in a String](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#3-write-a-java-program-to-check-if-a-vowel-is-present-in-a-string)
 
 ## To Do
 - [ ] The rest of Digital Ocean's problems
-  - [ ] [Check if a vowel exists in a String](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#3-write-a-java-program-to-check-if-a-vowel-is-present-in-a-string)
   - [ ] [Prime number finder](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#4-write-a-java-program-to-check-if-the-given-number-is-a-prime-number)
   - [ ] [Check for odd numbers in a list](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#6-how-do-you-check-if-a-list-of-integers-contains-only-odd-numbers-in-java)
   - [ ] [Check for palindrome](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#7-how-do-you-check-whether-a-string-is-a-palindrome-in-java)

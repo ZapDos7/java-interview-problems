@@ -1,4 +1,4 @@
-package stringChecker;
+package strings.stringChecker;
 
 import utils.InputReader;
 
