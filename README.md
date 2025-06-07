@@ -35,6 +35,7 @@
 - [x] [Reverse a String](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#1-how-do-you-reverse-a-string-in-java)
 - [x] [Check if a vowel exists in a String](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#3-write-a-java-program-to-check-if-a-vowel-is-present-in-a-string)
 - [x] [Swap two numbers using the third variable](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#2-how-do-you-swap-two-numbers-without-using-a-third-variable-in-java)
+- [ ] Swap two numbers without using the third variable
 - [x] Write a program to sort a sequence of numbers in ascending order.
 - [x] [Prime number finder](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#4-write-a-java-program-to-check-if-the-given-number-is-a-prime-number)
 - [x] [Check for odd numbers in a list](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#6-how-do-you-check-if-a-list-of-integers-contains-only-odd-numbers-in-java)
@@ -44,7 +45,6 @@
 
 ## To Do
 - [ ] The rest of Digital Ocean's problems
-  - [ ] [Sort an Array](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#10-how-do-you-sort-an-array-in-java)
   - [ ] [Create a deadlock scenario](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#11-how-do-you-create-a-deadlock-scenario-programmatically-in-java)
   - [ ] [Reverse a Linked List](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#13-how-do-you-reverse-a-linked-list-in-java)
   - [ ] [Implement Binary Search](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#14-how-do-you-implement-a-binary-search-in-java)
@@ -84,15 +84,12 @@
     - [ ] Implement a thread-safe queue using BlockingQueue.
     - [ ] Write a program to demonstrate the use of CompletableFuture for asynchronous programming.
 
-- Indeed's problems: 
-  
+- Indeed's problems:
   - [ ] Using Java 8 date-time library in CLASSPATH (package private) file, write a program that shows how you can add time to any time with respect to midnight on Jan. 1, 2000.
   - [ ] Write a program that accepts comma-separated strings, sorts the strings in ascending order, and outputs the concatenated string of sorted strings.
   - [ ] Write a program that accepts comma-separated strings, checks for duplicates and returns a message with 1 if there's a duplicate.
   - [ ] Write a program that can count the number of occurrences of consecutive digits in a sequence from 1 to 10.
   - [ ] Write a program to find out how many times two given characters appear in any text file.
-  - [ ] How do we find the prime numbers in a sequence?
-  - [ ] Now, can you write a Java program to swap two numbers without using the third variable for me?
   - [ ] Write a program that can process two sequences of strings and return sorted sequences.
   - [ ] Write a program to reverse the characters of a string.
   - [ ] Write a program to print all unique words, excluding the same words.
