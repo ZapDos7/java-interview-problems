@@ -32,66 +32,73 @@
 - [x] [Verifying the 8-Queens](https://tausiq.wordpress.com/2009/08/01/verifying-the-8-queens/)
 - [x] [Diamond Printer](https://tausiq.wordpress.com/2009/08/01/uab-2006-problem-3-diamond-printer/)
 - [x] [Circle Intersection](https://tausiq.wordpress.com/2013/08/11/uab-2006-problem-2-circle-intersection/)
+- [x] [Reverse a String](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#1-how-do-you-reverse-a-string-in-java)
+
 
 ## To Do
-- The rest of Tausiq's problems
-  - [ ] [Do You Have Enough Money?](https://tausiq.wordpress.com/2009/07/27/do-you-have-enough-money/)
-  - [ ] [Parallelogram Words](https://tausiq.wordpress.com/2009/07/27/parallelogram-words/)
-  - [ ] [Where Does It Fit?](https://tausiq.wordpress.com/2009/07/27/where-does-it-fit/)
-  - [ ] [How Many Weeks?](https://tausiq.wordpress.com/2009/07/27/how-many-weeks/)
-  - [ ] [Lettered Numeration System](https://tausiq.wordpress.com/2009/07/27/lettered-numeration-system/)
-  - [ ] [MultiplicAverage](https://tausiq.wordpress.com/2009/07/27/multiplicaverage/)
-  - [ ] [Scientific Notation](https://tausiq.wordpress.com/2009/07/27/scientific-notation/)
-  - [ ] [Which Truck Is Closer?](https://tausiq.wordpress.com/2009/07/27/which-truck-is-closer/)
-  - [ ] [Spelling Bee](https://tausiq.wordpress.com/2009/07/27/spelling-bee/)
-  - [ ] [Average Word Value](https://tausiq.wordpress.com/2009/07/27/average-word-value/)
-  - [ ] [Order It](https://tausiq.wordpress.com/2009/07/27/order-it/)
-  - [ ] [Matrix Spinner](https://tausiq.wordpress.com/2009/07/27/matrix-spinner/)
-  - [ ] [Decoder](https://tausiq.wordpress.com/2009/07/27/decoder/)
-  - [ ] [Letter Counter](https://tausiq.wordpress.com/2009/07/27/letter-counter/)
-  - [ ] [Rock, Paper, And Scissors Tournament](https://tausiq.wordpress.com/2009/07/27/rock-paper-and-scissors-tournament/)
-  - [ ] [Relatively Prime Degree](https://tausiq.wordpress.com/2009/07/27/relatively-prime-degree/)
-  - [ ] [Decimal To Fraction Conversion](https://tausiq.wordpress.com/2009/07/27/decimal-to-fraction-conversion/)
-  - [ ] [Reverse Pig Latin](https://tausiq.wordpress.com/2009/07/27/reverse-pig-latin/)
-  - [ ] [Currency Converter](https://tausiq.wordpress.com/2009/07/27/currency-converter/)
-  - [ ] [Matching Parentheses?](https://tausiq.wordpress.com/2009/07/27/matching-parentheses/)
-  - [ ] [Letters Triangle](https://tausiq.wordpress.com/2009/07/27/letters-triangle/)
-  - [ ] [Lawn Supplies](https://tausiq.wordpress.com/2009/07/27/lawn-supplies/)
-  - [ ] [Is The Weather Normal?](https://tausiq.wordpress.com/2009/07/27/is-the-weather-normal/)
-  - [ ] [How Many Times?](https://tausiq.wordpress.com/2009/07/27/how-many-times/)
-  - [ ] [Diamond Word](https://tausiq.wordpress.com/2009/07/27/diamond-word/)
-  - [ ] [Print Commands](https://tausiq.wordpress.com/2009/07/27/print-commands/)
-  - [ ] [Decode It](https://tausiq.wordpress.com/2009/07/27/decode-it/)
-  - [ ] [Family Tree](https://tausiq.wordpress.com/2009/07/27/family-tree/)
-  - [ ] [Olympics Ratings](https://tausiq.wordpress.com/2009/07/27/olympics-ratings/)
-  - [ ] [Millionaire](https://tausiq.wordpress.com/2009/07/27/millionaire/)
-  - [ ] [Concordance](https://tausiq.wordpress.com/2009/07/27/concordance/)
-  - [ ] [Spiral Unwind](https://tausiq.wordpress.com/2009/07/27/spiral-unwind/)
-  - [ ] [Alphabetical Numbers](https://tausiq.wordpress.com/2009/07/27/alphabetical-numbers/)
-  - [ ] [Binary Operations](https://tausiq.wordpress.com/2009/07/27/binary-operations/)
-  - [ ] [Card Value](https://tausiq.wordpress.com/2009/07/27/card-value/)
-  - [ ] [Time Passes](https://tausiq.wordpress.com/2009/07/27/time-passes/)
-  - [ ] [Training Times](https://tausiq.wordpress.com/2009/07/27/training-times/)
-  - [ ] [Anything You Can Do, I Can Do Better](https://tausiq.wordpress.com/2009/07/27/anything-you-can-do-i-can-do-better/)
-  - [ ] [The Next Number](https://tausiq.wordpress.com/2009/07/27/the-next-number/)
-  - [ ] [Young Programmer’s Solutions | Problem : 1](https://tausiq.wordpress.com/2009/07/27/problem-1/)
-  - [ ] [Young Programmer’s Solutions | Problem : 2](https://tausiq.wordpress.com/2009/07/27/problem-2/)
-  - [ ] [Young Programmer’s Solutions | Problem : 3](https://tausiq.wordpress.com/2009/07/27/problem-3/)
-  - [ ] [Young Programmer’s Solutions | Problem : 4](https://tausiq.wordpress.com/2009/07/27/problem-4/)
-  - [ ] [Young Programmer’s Solutions | Problem : 5](https://tausiq.wordpress.com/2009/07/27/problem-5/)
-  - [ ] [Young Programmer’s Solutions | Problem : 6](https://tausiq.wordpress.com/2009/07/27/problem-6/)
-  - [ ] [Young Programmer’s Solutions | Problem : 7](https://tausiq.wordpress.com/2009/07/27/problem-7/)
-  - [ ] [Young Programmer’s Solutions | Problem : 8](https://tausiq.wordpress.com/2009/07/27/problem-8/)
-  - [ ] [Young Programmer’s Solutions | Problem : 9](https://tausiq.wordpress.com/2009/07/27/problem-9/)
-  - [ ] [Young Programmer’s Solutions | Problem : 10](https://tausiq.wordpress.com/2009/07/27/problem-10/)
-  - [ ] [Young Programmer’s Solutions | Problem : 11](https://tausiq.wordpress.com/2009/07/27/problem-11/)
-  - [ ] [Young Programmer’s Solutions | Problem : 12](https://tausiq.wordpress.com/2009/07/27/problem-12/)
-  - [ ] [Young Programmer’s Solutions | Problem : 13](https://tausiq.wordpress.com/2009/07/27/problem-13/)
-  - [ ] [Young Programmer’s Solutions | Problem : 14](https://tausiq.wordpress.com/2009/07/27/problem-14/)
-  - [ ] [Young Programmer’s Solutions | Problem : 15](https://tausiq.wordpress.com/2009/07/27/problem-15/)
-  - [ ] [Young Programmer’s Solutions | Problem : 16](https://tausiq.wordpress.com/2009/07/27/problem-16/)
-  - [ ] [Young Programmer’s Solutions | Problem : 17](https://tausiq.wordpress.com/2009/07/27/problem-17/)
-- [ ] The rest of [DO's problems](https://www.indeed.com/career-advice/interviewing/java-coding-interview-questions)
+- [ ] The rest of Digital Ocean's problems
+  - [ ] [Check if a vowel exists in a String](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#3-write-a-java-program-to-check-if-a-vowel-is-present-in-a-string)
+  - [ ] [Prime number finder](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#4-write-a-java-program-to-check-if-the-given-number-is-a-prime-number)
+  - [ ] [Check for odd numbers in a list](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#6-how-do-you-check-if-a-list-of-integers-contains-only-odd-numbers-in-java)
+  - [ ] [Check for palindrome](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#7-how-do-you-check-whether-a-string-is-a-palindrome-in-java)
+  - [ ] [Remove whitespaces](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#8-how-do-you-remove-spaces-from-a-string-in-java)
+  - [ ] [Remove leading & trailing spaces](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#9-how-do-you-remove-leading-and-trailing-spaces-from-a-string-in-java)
+  - [ ] [Sort an Array](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#10-how-do-you-sort-an-array-in-java)
+  - [ ] [Create a deadlock scenario](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#11-how-do-you-create-a-deadlock-scenario-programmatically-in-java)
+  - [ ] [Reverse a Linked List](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#13-how-do-you-reverse-a-linked-list-in-java)
+  - [ ] [Implement Binary Search](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#14-how-do-you-implement-a-binary-search-in-java)
+  - [ ] [Implement Merge Sort](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#15-write-a-java-program-that-illustrates-merge-sort)
+  - [ ] [Compare two arrays' elements](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#17-write-java-program-that-checks-if-two-arrays-contain-the-same-elements)
+  - [ ] [Sum all elements in an array](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#18-how-do-you-get-the-sum-of-all-elements-in-an-integer-array-in-java)
+  - [ ] [Find the second-largest number in an array](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#19-how-do-you-find-the-second-largest-number-in-an-array-in-java)
+  - [ ] [Shuffle an array](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#20-how-do-you-shuffle-an-array-in-java)
+  - [ ] [Find String in a text file](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#21-how-can-you-find-a-string-in-a-text-file-in-java)
+  - [ ] [Specify date format](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#22-how-do-you-print-a-date-in-specific-format-in-java)
+  - [ ] [Merge two lists](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#23-how-do-you-merge-two-lists-in-java)
+  - [ ] [Sort HashMap by value](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#24-write-a-java-program-that-sorts-hashmap-by-value)
+  - [ ] [Remove all occurrences of a character in a String](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#25-how-do-you-remove-all-occurrences-of-a-given-character-from-an-input-string-in-java)
+  - [ ] [Get distinct chars & their count](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#26-how-do-you-get-distinct-characters-and-their-count-in-a-string-in-java)
+  - [ ] [Prove that String is immutable programmatically](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#27-can-you-prove-that-a-string-object-in-java-is-immutable-programmatically)
+  - [ ] [Showcase inheritance](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#28-can-you-write-some-code-to-showcase-inheritance-in-java)
+  - [ ] [How do you show a diamond problem with multiple inheritance in Java?](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#29-how-do-you-show-a-diamond-problem-with-multiple-inheritance-in-java)
+  - [ ] [Illustrate try-catch](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#30-how-do-you-illustrate-a-try-catch-example-in-java)
+  - [ ] [Illustrate NPE](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#31-write-a-java-program-to-show-a-nullpointerexception)
+  - [ ] [Create a Record](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#32-how-do-you-create-a-record-in-java)
+  - [ ] [Textblocks](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#33-how-do-you-create-text-blocks-in-java)
+  - [ ] [Multilabel switch-case](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#34-show-an-example-of-switch-expressions-and-multi-label-case-statements-in-java)
+  - [ ] [Write an interface with `default` & `static` method](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#38-how-do-you-write-an-interface-with-default-and-static-method)
+  - [ ] [Create a functional interface](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#39-how-do-you-create-a-functional-interface)
+  - [ ] [Illustrate lambda functions](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#40-show-an-example-of-using-lambda-expressions-in-java)
+  - [ ] [Illustrate overriding & overloading](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#41-show-examples-of-overloading-and-overriding-in-java)
+  - [ ] [Find the mistakes in a code snippet](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#50-find-5-mistakes-in-the-following-code-snippet)
+  - Java multithreading and concurrency coding challenges
+    - [ ] Implement a thread-safe singleton class.
+    - [ ] Write a program to demonstrate the use of synchronized blocks to achieve thread safety.
+    - [ ] Implement a producer-consumer problem using wait() and notify() methods.
+    - [ ] Use Java’s ExecutorService to execute a list of tasks concurrently.
+    - [ ] Implement a thread-safe cache using ConcurrentHashMap.
+    - [ ] Write a program to demonstrate the use of atomic variables for thread-safe operations.
+    - [ ] Implement a deadlock scenario and explain how to avoid it.
+    - [ ] Use Java’s Lock interface to implement a custom lock for thread synchronization.
+    - [ ] Implement a thread-safe queue using BlockingQueue.
+    - [ ] Write a program to demonstrate the use of CompletableFuture for asynchronous programming.
+
+- Indeed's problems:
+  - [ ] [Can you write me a Java program to swap two numbers using the third variable?](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#2-how-do-you-swap-two-numbers-without-using-a-third-variable-in-java) 
+  - [ ] Write a program to sort a sequence of numbers in ascending order.
+  - [ ] Using Java 8 date-time library in CLASSPATH (package private) file, write a program that shows how you can add time to any time with respect to midnight on Jan. 1, 2000.
+  - [ ] Write a program that accepts comma-separated strings, sorts the strings in ascending order, and outputs the concatenated string of sorted strings.
+  - [ ] Write a program that accepts comma-separated strings, checks for duplicates and returns a message with 1 if there's a duplicate.
+  - [ ] Write a program that can count the number of occurrences of consecutive digits in a sequence from 1 to 10.
+  - [ ] Write a program to find out how many times two given characters appear in any text file.
+  - [ ] How do we find the prime numbers in a sequence?
+  - [ ] Now, can you write a Java program to swap two numbers without using the third variable for me?
+  - [ ] Write a program that can process two sequences of strings and return sorted sequences.
+  - [ ] Write a program to reverse the characters of a string.
+  - [ ] Write a program to print all unique words, excluding the same words.
+  - [ ] Can you write me a Java program to find whether a number is prime?
+  - [ ] Will you write a Java program to find the duplicate characters in a string?
+  - [ ] Can you write me a Selenium code to switch to the previous tab?
 
 - Arrays
   - [ ] [Two Sum](https://leetcode.com/problems/two-sum/)
@@ -195,4 +202,5 @@
 #### Sources
 1. [Tausig's Easy Problems](https://tausiq.wordpress.com/easy-programming-problems-with-solutions/)
 2. [Digital Ocean's Interview Questions](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions)
+3. [Indeed's Java Interview Problems](https://www.indeed.com/career-advice/interviewing/java-coding-interview-questions)
 3. [Coding Interviews for Dummies](https://www.freecodecamp.org/news/coding-interviews-for-dummies-5e048933b82b/)
