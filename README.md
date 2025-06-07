@@ -42,8 +42,8 @@
 - [x] [Check for palindrome](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#7-how-do-you-check-whether-a-string-is-a-palindrome-in-java)
 - [x] [Remove whitespaces](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#8-how-do-you-remove-spaces-from-a-string-in-java)
 - [x] [Remove leading & trailing spaces](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#9-how-do-you-remove-leading-and-trailing-spaces-from-a-string-in-java)
-- [x] Write a program to print all unique words, excluding the same words.
-- [ ] Will you write a Java program to find the duplicate characters in a string?
+- [x] Print all unique words, excluding the same words
+- [x] Find the duplicate characters in a string
 
 ## To Do
 - [ ] The rest of Digital Ocean's problems
