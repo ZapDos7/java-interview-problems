@@ -37,10 +37,10 @@
 - [x] [Swap two numbers using the third variable](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#2-how-do-you-swap-two-numbers-without-using-a-third-variable-in-java)
 - [x] Write a program to sort a sequence of numbers in ascending order.
 - [x] [Prime number finder](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#4-write-a-java-program-to-check-if-the-given-number-is-a-prime-number)
+- [x] [Check for odd numbers in a list](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#6-how-do-you-check-if-a-list-of-integers-contains-only-odd-numbers-in-java)
 
 ## To Do
 - [ ] The rest of Digital Ocean's problems
-  - [ ] [Check for odd numbers in a list](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#6-how-do-you-check-if-a-list-of-integers-contains-only-odd-numbers-in-java)
   - [ ] [Check for palindrome](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#7-how-do-you-check-whether-a-string-is-a-palindrome-in-java)
   - [ ] [Remove whitespaces](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#8-how-do-you-remove-spaces-from-a-string-in-java)
   - [ ] [Remove leading & trailing spaces](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#9-how-do-you-remove-leading-and-trailing-spaces-from-a-string-in-java)
