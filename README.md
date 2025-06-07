@@ -30,10 +30,10 @@
 - [x] [Problem : x1](https://tausiq.wordpress.com/2009/07/27/problem-x1/)
 - [x] [Stack Machine Interpretation](https://tausiq.wordpress.com/2009/08/01/stack-machine-interpretation/)
 - [x] [Verifying the 8-Queens](https://tausiq.wordpress.com/2009/08/01/verifying-the-8-queens/)
+- [x] [Diamond Printer](https://tausiq.wordpress.com/2009/08/01/uab-2006-problem-3-diamond-printer/)
 
 ## To Do
 - The rest of Tausiq's problems
-  - [ ] [Diamond Printer](https://tausiq.wordpress.com/2009/07/27/diamond-printer/)
   - [ ] [Merging at the Brick Yard](https://tausiq.wordpress.com/2009/07/27/merging-at-the-brick-yard/)
   - [ ] [Circle Intersection](https://tausiq.wordpress.com/2009/07/27/circle-intersection/)
   - [ ] [Do You Have Enough Money?](https://tausiq.wordpress.com/2009/07/27/do-you-have-enough-money/)
