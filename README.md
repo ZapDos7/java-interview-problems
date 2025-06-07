@@ -44,6 +44,7 @@
 - [x] [Remove leading & trailing spaces](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#9-how-do-you-remove-leading-and-trailing-spaces-from-a-string-in-java)
 - [x] Print all unique words, excluding the same words
 - [x] Find the duplicate characters in a string
+- [x] [Find the mistakes in a code snippet](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#50-find-5-mistakes-in-the-following-code-snippet)
 
 ## To Do
 - [ ] The rest of Digital Ocean's problems
@@ -73,7 +74,6 @@
   - [ ] [Create a functional interface](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#39-how-do-you-create-a-functional-interface)
   - [ ] [Illustrate lambda functions](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#40-show-an-example-of-using-lambda-expressions-in-java)
   - [ ] [Illustrate overriding & overloading](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#41-show-examples-of-overloading-and-overriding-in-java)
-  - [ ] [Find the mistakes in a code snippet](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#50-find-5-mistakes-in-the-following-code-snippet)
   - Java multithreading and concurrency coding challenges
     - [ ] Implement a thread-safe singleton class.
     - [ ] Write a program to demonstrate the use of synchronized blocks to achieve thread safety.
