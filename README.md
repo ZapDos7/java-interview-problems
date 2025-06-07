@@ -29,10 +29,10 @@
 - [x] [Shortest path in Alabama](https://tausiq.wordpress.com/2013/08/08/uab-2005-problem-6-shortest-path-in-alabama/) - Dijkstra
 - [x] [Problem : x1](https://tausiq.wordpress.com/2009/07/27/problem-x1/)
 - [x] [Stack Machine Interpretation](https://tausiq.wordpress.com/2009/08/01/stack-machine-interpretation/)
+- [x] [Verifying the 8-Queens](https://tausiq.wordpress.com/2009/08/01/verifying-the-8-queens/)
 
 ## To Do
-- The rest of Tausig's problems
-  - [ ] [Verifying the 8-Queens](https://tausiq.wordpress.com/2009/07/27/verifying-the-8-queens/)
+- The rest of Tausiq's problems
   - [ ] [Diamond Printer](https://tausiq.wordpress.com/2009/07/27/diamond-printer/)
   - [ ] [Merging at the Brick Yard](https://tausiq.wordpress.com/2009/07/27/merging-at-the-brick-yard/)
   - [ ] [Circle Intersection](https://tausiq.wordpress.com/2009/07/27/circle-intersection/)
