@@ -5,7 +5,7 @@ import utils.InputReader;
 public class BinToDecConverter {
     public static void main(String[] args) {
         System.out.println("Provide input number in binary form: ");
-        String input = InputReader.read();
+        String input = InputReader.readLine();
         if (input.matches("^[01]+$")) {
             System.out.println(toDecimal(input));
         }

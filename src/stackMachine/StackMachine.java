@@ -11,7 +11,7 @@ public class StackMachine {
         String input = "";
         System.out.println("Enter virtual machine commands:");
         while (!input.equals("end")) { //
-            input = InputReader.read();
+            input = InputReader.readLine();
             execute(input, stack);
             // System.out.println("Stack now: " + stack);
         }

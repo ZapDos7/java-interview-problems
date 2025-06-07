@@ -25,6 +25,6 @@ public class Search {
         } else {
             System.out.print("Enter the number to be searched: ");
         }
-        return Integer.parseInt(InputReader.read());
+        return Integer.parseInt(InputReader.readLine());
     }
 }

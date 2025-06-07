@@ -7,7 +7,7 @@ public class DiamondPrinter {
     int num;
     System.out.println("Enter an odd number (1-100): ");
     try {
-      num = Integer.parseInt(InputReader.read());
+      num = Integer.parseInt(InputReader.readLine());
     } catch (Exception e) {
       System.err.println("Invalid input - must be an odd integer.");
       return;

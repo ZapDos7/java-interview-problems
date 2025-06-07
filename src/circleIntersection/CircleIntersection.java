@@ -3,7 +3,7 @@ package circleIntersection;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
+import utils.InputReader;
 
 public class CircleIntersection {
     public static void main(String[] args){
@@ -11,10 +11,9 @@ public class CircleIntersection {
         for (int i = 1; i < 3; i++) {
             System.out.println("Enter the coordinates and radius for circle " + i + ": ");
             try{
-                Scanner sc = new Scanner(System.in);
-                int x = sc.nextInt();
-                int y = sc.nextInt();
-                int radius = sc.nextInt();
+                int x = InputReader.readInt();
+                int y = InputReader.readInt();
+                int radius = InputReader.readInt();
                 circles.add(new Circle(x, y, radius));
             } catch (Exception e) {
                 System.err.println("Invalid input");

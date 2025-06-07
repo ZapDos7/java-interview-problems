@@ -4,7 +4,7 @@ import utils.InputReader;
 
 public class StringChecker {
     public static void main(String[] args) {
-        String input = InputReader.read();
+        String input = InputReader.readLine();
         if (isValidIdentifier(input)) {
             System.out.println(input + " is a valid identifier");
         } else {

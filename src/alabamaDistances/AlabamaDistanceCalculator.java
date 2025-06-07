@@ -13,9 +13,9 @@ public class AlabamaDistanceCalculator {
     public static void main(String[] args) {
         System.out.println(Arrays.toString(AlabamaCity.values()));
         System.out.println("Enter city name: ");
-        AlabamaCity city1 = AlabamaCity.valueOf(InputReader.read());
+        AlabamaCity city1 = AlabamaCity.valueOf(InputReader.readLine());
         System.out.println("Enter city name: ");
-        AlabamaCity city2 = AlabamaCity.valueOf(InputReader.read());
+        AlabamaCity city2 = AlabamaCity.valueOf(InputReader.readLine());
         calculate(city1, city2);
     }
 

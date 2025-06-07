@@ -5,7 +5,7 @@ import utils.InputReader;
 public class Blaze {
     public static void main(String[] args) {
         System.out.print("Enter the final score: ");
-        int finalScore = Integer.parseInt(InputReader.read());
+        int finalScore = Integer.parseInt(InputReader.readLine());
 
         int totalPushUps = 0;
 
