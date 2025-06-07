@@ -28,10 +28,10 @@
 - [x] [Valid Identifier Checker](https://tausiq.wordpress.com/2009/07/27/valid-identifier-checker/)
 - [x] [Shortest path in Alabama](https://tausiq.wordpress.com/2013/08/08/uab-2005-problem-6-shortest-path-in-alabama/) - Dijkstra
 - [x] [Problem : x1](https://tausiq.wordpress.com/2009/07/27/problem-x1/)
+- [x] [Stack Machine Interpretation](https://tausiq.wordpress.com/2009/08/01/stack-machine-interpretation/)
 
 ## To Do
 - The rest of Tausig's problems
-  - [ ] [Stack Machine Interpretation](https://tausiq.wordpress.com/2009/07/27/stack-machine-interpretation/)
   - [ ] [Verifying the 8-Queens](https://tausiq.wordpress.com/2009/07/27/verifying-the-8-queens/)
   - [ ] [Diamond Printer](https://tausiq.wordpress.com/2009/07/27/diamond-printer/)
   - [ ] [Merging at the Brick Yard](https://tausiq.wordpress.com/2009/07/27/merging-at-the-brick-yard/)
