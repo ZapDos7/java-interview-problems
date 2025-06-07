@@ -35,13 +35,15 @@
 - [x] [Reverse a String](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#1-how-do-you-reverse-a-string-in-java)
 - [x] [Check if a vowel exists in a String](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#3-write-a-java-program-to-check-if-a-vowel-is-present-in-a-string)
 - [x] [Swap two numbers using the third variable](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#2-how-do-you-swap-two-numbers-without-using-a-third-variable-in-java)
-- [ ] Swap two numbers without using the third variable
+- [x] Swap two numbers without using the third variable
 - [x] Write a program to sort a sequence of numbers in ascending order.
 - [x] [Prime number finder](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#4-write-a-java-program-to-check-if-the-given-number-is-a-prime-number)
 - [x] [Check for odd numbers in a list](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#6-how-do-you-check-if-a-list-of-integers-contains-only-odd-numbers-in-java)
 - [x] [Check for palindrome](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#7-how-do-you-check-whether-a-string-is-a-palindrome-in-java)
 - [x] [Remove whitespaces](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#8-how-do-you-remove-spaces-from-a-string-in-java)
 - [x] [Remove leading & trailing spaces](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#9-how-do-you-remove-leading-and-trailing-spaces-from-a-string-in-java)
+- [x] Write a program to print all unique words, excluding the same words.
+- [ ] Will you write a Java program to find the duplicate characters in a string?
 
 ## To Do
 - [ ] The rest of Digital Ocean's problems
@@ -91,10 +93,6 @@
   - [ ] Write a program that can count the number of occurrences of consecutive digits in a sequence from 1 to 10.
   - [ ] Write a program to find out how many times two given characters appear in any text file.
   - [ ] Write a program that can process two sequences of strings and return sorted sequences.
-  - [ ] Write a program to reverse the characters of a string.
-  - [ ] Write a program to print all unique words, excluding the same words.
-  - [ ] Can you write me a Java program to find whether a number is prime?
-  - [ ] Will you write a Java program to find the duplicate characters in a string?
   - [ ] Can you write me a Selenium code to switch to the previous tab?
 
 - Arrays
