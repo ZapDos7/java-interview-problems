@@ -34,6 +34,7 @@
 - [x] [Circle Intersection](https://tausiq.wordpress.com/2013/08/11/uab-2006-problem-2-circle-intersection/)
 - [x] [Reverse a String](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#1-how-do-you-reverse-a-string-in-java)
 - [x] [Check if a vowel exists in a String](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#3-write-a-java-program-to-check-if-a-vowel-is-present-in-a-string)
+- [x] [Swap two numbers using the third variable](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#2-how-do-you-swap-two-numbers-without-using-a-third-variable-in-java)
 
 ## To Do
 - [ ] The rest of Digital Ocean's problems
@@ -82,8 +83,7 @@
     - [ ] Implement a thread-safe queue using BlockingQueue.
     - [ ] Write a program to demonstrate the use of CompletableFuture for asynchronous programming.
 
-- Indeed's problems:
-  - [ ] [Can you write me a Java program to swap two numbers using the third variable?](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#2-how-do-you-swap-two-numbers-without-using-a-third-variable-in-java) 
+- Indeed's problems: 
   - [ ] Write a program to sort a sequence of numbers in ascending order.
   - [ ] Using Java 8 date-time library in CLASSPATH (package private) file, write a program that shows how you can add time to any time with respect to midnight on Jan. 1, 2000.
   - [ ] Write a program that accepts comma-separated strings, sorts the strings in ascending order, and outputs the concatenated string of sorted strings.
