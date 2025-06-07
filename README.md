@@ -27,8 +27,10 @@
 - [x] [Push Ups with Blaze](https://tausiq.wordpress.com/2009/07/27/push-ups-with-blaze/)
 - [x] [Valid Identifier Checker](https://tausiq.wordpress.com/2009/07/27/valid-identifier-checker/)
 - [x] [Shortest path in Alabama](https://tausiq.wordpress.com/2013/08/08/uab-2005-problem-6-shortest-path-in-alabama/) - Dijkstra
+- [x] [Problem : x1](https://tausiq.wordpress.com/2009/07/27/problem-x1/)
+
 ## To Do
-  - [ ] The rest of Tausig's problems
+- The rest of Tausig's problems
   - [ ] [Stack Machine Interpretation](https://tausiq.wordpress.com/2009/07/27/stack-machine-interpretation/)
   - [ ] [Verifying the 8-Queens](https://tausiq.wordpress.com/2009/07/27/verifying-the-8-queens/)
   - [ ] [Diamond Printer](https://tausiq.wordpress.com/2009/07/27/diamond-printer/)
@@ -90,9 +92,7 @@
   - [ ] [Young Programmer’s Solutions | Problem : 15](https://tausiq.wordpress.com/2009/07/27/problem-15/)
   - [ ] [Young Programmer’s Solutions | Problem : 16](https://tausiq.wordpress.com/2009/07/27/problem-16/)
   - [ ] [Young Programmer’s Solutions | Problem : 17](https://tausiq.wordpress.com/2009/07/27/problem-17/)
-  - [ ] [One Loop Design](https://tausiq.wordpress.com/2009/07/27/one-loop-design/)
-  - [ ] [Problem : x1](https://tausiq.wordpress.com/2009/07/27/problem-x1/)
-  - [ ] The rest of [DO's problems](https://www.indeed.com/career-advice/interviewing/java-coding-interview-questions)
+- [ ] The rest of [DO's problems](https://www.indeed.com/career-advice/interviewing/java-coding-interview-questions)
 
 - Arrays
   - [ ] [Two Sum](https://leetcode.com/problems/two-sum/)
