@@ -47,6 +47,8 @@
 - [x] [Find the mistakes in a code snippet](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#50-find-5-mistakes-in-the-following-code-snippet)
 - [x] Sort String Sequences
 - [x] Write a program to find out how many times two given characters appear in any text file.
+- [x] Using Java 8 date-time library in CLASSPATH (package private) file, write a program that shows how you can add time to any time with respect to midnight on Jan. 1, 2000.
+
 
 ## To Do
 - [ ] The rest of Digital Ocean's problems
@@ -87,10 +89,6 @@
     - [ ] Use Java’s Lock interface to implement a custom lock for thread synchronization.
     - [ ] Implement a thread-safe queue using BlockingQueue.
     - [ ] Write a program to demonstrate the use of CompletableFuture for asynchronous programming.
-
-- Indeed's problems:
-  - [ ] Using Java 8 date-time library in CLASSPATH (package private) file, write a program that shows how you can add time to any time with respect to midnight on Jan. 1, 2000.
-
 - Arrays
   - [ ] [Two Sum](https://leetcode.com/problems/two-sum/)
   - [ ] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
