@@ -48,7 +48,7 @@
 - [x] Sort String Sequences
 - [x] Write a program to find out how many times two given characters appear in any text file.
 - [x] Using Java 8 date-time library in CLASSPATH (package private) file, write a program that shows how you can add time to any time with respect to midnight on Jan. 1, 2000.
-
+- [x] [Missing number](https://leetcode.com/problems/missing-number/)
 
 ## To Do
 - [ ] The rest of Digital Ocean's problems
@@ -101,8 +101,6 @@
   - [ ] [3Sum](https://leetcode.com/problems/3sum/)
   - [ ] [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
 - Bits
-  - [ ] [Counting bits](https://leetcode.com/problems/counting-bits/)
-  - [ ] [Missing number](https://leetcode.com/problems/missing-number/)
   - [ ] [Reverse bits](https://leetcode.com/problems/reverse-bits/)
 - Dynamic Programming
   - [ ] [Knapsack](http://www.geeksforgeeks.org/knapsack-problem/)
