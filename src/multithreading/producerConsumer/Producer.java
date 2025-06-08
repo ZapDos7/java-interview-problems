@@ -1,4 +1,4 @@
-package producerConsumer;
+package multithreading.producerConsumer;
 
 public class Producer extends Thread {
     private final SharedBuffer buffer;

@@ -1,4 +1,4 @@
-package producerConsumer;
+package multithreading.producerConsumer;
 
 import java.util.LinkedList;
 import java.util.Queue;

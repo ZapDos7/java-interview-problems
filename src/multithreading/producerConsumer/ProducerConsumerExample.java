@@ -1,4 +1,4 @@
-package producerConsumer;
+package multithreading.producerConsumer;
 
 public class ProducerConsumerExample {
     public static void main(String[] args) {
