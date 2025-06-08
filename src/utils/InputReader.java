@@ -1,8 +1,8 @@
 package utils;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class InputReader {
@@ -30,5 +30,25 @@ public class InputReader {
     public static Integer readInt() {
         Scanner sc = new Scanner(System.in);
         return sc.nextInt();
+    }
+
+    public static List<String> readFile(String filename) {
+        List<String> content = new ArrayList<>();
+        try {
+            // Load file from classpath (resources folder)
+            InputStream inputStream = InputReader.class.getClassLoader().getResourceAsStream(filename);
+            if (inputStream == null) {
+                throw new FileNotFoundException("Resource not found: " + filename);
+            }
+
+            Scanner myReader = new Scanner(inputStream);
+            while (myReader.hasNextLine()) {
+                content.add(myReader.nextLine());
+            }
+            myReader.close();
+        } catch (IOException e) {
+            System.err.println("An error occurred: " + e.getMessage());
+        }
+        return content;
     }
 }

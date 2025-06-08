@@ -46,6 +46,7 @@
 - [x] Find the duplicate characters in a string
 - [x] [Find the mistakes in a code snippet](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#50-find-5-mistakes-in-the-following-code-snippet)
 - [x] Sort String Sequences
+- [x] Write a program to find out how many times two given characters appear in any text file.
 
 ## To Do
 - [ ] The rest of Digital Ocean's problems
@@ -89,10 +90,6 @@
 
 - Indeed's problems:
   - [ ] Using Java 8 date-time library in CLASSPATH (package private) file, write a program that shows how you can add time to any time with respect to midnight on Jan. 1, 2000.
-  - [ ] Write a program that accepts comma-separated strings, sorts the strings in ascending order, and outputs the concatenated string of sorted strings.
-  - [ ] Write a program that accepts comma-separated strings, checks for duplicates and returns a message with 1 if there's a duplicate.
-  - [ ] Write a program that can count the number of occurrences of consecutive digits in a sequence from 1 to 10.
-  - [ ] Write a program to find out how many times two given characters appear in any text file.
 
 - Arrays
   - [ ] [Two Sum](https://leetcode.com/problems/two-sum/)
