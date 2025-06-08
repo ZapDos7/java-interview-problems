@@ -15,11 +15,11 @@ public class BinToDecConverter {
     }
 
     // The decimal equivalent is calculated by Bn * 2n+ Bn-1 * 2n-1 + … + B1 * 2 + B0.
-    private static int toDecimal(String in) {
+    public static int toDecimal(String in) {
         int result = 0;
         for (int i = 0; i < in.length(); i++) {
             if (in.charAt(i) == '1') {
-                result += (int) Math.pow(2, i);
+                result += (int) Math.pow(2, in.length() - 1 - i);
             }
         }
         return result;
