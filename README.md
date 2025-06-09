@@ -51,11 +51,10 @@
 - [x] [Missing number](https://leetcode.com/problems/missing-number/)
 - [x] [Reverse bits](https://leetcode.com/problems/reverse-bits/)
 - [x] [Illustrate a deadlock scenario](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#11-how-do-you-create-a-deadlock-scenario-programmatically-in-java)
+- [x] [Implement Binary Search](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#14-how-do-you-implement-a-binary-search-in-java)
 
 ## To Do
 - [ ] The rest of Digital Ocean's problems
-  - [ ] [Reverse a Linked List](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#13-how-do-you-reverse-a-linked-list-in-java)
-  - [ ] [Implement Binary Search](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#14-how-do-you-implement-a-binary-search-in-java)
   - [ ] [Implement Merge Sort](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#15-write-a-java-program-that-illustrates-merge-sort)
   - [ ] [Compare two arrays' elements](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#17-write-java-program-that-checks-if-two-arrays-contain-the-same-elements)
   - [ ] [Sum all elements in an array](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#18-how-do-you-get-the-sum-of-all-elements-in-an-integer-array-in-java)
