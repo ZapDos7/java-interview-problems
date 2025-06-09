@@ -28,6 +28,7 @@
 - [x] [Prove that String is immutable programmatically](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#27-can-you-prove-that-a-string-object-in-java-is-immutable-programmatically)
 - [x] [Valid Anagram](https://leetcode.com/problems/valid-anagram)
 - [x] [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
+- [x] [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
 
 ### Dates
 - [x] Using Java 8 date-time library in CLASSPATH (package private) file, write a program that shows how you can add time to any time with respect to midnight on Jan. 1, 2000.
@@ -163,7 +164,6 @@
 - Strings
     - [ ] [KMP](https://www.wikiwand.com/en/articles/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm)
     - [ ] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses)
-    - [ ] [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
 
 - Tree
     - [ ] [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
