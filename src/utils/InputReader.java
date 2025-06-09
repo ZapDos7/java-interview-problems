@@ -22,9 +22,9 @@ public class InputReader {
         return s;
     }
 
-    public static Double readDouble() {
+    public static char readChar() {
         Scanner sc = new Scanner(System.in);
-        return sc.nextDouble();
+        return sc.next().charAt(0);
     }
 
     public static Integer readInt() {
