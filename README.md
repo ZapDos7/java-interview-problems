@@ -96,9 +96,10 @@
 - [x] [Multilabel switch-case](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#34-show-an-example-of-switch-expressions-and-multi-label-case-statements-in-java)
 - [x] [Write an interface with `default` & `static` method](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#38-how-do-you-write-an-interface-with-default-and-static-method)
 - [x] [Illustrate lambda functions](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#40-show-an-example-of-using-lambda-expressions-in-java)
+- [x] [Illustrate overriding & overloading](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#41-show-examples-of-overloading-and-overriding-in-java)
+
+
 ## To Do
-- The rest of Digital Ocean's problems
-  - [ ] [Illustrate overriding & overloading](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#41-show-examples-of-overloading-and-overriding-in-java)
 - Arrays
   - [ ] [Two Sum](https://leetcode.com/problems/two-sum/)
   - [ ] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
