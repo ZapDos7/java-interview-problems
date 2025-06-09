@@ -29,6 +29,7 @@
 - [x] [Valid Anagram](https://leetcode.com/problems/valid-anagram)
 - [x] [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 - [x] [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
+- [x] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses)
 
 ### Dates
 - [x] Using Java 8 date-time library in CLASSPATH (package private) file, write a program that shows how you can add time to any time with respect to midnight on Jan. 1, 2000.
@@ -164,7 +165,6 @@
     - [ ] [Word Search](https://leetcode.com/problems/word-search/)
 - Strings
     - [ ] [KMP](https://www.wikiwand.com/en/articles/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm)
-    - [ ] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses)
 
 - Tree
     - [ ] [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
@@ -188,7 +188,6 @@
     - [ ] Java’s ExecutorService to execute a list of tasks concurrently.
     - [ ] Implement a thread-safe cache using ConcurrentHashMap.
     - [ ] Write a program to demonstrate the use of atomic variables for thread-safe operations.
-    - [ ] Implement a deadlock scenario and explain how to avoid it.
     - [ ] Use Java’s Lock interface to implement a custom lock for thread synchronization.
     - [ ] Implement a thread-safe queue using BlockingQueue.
     - [ ] Write a program to demonstrate the use of CompletableFuture for asynchronous programming.
