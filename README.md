@@ -16,7 +16,7 @@
 - [x] [Diamond Printer](https://tausiq.wordpress.com/2009/08/01/uab-2006-problem-3-diamond-printer/)
 - [x] [Reverse a String](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#1-how-do-you-reverse-a-string-in-java)
 - [x] [Check if a vowel exists in a String](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#3-write-a-java-program-to-check-if-a-vowel-is-present-in-a-string)
-- [x] [Check for palindrome](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#7-how-do-you-check-whether-a-string-is-a-palindrome-in-java)
+- [x] [Check for palindrome](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#7-how-do-you-check-whether-a-string-is-a-palindrome-in-java) (additional: [LeetCode Entry]((https://leetcode.com/problems/valid-palindrome/)))
 - [x] [Remove whitespaces](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#8-how-do-you-remove-spaces-from-a-string-in-java)
 - [x] [Remove leading & trailing spaces](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#9-how-do-you-remove-leading-and-trailing-spaces-from-a-string-in-java)
 - [x] Print all unique words, excluding the same words
@@ -27,6 +27,7 @@
 - [x] [Get distinct chars & their count](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#26-how-do-you-get-distinct-characters-and-their-count-in-a-string-in-java)
 - [x] [Prove that String is immutable programmatically](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#27-can-you-prove-that-a-string-object-in-java-is-immutable-programmatically)
 - [x] [Valid Anagram](https://leetcode.com/problems/valid-anagram)
+- [x] [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 
 ### Dates
 - [x] Using Java 8 date-time library in CLASSPATH (package private) file, write a program that shows how you can add time to any time with respect to midnight on Jan. 1, 2000.
@@ -162,8 +163,6 @@
 - Strings
     - [ ] [KMP](https://www.wikiwand.com/en/articles/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm)
     - [ ] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses)
-    - [ ] [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
-    - [ ] [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
     - [ ] [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
 
 - Tree
