@@ -56,6 +56,7 @@
 - [x] [Sum all elements in an array](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#18-how-do-you-get-the-sum-of-all-elements-in-an-integer-array-in-java)
 - [x] [Shuffle an array](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#20-how-do-you-shuffle-an-array-in-java)
 - [x] [Merge two lists](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#23-how-do-you-merge-two-lists-in-java)
+- [x] [Power](https://leetcode.com/problems/powx-n/)
 
 ## To Do
 - [ ] The rest of Digital Ocean's problems
@@ -137,7 +138,6 @@
   - [ ] [Remove n-th node from end of list](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
   - [ ] [Reorder list](https://leetcode.com/problems/reorder-list/)
 - Maths
-  - [ ] [Power](https://leetcode.com/problems/powx-n/)
   - [ ] [Square Root](https://leetcode.com/problems/sqrtx/)
   - [ ] [Int to English](https://leetcode.com/problems/integer-to-english-words/)
 - Matrix
