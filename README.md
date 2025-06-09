@@ -27,6 +27,8 @@
 - [x] Write a program to find out how many times two given characters appear in any text file.
 - [x] [Remove all occurrences of a character in a String](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#25-how-do-you-remove-all-occurrences-of-a-given-character-from-an-input-string-in-java)
 - [x] [Get distinct chars & their count](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#26-how-do-you-get-distinct-characters-and-their-count-in-a-string-in-java)
+- [x] [Prove that String is immutable programmatically](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#27-can-you-prove-that-a-string-object-in-java-is-immutable-programmatically)
+
 #### Dates
 - [x] Using Java 8 date-time library in CLASSPATH (package private) file, write a program that shows how you can add time to any time with respect to midnight on Jan. 1, 2000.
 - [x] [Specify date format](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#22-how-do-you-print-a-date-in-specific-format-in-java)
@@ -89,7 +91,6 @@
 
 ## To Do
 - The rest of Digital Ocean's problems
-  - [ ] [Prove that String is immutable programmatically](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#27-can-you-prove-that-a-string-object-in-java-is-immutable-programmatically)
   - [ ] [Showcase inheritance](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#28-can-you-write-some-code-to-showcase-inheritance-in-java)
   - [ ] [How do you show a diamond problem with multiple inheritance in Java?](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#29-how-do-you-show-a-diamond-problem-with-multiple-inheritance-in-java)
   - [ ] [Illustrate try-catch](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#30-how-do-you-illustrate-a-try-catch-example-in-java)
