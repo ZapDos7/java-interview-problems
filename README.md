@@ -58,6 +58,7 @@
 - [x] [Prime number finder](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#4-write-a-java-program-to-check-if-the-given-number-is-a-prime-number)
 - [x] [Power](https://leetcode.com/problems/powx-n/)
 - [x] [Square Root](https://leetcode.com/problems/sqrtx/)
+- [x] [Int to English](https://leetcode.com/problems/integer-to-english-words/)
 
 ## Data Structures
 ### Arrays
@@ -152,8 +153,6 @@
   - [ ] [Merge k Sorted](https://leetcode.com/problems/merge-k-sorted-lists/)
   - [ ] [Remove n-th node from end of list](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
   - [ ] [Reorder list](https://leetcode.com/problems/reorder-list/)
-- Maths
-  - [ ] [Int to English](https://leetcode.com/problems/integer-to-english-words/)
 - Matrix
     - [ ] [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
     - [ ] [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
