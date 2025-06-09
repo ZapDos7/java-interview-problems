@@ -1,8 +1,6 @@
 # Small Problems & their Solution in Java
 
-## Problems
-
-### Basic
+## Basic
 - [x] FizzBuzz
 - [x] [Training Times](https://tausiq.wordpress.com/2009/11/03/training-times/)
 - [x] [The next number](https://tausiq.wordpress.com/2009/11/10/the-next-number/)
@@ -10,7 +8,7 @@
 - [x] [Push Ups with Blaze](https://tausiq.wordpress.com/2009/07/27/push-ups-with-blaze/)
 - [x] [Problem : x1](https://tausiq.wordpress.com/2009/07/27/problem-x1/)
 
-### String Manipulation
+## String Manipulation
 - [x] [One Loop Design](https://tausiq.wordpress.com/2009/08/21/one-loop-design/): print a star symbol in one loop
 - [x] Longest substring without repeating characters (micro1)
 - [x] [Anything you can do, I can do better](https://tausiq.wordpress.com/2009/11/03/anything-you-can-do-i-can-do-better/)
@@ -29,24 +27,24 @@
 - [x] [Get distinct chars & their count](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#26-how-do-you-get-distinct-characters-and-their-count-in-a-string-in-java)
 - [x] [Prove that String is immutable programmatically](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#27-can-you-prove-that-a-string-object-in-java-is-immutable-programmatically)
 
-#### Dates
+### Dates
 - [x] Using Java 8 date-time library in CLASSPATH (package private) file, write a program that shows how you can add time to any time with respect to midnight on Jan. 1, 2000.
 - [x] [Specify date format](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#22-how-do-you-print-a-date-in-specific-format-in-java)
  
-### Bit Manipulation
+## Bit Manipulation
 - [x] Bits Manipulation formulas
 - [x] Check if a number is a power of 2
 - [x] Hamming Weight implementation (return 1-bits of a binary representation of a number)
 - [x] [Binary to Decimal Converter](https://tausiq.wordpress.com/2009/07/27/uab-2005-problem-3-binary-to-decimal-converter/)
 - [x] [Reverse bits](https://leetcode.com/problems/reverse-bits/)
 
-### Algorithms
+## Algorithms
 - [x] [Shortest path in Alabama](https://tausiq.wordpress.com/2013/08/08/uab-2005-problem-6-shortest-path-in-alabama/) - Dijkstra
 - [x] [Verifying the 8-Queens](https://tausiq.wordpress.com/2009/08/01/verifying-the-8-queens/)
 - [x] [Implement Binary Search](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#14-how-do-you-implement-a-binary-search-in-java)
 - [x] [Implement Merge Sort](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#15-write-a-java-program-that-illustrates-merge-sort)
 
-### Mathematics
+## Mathematics
 - [x] Print the Fibonacci sequence
 - [x] [Factorial](https://tausiq.wordpress.com/2009/07/27/uab-2005-problem-1-factorial-calculator/)
 - [x] Maths formulas
@@ -57,8 +55,8 @@
 - [x] [Prime number finder](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#4-write-a-java-program-to-check-if-the-given-number-is-a-prime-number)
 - [x] [Power](https://leetcode.com/problems/powx-n/)
 
-### Data Structures
-#### Arrays
+## Data Structures
+### Arrays
 - [x] Find the first duplicate in an array
 - [x] Write a program to sort a sequence of numbers in ascending order.
 - [x] [Missing number](https://leetcode.com/problems/missing-number/)
@@ -67,29 +65,29 @@
 - [x] [Find the second-largest number in an array](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#19-how-do-you-find-the-second-largest-number-in-an-array-in-java)
 - [x] [Compare two arrays' elements](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#17-write-java-program-that-checks-if-two-arrays-contain-the-same-elements)
 
-#### Lists
+### Lists
 - [x] [Check for odd numbers in a list](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#6-how-do-you-check-if-a-list-of-integers-contains-only-odd-numbers-in-java)
 - [x] [Merge two lists](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#23-how-do-you-merge-two-lists-in-java)
-#### Linked Lists
+### Linked Lists
 - [x] Find the middle element of a linked list
-#### Stack
+### Stack
 - [x] Implement a stack using two queues
 - [x] [Stack Machine Interpretation](https://tausiq.wordpress.com/2009/08/01/stack-machine-interpretation/)
 
-#### HashMap
+### HashMap
 - [x] Implement a cache using a HashMap
 - [x] [Sort HashMap by value](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#24-write-a-java-program-that-sorts-hashmap-by-value)
-### Multithreading
+## Multithreading
 - [x] Solve the producer-consumer problem using multithreading
 - [x] [Illustrate a deadlock scenario](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#11-how-do-you-create-a-deadlock-scenario-programmatically-in-java)
 
-### Java
+## Java
 - [x] [Showcase inheritance](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#28-can-you-write-some-code-to-showcase-inheritance-in-java)
 - [x] [Illustrate try-catch](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#30-how-do-you-illustrate-a-try-catch-example-in-java)
 - [x] [Illustrate NPE](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#31-write-a-java-program-to-show-a-nullpointerexception)
 - [x] [Create a Record](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#32-how-do-you-create-a-record-in-java)
 
-### Advanced 
+## Advanced 
 - [x] [Java: Tricky Interview Problems](https://medium.com/@abhishek.talakeriv/java-tricky-interview-questions-fe3aa2b71c0b)
 - [x] [Guess the Output](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#42-49-guess-the-output)
 - [x] [Guess the Output - Tilde Bits](https://www.geeksforgeeks.org/bitwise-complement-operator-tilde/)
@@ -198,7 +196,7 @@
     - [ ] Write a program to demonstrate the use of CompletableFuture for asynchronous programming.
 
 
-#### Sources
+### Sources
 1. [Tausig's Easy Problems](https://tausiq.wordpress.com/easy-programming-problems-with-solutions/)
 2. [Digital Ocean's Interview Questions](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions)
 3. [Indeed's Java Interview Problems](https://www.indeed.com/career-advice/interviewing/java-coding-interview-questions)
