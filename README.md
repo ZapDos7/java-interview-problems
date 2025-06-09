@@ -26,6 +26,7 @@
 - [x] [Remove all occurrences of a character in a String](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#25-how-do-you-remove-all-occurrences-of-a-given-character-from-an-input-string-in-java)
 - [x] [Get distinct chars & their count](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#26-how-do-you-get-distinct-characters-and-their-count-in-a-string-in-java)
 - [x] [Prove that String is immutable programmatically](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#27-can-you-prove-that-a-string-object-in-java-is-immutable-programmatically)
+- [x] [Valid Anagram](https://leetcode.com/problems/valid-anagram)
 
 ### Dates
 - [x] Using Java 8 date-time library in CLASSPATH (package private) file, write a program that shows how you can add time to any time with respect to midnight on Jan. 1, 2000.
@@ -160,7 +161,6 @@
     - [ ] [Word Search](https://leetcode.com/problems/word-search/)
 - Strings
     - [ ] [KMP](https://www.wikiwand.com/en/articles/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm)
-    - [ ] [Valid Anagram](https://leetcode.com/problems/valid-anagram)
     - [ ] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses)
     - [ ] [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
     - [ ] [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
