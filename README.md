@@ -88,6 +88,7 @@
 ## Multithreading
 - [x] Solve the producer-consumer problem using multithreading
 - [x] [Illustrate a deadlock scenario](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#11-how-do-you-create-a-deadlock-scenario-programmatically-in-java)
+- [x] Implement a thread-safe singleton class
 
 ## Java
 - [x] [Java: Tricky Interview Problems](https://medium.com/@abhishek.talakeriv/java-tricky-interview-questions-fe3aa2b71c0b)
@@ -182,7 +183,6 @@
     - [ ] [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
     - [ ] [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
 - Multithreading & Concurrency
-    - [ ] Implement a thread-safe singleton class.
     - [ ] Write a program to demonstrate the use of synchronized blocks to achieve thread safety.
     - [ ] Implement a producer-consumer problem using wait() and notify() methods.
     - [ ] Java’s ExecutorService to execute a list of tasks concurrently.
