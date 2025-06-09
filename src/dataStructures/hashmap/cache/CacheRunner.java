@@ -1,4 +1,4 @@
-package dataStructures.cache;
+package dataStructures.hashmap.cache;
 
 public class CacheRunner {
     public static void main(String[] args) {

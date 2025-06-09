@@ -1,4 +1,4 @@
-package dataStructures.stackMachine;
+package dataStructures.stack.stackMachine;
 
 import utils.InputReader;
 

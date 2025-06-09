@@ -1,4 +1,4 @@
-package strings.parenthesesCheck;
+package dataStructures.stack.parenthesesCheck;
 
 import java.util.List;
 import java.util.Stack;

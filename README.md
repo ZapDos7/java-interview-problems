@@ -73,19 +73,28 @@
 - [x] [Shuffle an array](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#20-how-do-you-shuffle-an-array-in-java)
 - [x] [Find the second-largest number in an array](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#19-how-do-you-find-the-second-largest-number-in-an-array-in-java)
 - [x] [Compare two arrays' elements](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#17-write-java-program-that-checks-if-two-arrays-contain-the-same-elements)
-
 ### Lists
 - [x] [Check for odd numbers in a list](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#6-how-do-you-check-if-a-list-of-integers-contains-only-odd-numbers-in-java)
 - [x] [Merge two lists](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#23-how-do-you-merge-two-lists-in-java)
 ### Linked Lists
+<!-- Singly, doubly, circular linked list problems -->
 - [x] Find the middle element of a linked list
-### Stack
+### Stack (LIFO)
 - [x] Implement a stack using two queues
 - [x] [Stack Machine Interpretation](https://tausiq.wordpress.com/2009/08/01/stack-machine-interpretation/)
-
-### HashMap
+### Queue (FIFO)
+### HashMap/Hash Table
 - [x] Implement a cache using a HashMap
 - [x] [Sort HashMap by value](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#24-write-a-java-program-that-sorts-hashmap-by-value)
+### Graphs
+<!-- BFS, DFS, topological sort, shortest path, etc. -->
+### Matrix
+<!-- 2D array problems -->
+### Trees
+<!-- Binary trees, BSTs, traversals, etc. -->
+### Heaps
+<!-- Min-heap, max-heap, priority queue problems -->
+
 ## Multithreading
 - [x] Solve the producer-consumer problem using multithreading
 - [x] [Illustrate a deadlock scenario](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#11-how-do-you-create-a-deadlock-scenario-programmatically-in-java)
@@ -113,7 +122,6 @@
 - Arrays
   - [ ] [Two Sum](https://leetcode.com/problems/two-sum/)
   - [ ] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
-  - [ ] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
   - [ ] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
   - [ ] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
   - [ ] [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
