@@ -43,7 +43,7 @@
 - [x] [Shortest path in Alabama](https://tausiq.wordpress.com/2013/08/08/uab-2005-problem-6-shortest-path-in-alabama/) - Dijkstra
 - [x] [Verifying the 8-Queens](https://tausiq.wordpress.com/2009/08/01/verifying-the-8-queens/)
 - [x] [Implement Binary Search](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#14-how-do-you-implement-a-binary-search-in-java)
-
+- [x] [Implement Merge Sort](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#15-write-a-java-program-that-illustrates-merge-sort)
 
 ### Mathematics
 - [x] Print the Fibonacci sequence
@@ -90,7 +90,6 @@
 
 ## To Do
 - The rest of Digital Ocean's problems
-  - [ ] [Implement Merge Sort](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#15-write-a-java-program-that-illustrates-merge-sort)
   - [ ] [Compare two arrays' elements](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#17-write-java-program-that-checks-if-two-arrays-contain-the-same-elements)
   - [ ] [Sort HashMap by value](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#24-write-a-java-program-that-sorts-hashmap-by-value)
   - [ ] [Get distinct chars & their count](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#26-how-do-you-get-distinct-characters-and-their-count-in-a-string-in-java)
