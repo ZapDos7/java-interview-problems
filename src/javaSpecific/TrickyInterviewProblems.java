@@ -1,4 +1,4 @@
-package tricky;
+package javaSpecific;
 
 public class TrickyInterviewProblems {
     public static void main(String[] args) {

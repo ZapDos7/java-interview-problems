@@ -1,4 +1,4 @@
-package tricky.guessTheOutput;
+package javaSpecific.guessTheOutput;
 
 import java.io.IOException;
 import java.util.HashSet;

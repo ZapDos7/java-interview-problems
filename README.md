@@ -82,24 +82,22 @@
 - [x] [Illustrate a deadlock scenario](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#11-how-do-you-create-a-deadlock-scenario-programmatically-in-java)
 
 ## Java
-- [x] [Showcase inheritance](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#28-can-you-write-some-code-to-showcase-inheritance-in-java)
-- [x] [Illustrate try-catch](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#30-how-do-you-illustrate-a-try-catch-example-in-java)
-- [x] [Illustrate NPE](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#31-write-a-java-program-to-show-a-nullpointerexception)
-- [x] [Create a Record](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#32-how-do-you-create-a-record-in-java)
-
-## Advanced 
 - [x] [Java: Tricky Interview Problems](https://medium.com/@abhishek.talakeriv/java-tricky-interview-questions-fe3aa2b71c0b)
 - [x] [Guess the Output](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#42-49-guess-the-output)
 - [x] [Guess the Output - Tilde Bits](https://www.geeksforgeeks.org/bitwise-complement-operator-tilde/)
 - [x] [Find the mistakes in a code snippet](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#50-find-5-mistakes-in-the-following-code-snippet)
+- [x] [Showcase inheritance](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#28-can-you-write-some-code-to-showcase-inheritance-in-java)
+- [x] [Illustrate try-catch](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#30-how-do-you-illustrate-a-try-catch-example-in-java)
+- [x] [Illustrate NPE](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#31-write-a-java-program-to-show-a-nullpointerexception)
+- [x] [Create a Record](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#32-how-do-you-create-a-record-in-java)
+- [x] [Create a functional interface](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#39-how-do-you-create-a-functional-interface)
+- [x] [How do you show a diamond problem with multiple inheritance in Java?](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#29-how-do-you-show-a-diamond-problem-with-multiple-inheritance-in-java)
 
 ## To Do
 - The rest of Digital Ocean's problems
-  - [ ] [How do you show a diamond problem with multiple inheritance in Java?](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#29-how-do-you-show-a-diamond-problem-with-multiple-inheritance-in-java)
   - [ ] [Textblocks](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#33-how-do-you-create-text-blocks-in-java)
   - [ ] [Multilabel switch-case](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#34-show-an-example-of-switch-expressions-and-multi-label-case-statements-in-java)
   - [ ] [Write an interface with `default` & `static` method](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#38-how-do-you-write-an-interface-with-default-and-static-method)
-  - [ ] [Create a functional interface](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#39-how-do-you-create-a-functional-interface)
   - [ ] [Illustrate lambda functions](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#40-show-an-example-of-using-lambda-expressions-in-java)
   - [ ] [Illustrate overriding & overloading](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#41-show-examples-of-overloading-and-overriding-in-java)
 - Arrays

@@ -1,4 +1,4 @@
-package tricky.guessTheOutput;
+package javaSpecific.guessTheOutput;
 
 public class TildeMathematics {
     public static void main(String[] args) {
