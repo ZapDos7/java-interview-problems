@@ -55,6 +55,7 @@
 - [x] [Remove all occurrences of a character in a String](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#25-how-do-you-remove-all-occurrences-of-a-given-character-from-an-input-string-in-java)
 - [x] [Sum all elements in an array](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#18-how-do-you-get-the-sum-of-all-elements-in-an-integer-array-in-java)
 - [x] [Shuffle an array](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#20-how-do-you-shuffle-an-array-in-java)
+- [x] [Merge two lists](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#23-how-do-you-merge-two-lists-in-java)
 
 ## To Do
 - [ ] The rest of Digital Ocean's problems
@@ -62,7 +63,6 @@
   - [ ] [Compare two arrays' elements](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#17-write-java-program-that-checks-if-two-arrays-contain-the-same-elements)
   - [ ] [Find the second-largest number in an array](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#19-how-do-you-find-the-second-largest-number-in-an-array-in-java)
   - [ ] [Specify date format](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#22-how-do-you-print-a-date-in-specific-format-in-java)
-  - [ ] [Merge two lists](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#23-how-do-you-merge-two-lists-in-java)
   - [ ] [Sort HashMap by value](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#24-write-a-java-program-that-sorts-hashmap-by-value)
   - [ ] [Get distinct chars & their count](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#26-how-do-you-get-distinct-characters-and-their-count-in-a-string-in-java)
   - [ ] [Prove that String is immutable programmatically](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#27-can-you-prove-that-a-string-object-in-java-is-immutable-programmatically)
