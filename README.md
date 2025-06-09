@@ -92,10 +92,10 @@
 - [x] [Create a Record](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#32-how-do-you-create-a-record-in-java)
 - [x] [Create a functional interface](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#39-how-do-you-create-a-functional-interface)
 - [x] [How do you show a diamond problem with multiple inheritance in Java?](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#29-how-do-you-show-a-diamond-problem-with-multiple-inheritance-in-java)
+- [x] [Textblocks](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#33-how-do-you-create-text-blocks-in-java)
 
 ## To Do
 - The rest of Digital Ocean's problems
-  - [ ] [Textblocks](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#33-how-do-you-create-text-blocks-in-java)
   - [ ] [Multilabel switch-case](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#34-show-an-example-of-switch-expressions-and-multi-label-case-statements-in-java)
   - [ ] [Write an interface with `default` & `static` method](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#38-how-do-you-write-an-interface-with-default-and-static-method)
   - [ ] [Illustrate lambda functions](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#40-show-an-example-of-using-lambda-expressions-in-java)
