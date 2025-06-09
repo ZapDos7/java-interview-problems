@@ -57,6 +57,7 @@
 - [x] Swap two numbers without using the third variable
 - [x] [Prime number finder](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#4-write-a-java-program-to-check-if-the-given-number-is-a-prime-number)
 - [x] [Power](https://leetcode.com/problems/powx-n/)
+- [x] [Square Root](https://leetcode.com/problems/sqrtx/)
 
 ## Data Structures
 ### Arrays
@@ -152,7 +153,6 @@
   - [ ] [Remove n-th node from end of list](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
   - [ ] [Reorder list](https://leetcode.com/problems/reorder-list/)
 - Maths
-  - [ ] [Square Root](https://leetcode.com/problems/sqrtx/)
   - [ ] [Int to English](https://leetcode.com/problems/integer-to-english-words/)
 - Matrix
     - [ ] [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
