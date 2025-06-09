@@ -57,12 +57,12 @@
 - [x] [Shuffle an array](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#20-how-do-you-shuffle-an-array-in-java)
 - [x] [Merge two lists](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#23-how-do-you-merge-two-lists-in-java)
 - [x] [Power](https://leetcode.com/problems/powx-n/)
+- [x] [Find the second-largest number in an array](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#19-how-do-you-find-the-second-largest-number-in-an-array-in-java)
 
 ## To Do
-- [ ] The rest of Digital Ocean's problems
+- The rest of Digital Ocean's problems
   - [ ] [Implement Merge Sort](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#15-write-a-java-program-that-illustrates-merge-sort)
   - [ ] [Compare two arrays' elements](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#17-write-java-program-that-checks-if-two-arrays-contain-the-same-elements)
-  - [ ] [Find the second-largest number in an array](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#19-how-do-you-find-the-second-largest-number-in-an-array-in-java)
   - [ ] [Specify date format](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#22-how-do-you-print-a-date-in-specific-format-in-java)
   - [ ] [Sort HashMap by value](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#24-write-a-java-program-that-sorts-hashmap-by-value)
   - [ ] [Get distinct chars & their count](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#26-how-do-you-get-distinct-characters-and-their-count-in-a-string-in-java)
@@ -78,17 +78,6 @@
   - [ ] [Create a functional interface](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#39-how-do-you-create-a-functional-interface)
   - [ ] [Illustrate lambda functions](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#40-show-an-example-of-using-lambda-expressions-in-java)
   - [ ] [Illustrate overriding & overloading](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#41-show-examples-of-overloading-and-overriding-in-java)
-  - Java multithreading and concurrency coding challenges
-    - [ ] Implement a thread-safe singleton class.
-    - [ ] Write a program to demonstrate the use of synchronized blocks to achieve thread safety.
-    - [ ] Implement a producer-consumer problem using wait() and notify() methods.
-    - [ ] Use Java’s ExecutorService to execute a list of tasks concurrently.
-    - [ ] Implement a thread-safe cache using ConcurrentHashMap.
-    - [ ] Write a program to demonstrate the use of atomic variables for thread-safe operations.
-    - [ ] Implement a deadlock scenario and explain how to avoid it.
-    - [ ] Use Java’s Lock interface to implement a custom lock for thread synchronization.
-    - [ ] Implement a thread-safe queue using BlockingQueue.
-    - [ ] Write a program to demonstrate the use of CompletableFuture for asynchronous programming.
 - Arrays
   - [ ] [Two Sum](https://leetcode.com/problems/two-sum/)
   - [ ] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
