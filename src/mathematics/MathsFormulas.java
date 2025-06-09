@@ -32,7 +32,7 @@ public class MathsFormulas {
         return factorial(n) / (factorial(k) * factorial(n - k));
     }
 
-    // Helper: recursion.factorial
+    // Helper: mathematics.factorial
     public static long factorial(int num) {
         long result = 1;
         for (int i = 2; i <= num; i++) {

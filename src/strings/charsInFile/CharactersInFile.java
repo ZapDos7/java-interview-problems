@@ -1,4 +1,4 @@
-package fileManipulation.charsInFile;
+package strings.charsInFile;
 
 import java.util.List;
 import utils.InputReader;

@@ -1,64 +1,92 @@
 # Small Problems & their Solution in Java
 
 ## Problems
-- [x] [One Loop Design](https://tausiq.wordpress.com/2009/08/21/one-loop-design/): print a star symbol in one loop
-- [x] [Java: Tricky Interview Problems](https://medium.com/@abhishek.talakeriv/java-tricky-interview-questions-fe3aa2b71c0b)
-- [x] Find the least amount of coins needed for an amount
+
+### Basic
 - [x] FizzBuzz
-- [x] Print the Fibonacci sequence
-- [x] Longest substring without repeating characters (micro1)
-- [x] [Guess the Output](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#42-49-guess-the-output)
-- [x] [Guess the Output - Tilde Bits](https://www.geeksforgeeks.org/bitwise-complement-operator-tilde/)
 - [x] [Training Times](https://tausiq.wordpress.com/2009/11/03/training-times/)
-- [x] [Anything you can do, I can do better](https://tausiq.wordpress.com/2009/11/03/anything-you-can-do-i-can-do-better/)
 - [x] [The next number](https://tausiq.wordpress.com/2009/11/10/the-next-number/)
-- [x] Maths formulas
-- [x] Bits Manipulation formulas
-- [x] Check if a number is a power of 2
-- [x] Hamming Weight implementation (return 1-bits of a binary representation of a number)
-- [x] Find the middle element of a linked list
-- [x] [Factorial](https://tausiq.wordpress.com/2009/07/27/uab-2005-problem-1-factorial-calculator/)
 - [x] [Searching 101](https://tausiq.wordpress.com/2009/07/27/uab-2005-problem-2-searching-101/)
-- [x] [Binary to Decimal Converter](https://tausiq.wordpress.com/2009/07/27/uab-2005-problem-3-binary-to-decimal-converter/)
-- [x] Implement a stack using two queues
-- [x] Find the first duplicate in an array
-- [x] Solve the producer-consumer problem using multithreading
-- [x] Implement a cache using a HashMap
 - [x] [Push Ups with Blaze](https://tausiq.wordpress.com/2009/07/27/push-ups-with-blaze/)
-- [x] [Valid Identifier Checker](https://tausiq.wordpress.com/2009/07/27/valid-identifier-checker/)
-- [x] [Shortest path in Alabama](https://tausiq.wordpress.com/2013/08/08/uab-2005-problem-6-shortest-path-in-alabama/) - Dijkstra
 - [x] [Problem : x1](https://tausiq.wordpress.com/2009/07/27/problem-x1/)
-- [x] [Stack Machine Interpretation](https://tausiq.wordpress.com/2009/08/01/stack-machine-interpretation/)
-- [x] [Verifying the 8-Queens](https://tausiq.wordpress.com/2009/08/01/verifying-the-8-queens/)
+
+
+### String Manipulation
+- [x] [One Loop Design](https://tausiq.wordpress.com/2009/08/21/one-loop-design/): print a star symbol in one loop
+- [x] Longest substring without repeating characters (micro1)
+- [x] [Anything you can do, I can do better](https://tausiq.wordpress.com/2009/11/03/anything-you-can-do-i-can-do-better/)
+- [x] [Valid Identifier Checker](https://tausiq.wordpress.com/2009/07/27/valid-identifier-checker/)
 - [x] [Diamond Printer](https://tausiq.wordpress.com/2009/08/01/uab-2006-problem-3-diamond-printer/)
-- [x] [Circle Intersection](https://tausiq.wordpress.com/2013/08/11/uab-2006-problem-2-circle-intersection/)
 - [x] [Reverse a String](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#1-how-do-you-reverse-a-string-in-java)
 - [x] [Check if a vowel exists in a String](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#3-write-a-java-program-to-check-if-a-vowel-is-present-in-a-string)
-- [x] [Swap two numbers using the third variable](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#2-how-do-you-swap-two-numbers-without-using-a-third-variable-in-java)
-- [x] Swap two numbers without using the third variable
-- [x] Write a program to sort a sequence of numbers in ascending order.
-- [x] [Prime number finder](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#4-write-a-java-program-to-check-if-the-given-number-is-a-prime-number)
-- [x] [Check for odd numbers in a list](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#6-how-do-you-check-if-a-list-of-integers-contains-only-odd-numbers-in-java)
 - [x] [Check for palindrome](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#7-how-do-you-check-whether-a-string-is-a-palindrome-in-java)
 - [x] [Remove whitespaces](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#8-how-do-you-remove-spaces-from-a-string-in-java)
 - [x] [Remove leading & trailing spaces](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#9-how-do-you-remove-leading-and-trailing-spaces-from-a-string-in-java)
 - [x] Print all unique words, excluding the same words
 - [x] Find the duplicate characters in a string
-- [x] [Find the mistakes in a code snippet](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#50-find-5-mistakes-in-the-following-code-snippet)
 - [x] Sort String Sequences
 - [x] Write a program to find out how many times two given characters appear in any text file.
-- [x] Using Java 8 date-time library in CLASSPATH (package private) file, write a program that shows how you can add time to any time with respect to midnight on Jan. 1, 2000.
-- [x] [Missing number](https://leetcode.com/problems/missing-number/)
-- [x] [Reverse bits](https://leetcode.com/problems/reverse-bits/)
-- [x] [Illustrate a deadlock scenario](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#11-how-do-you-create-a-deadlock-scenario-programmatically-in-java)
-- [x] [Implement Binary Search](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#14-how-do-you-implement-a-binary-search-in-java)
 - [x] [Remove all occurrences of a character in a String](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#25-how-do-you-remove-all-occurrences-of-a-given-character-from-an-input-string-in-java)
+
+#### Dates
+- [x] Using Java 8 date-time library in CLASSPATH (package private) file, write a program that shows how you can add time to any time with respect to midnight on Jan. 1, 2000.
+- [x] [Specify date format](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#22-how-do-you-print-a-date-in-specific-format-in-java)
+ 
+### Bit Manipulation
+- [x] Bits Manipulation formulas
+- [x] Check if a number is a power of 2
+- [x] Hamming Weight implementation (return 1-bits of a binary representation of a number)
+- [x] [Binary to Decimal Converter](https://tausiq.wordpress.com/2009/07/27/uab-2005-problem-3-binary-to-decimal-converter/)
+- [x] [Reverse bits](https://leetcode.com/problems/reverse-bits/)
+
+### Algorithms
+- [x] [Shortest path in Alabama](https://tausiq.wordpress.com/2013/08/08/uab-2005-problem-6-shortest-path-in-alabama/) - Dijkstra
+- [x] [Verifying the 8-Queens](https://tausiq.wordpress.com/2009/08/01/verifying-the-8-queens/)
+- [x] [Implement Binary Search](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#14-how-do-you-implement-a-binary-search-in-java)
+
+
+### Mathematics
+- [x] Print the Fibonacci sequence
+- [x] [Factorial](https://tausiq.wordpress.com/2009/07/27/uab-2005-problem-1-factorial-calculator/)
+- [x] Maths formulas
+- [x] Find the least amount of coins needed for an amount
+- [x] [Circle Intersection](https://tausiq.wordpress.com/2013/08/11/uab-2006-problem-2-circle-intersection/)
+- [x] [Swap two numbers using the third variable](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#2-how-do-you-swap-two-numbers-without-using-a-third-variable-in-java)
+- [x] Swap two numbers without using the third variable
+- [x] [Prime number finder](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#4-write-a-java-program-to-check-if-the-given-number-is-a-prime-number)
+- [x] [Power](https://leetcode.com/problems/powx-n/)
+
+
+### Data Structures
+#### Arrays
+- [x] Find the first duplicate in an array
+- [x] Write a program to sort a sequence of numbers in ascending order.
+- [x] [Missing number](https://leetcode.com/problems/missing-number/)
 - [x] [Sum all elements in an array](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#18-how-do-you-get-the-sum-of-all-elements-in-an-integer-array-in-java)
 - [x] [Shuffle an array](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#20-how-do-you-shuffle-an-array-in-java)
-- [x] [Merge two lists](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#23-how-do-you-merge-two-lists-in-java)
-- [x] [Power](https://leetcode.com/problems/powx-n/)
 - [x] [Find the second-largest number in an array](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#19-how-do-you-find-the-second-largest-number-in-an-array-in-java)
-- [x] [Specify date format](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#22-how-do-you-print-a-date-in-specific-format-in-java)
+
+#### Lists
+- [x] [Check for odd numbers in a list](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#6-how-do-you-check-if-a-list-of-integers-contains-only-odd-numbers-in-java)
+- [x] [Merge two lists](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#23-how-do-you-merge-two-lists-in-java)
+#### Linked Lists
+- [x] Find the middle element of a linked list
+#### Stack
+- [x] Implement a stack using two queues
+- [x] [Stack Machine Interpretation](https://tausiq.wordpress.com/2009/08/01/stack-machine-interpretation/)
+
+#### HashMap
+- [x] Implement a cache using a HashMap
+
+### Multithreading
+- [x] Solve the producer-consumer problem using multithreading
+- [x] [Illustrate a deadlock scenario](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#11-how-do-you-create-a-deadlock-scenario-programmatically-in-java)
+
+### Advanced 
+- [x] [Java: Tricky Interview Problems](https://medium.com/@abhishek.talakeriv/java-tricky-interview-questions-fe3aa2b71c0b)
+- [x] [Guess the Output](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#42-49-guess-the-output)
+- [x] [Guess the Output - Tilde Bits](https://www.geeksforgeeks.org/bitwise-complement-operator-tilde/)
+- [x] [Find the mistakes in a code snippet](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#50-find-5-mistakes-in-the-following-code-snippet)
 
 ## To Do
 - The rest of Digital Ocean's problems
