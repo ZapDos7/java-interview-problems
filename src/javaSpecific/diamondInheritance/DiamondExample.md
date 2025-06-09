@@ -1,7 +1,5 @@
-package javaSpecific.diamondInheritance;
-
-public class DiamondExample {
-    // interface I
+```java
+// interface I
     interface I {
         void foo();
     }
@@ -31,4 +29,4 @@ public class DiamondExample {
             super.foo();
         }
     }
-}
+```
