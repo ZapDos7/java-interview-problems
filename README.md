@@ -86,6 +86,7 @@
 ### Java
 - [x] [Showcase inheritance](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#28-can-you-write-some-code-to-showcase-inheritance-in-java)
 - [x] [Illustrate try-catch](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#30-how-do-you-illustrate-a-try-catch-example-in-java)
+- [x] [Illustrate NPE](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#31-write-a-java-program-to-show-a-nullpointerexception)
 
 ### Advanced 
 - [x] [Java: Tricky Interview Problems](https://medium.com/@abhishek.talakeriv/java-tricky-interview-questions-fe3aa2b71c0b)
@@ -96,7 +97,6 @@
 ## To Do
 - The rest of Digital Ocean's problems
   - [ ] [How do you show a diamond problem with multiple inheritance in Java?](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#29-how-do-you-show-a-diamond-problem-with-multiple-inheritance-in-java)
-  - [ ] [Illustrate NPE](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#31-write-a-java-program-to-show-a-nullpointerexception)
   - [ ] [Create a Record](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#32-how-do-you-create-a-record-in-java)
   - [ ] [Textblocks](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#33-how-do-you-create-text-blocks-in-java)
   - [ ] [Multilabel switch-case](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#34-show-an-example-of-switch-expressions-and-multi-label-case-statements-in-java)
