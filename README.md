@@ -41,7 +41,10 @@
 ## Algorithms
 - [x] [Shortest path in Alabama](https://tausiq.wordpress.com/2013/08/08/uab-2005-problem-6-shortest-path-in-alabama/) - Dijkstra
 - [x] [Verifying the 8-Queens](https://tausiq.wordpress.com/2009/08/01/verifying-the-8-queens/)
+### Search
 - [x] [Implement Binary Search](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#14-how-do-you-implement-a-binary-search-in-java)
+- [x] [Rabin-Karp](https://www.wikiwand.com/en/articles/Rabin%E2%80%93Karp_algorithm)
+### Sort
 - [x] [Implement Merge Sort](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#15-write-a-java-program-that-illustrates-merge-sort)
 
 ## Mathematics
@@ -157,7 +160,6 @@
     - [ ] [Rotate Image](https://leetcode.com/problems/rotate-image/)
     - [ ] [Word Search](https://leetcode.com/problems/word-search/)
 - Strings
-    - [ ] [Rabin Karp](https://www.wikiwand.com/en/articles/Rabin%E2%80%93Karp_algorithm)
     - [ ] [KMP](https://www.wikiwand.com/en/articles/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm)
     - [ ] [Valid Anagram](https://leetcode.com/problems/valid-anagram)
     - [ ] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses)
