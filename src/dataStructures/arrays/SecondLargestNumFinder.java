@@ -10,4 +10,21 @@ public class SecondLargestNumFinder {
     private static int num(int[] array) {
         return Arrays.stream(array).boxed().sorted().toList().get(array.length - 2); // length - 1 would be largest
     }
+
+    /* Suggested solution which doesn't use sorting as it is expensive */
+    private static int findSecondHighest(int[] array) {
+        int highest = Integer.MIN_VALUE;
+        int secondHighest = Integer.MIN_VALUE;
+
+        for (int i : array) {
+            if (i > highest) {
+                secondHighest = highest;
+                highest = i;
+            } else if (i > secondHighest) {
+                secondHighest = i;
+            }
+
+        }
+        return secondHighest;
+    }
 }
