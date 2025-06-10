@@ -55,6 +55,8 @@
 - [x] [Reverse bits](https://leetcode.com/problems/reverse-bits/)
 - [x] [Bit Hacks — Part 1 (Basic)](http://www.techiedelight.com/bit-hacks-part-1-basic/)
 - [x] [Bit Hacks — Part 2 (Playing with k’th bit)](http://www.techiedelight.com/bit-hacks-part-2-playing-kth-bit/)
+- [x] [Bit Hacks — Part 3 (Playing with rightmost set bit of a number)](http://www.techiedelight.com/bit-hacks-part-3-playing-rightmost-set-bit-number/)
+
 
 ## Algorithms
 
@@ -172,7 +174,6 @@
 ## To Do
 
 - Bits Manipulation
-    - [ ] [Bit Hacks — Part 3 (Playing with rightmost set bit of a number)](http://www.techiedelight.com/bit-hacks-part-3-playing-rightmost-set-bit-number/)
     - [ ] [Bit Hacks — Part 4 (Playing with letters of English alphabet)](http://www.techiedelight.com/bit-hacks-part-4-playing-letters-english-alphabet/)
     - [ ] [Bit Hacks — Part 5 (Find absolute value of an integer without branching)](http://www.techiedelight.com/bit-hacks-part-5-find-absolute-value-integer-without-branching/)
     - [ ] [Bit Hacks — Part 6 (Random Problems)](http://www.techiedelight.com/bit-hacks-part-6-random-problems/)
