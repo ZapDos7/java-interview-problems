@@ -83,6 +83,7 @@
 ### Lists
 - [x] [Check for odd numbers in a list](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#6-how-do-you-check-if-a-list-of-integers-contains-only-odd-numbers-in-java)
 - [x] [Merge two lists](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#23-how-do-you-merge-two-lists-in-java)
+- [x] [Find sublists with zero sums](http://www.techiedelight.com/find-sub-array-with-0-sum/)
 ### Linked Lists
 <!-- Singly, doubly, circular linked list problems -->
 - [x] Find the middle element of a linked list
