@@ -126,11 +126,12 @@
 - [x] [Sort HashMap by value](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#24-write-a-java-program-that-sorts-hashmap-by-value)
 
 ### Graphs
+- [x] [Terminology and Representations of Graphs](http://www.techiedelight.com/terminology-and-representations-of-graphs/)
 - [x] Given a list of edges and tasked to build your own graph from the edges
 ### Matrix
 
 ### Trees
-- [ ] [Same Tree](https://leetcode.com/problems/same-tree/)
+- [x] [Same Tree](https://leetcode.com/problems/same-tree/)
 - [x] [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)
 ### Heaps
 
@@ -281,7 +282,6 @@
     - [ ] [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)
     - [ ] [Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/graph-valid-tree/)
     - [ ] [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
-    - [ ] [Terminology and Representations of Graphs](http://www.techiedelight.com/terminology-and-representations-of-graphs/)
     - [ ] [Graph Implementation using STL](http://www.techiedelight.com/graph-implementation-using-stl/)
     - [ ] [Graph Implementation in C++ without using STL](http://www.techiedelight.com/graph-implementation-c-without-using-stl/)
     - [ ] [Arrival and Departure Time of Vertices in DFS](http://www.techiedelight.com/arrival-departure-time-vertices-dfs/)
