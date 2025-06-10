@@ -266,7 +266,6 @@
     - [ ] [Decode the given sequence to construct minimum number without repeated digits](http://www.techiedelight.com/decode-the-given-sequence-construct-minimum-number-without-repeated-digits/)
     - [ ] [All combinations of elements satisfiying given constraints](http://www.techiedelight.com/find-combinations-of-elements-satisfies-given-constraints/)
 
-
 - Graphs
     - [ ] Implement Dijkstra’s algorithm
     - [ ] Implement Topological sort
@@ -308,12 +307,15 @@
     - [ ] [Print All Hamiltonian Path present in a graph](http://www.techiedelight.com/print-all-hamiltonian-path-present-in-a-graph/)
     - [ ] [Greedy coloring of graph](http://www.techiedelight.com/greedy-coloring-graph/)
 
-- LinkedLists
-    - [ ] [Detect Cycle](https://leetcode.com/problems/linked-list-cycle/)
+- Lists
     - [ ] [Merge 2 Sorted](https://leetcode.com/problems/merge-two-sorted-lists/)
     - [ ] [Merge k Sorted](https://leetcode.com/problems/merge-k-sorted-lists/)
     - [ ] [Remove n-th node from end of list](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
     - [ ] [Reorder list](https://leetcode.com/problems/reorder-list/)
+
+
+- LinkedLists
+    - [ ] [Detect Cycle](https://leetcode.com/problems/linked-list-cycle/)
     - [ ] [Introduction to Linked Lists](http://www.techiedelight.com/introduction-linked-lists/)
     - [ ] [Linked List Implementation | Part 1](http://www.techiedelight.com/linked-list-implementation-part-1/)
     - [ ] [Linked List Implementation | Part 2](http://www.techiedelight.com/linked-list-implementation-part-2/)
@@ -378,7 +380,6 @@
     - [ ] [Find size of largest square sub-matrix of 1’s present in given binary matrix](http://www.techiedelight.com/find-size-largest-square-sub-matrix-1s-present-given-binary-matrix/)
     - [ ] [Find path from source to destination in a matrix that satisfies given constraints](http://www.techiedelight.com/find-path-source-destination-matrix-satisfies-given-constraints/)
 - Strings
-    - [ ] [KMP](https://www.wikiwand.com/en/articles/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm)
     - [ ] [Check if given string is a rotated palindrome or not](http://www.techiedelight.com/check-given-string-rotated-palindrome-not/)
     - [ ] [Check if repeated subsequence is present in the string or not](http://www.techiedelight.com/check-repeated-subsequence-present-string-not/)
     - [ ] [Check if strings can be derived from each other by circularly rotating them](http://www.techiedelight.com/check-strings-can-derived-circularly-rotating/)
@@ -423,6 +424,7 @@
     - [ ] [Shortest Common Supersequence | Introduction & SCS Length](http://www.techiedelight.com/shortest-common-supersequence-introduction-scs-length/)
     - [ ] [Shortest Common Supersequence | Finding all SCS](http://www.techiedelight.com/shortest-common-supersequence-finding-scs/)
     - [ ] [Shortest Common Supersequence | Using LCS](http://www.techiedelight.com/shortest-common-supersequence-using-lcs/)
+    - [ ] [KMP](https://www.wikiwand.com/en/articles/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm)
 
 - Binary Tree
     - [ ] [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
@@ -489,7 +491,6 @@
     - [ ] [Floor and Ceil in a Binary Search Tree](http://www.techiedelight.com/floor-ceil-bst-iterative-recursive/)
     - [ ] [Find optimal cost to construct binary search tree](http://www.techiedelight.com/find-optimal-cost-to-construct-binary-search-tree/)
 
-
 - Trie
     - [ ] [Trie Implementation | Insert, Search and Delete](http://www.techiedelight.com/trie-implementation-insert-search-delete/)
     - [ ] [Memory efficient Trie Implementation using Map | Insert, Search and Delete](http://www.techiedelight.com/memory-efficient-trie-implementation-using-map-insert-search-delete/)
@@ -498,7 +499,6 @@
     - [ ] [Find maximum occurring word in given set of strings](http://www.techiedelight.com/find-maximum-occurring-word-given-set-strings/)
     - [ ] [Find first k maximum occurring words in given set of strings](http://www.techiedelight.com/find-first-k-maximum-occurring-words-given-set-strings/)
     - [ ] [Find Duplicate rows in a binary matrix](http://www.techiedelight.com/find-duplicate-rows-binary-matrix/)
-
 
 - Heaps
     - [ ] [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
