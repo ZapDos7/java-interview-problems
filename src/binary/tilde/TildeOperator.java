@@ -1,8 +1,8 @@
-package javaSpecific.guessTheOutput;
+package binary.tilde;
 
 //  -x = ~x + 1;
 // -~x = x + 1 (by replacing x by ~x)
-public class TildeMathematics {
+public class TildeOperator {
     public static void main(String[] args) {
         System.out.println(~-9);     // 8
         System.out.println(~-100);   // 99
