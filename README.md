@@ -109,11 +109,10 @@
 - [x] [Find largest sub-list formed by consecutive integers](http://www.techiedelight.com/find-largest-sub-array-formed-by-consecutive-integers/)
 
 ### Linked Lists
-
-<!-- Singly, doubly, circular linked list problems -->
-
+#### Singly Linked Lists
 - [x] Find the middle element of a linked list
-
+#### Doubly Linked Lists
+#### Circular Linked Lists
 ### Stack (LIFO)
 
 - [x] Implement a stack using two queues
@@ -131,12 +130,8 @@
 ### Matrix
 
 ### Trees
-
-<!-- Binary trees, BSTs, traversals, etc. -->
-
+- [ ] [Same Tree](https://leetcode.com/problems/same-tree/)
 ### Heaps
-
-<!-- Min-heap, max-heap, priority queue problems -->
 
 ## Multithreading
 
@@ -429,7 +424,6 @@
     - [ ] [Shortest Common Supersequence | Finding all SCS](http://www.techiedelight.com/shortest-common-supersequence-finding-scs/)
     - [ ] [Shortest Common Supersequence | Using LCS](http://www.techiedelight.com/shortest-common-supersequence-using-lcs/)
 - Tree
-    - [ ] [Same Tree](https://leetcode.com/problems/same-tree/)
     - [ ] [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)
 
 - Binary Tree

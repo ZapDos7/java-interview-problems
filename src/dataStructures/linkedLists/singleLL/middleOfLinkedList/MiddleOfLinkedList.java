@@ -1,4 +1,4 @@
-package dataStructures.linkedLists.middleOfLinkedList;
+package dataStructures.linkedLists.singleLL.middleOfLinkedList;
 
 import java.util.ArrayList;
 import java.util.List;
