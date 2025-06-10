@@ -54,7 +54,7 @@
 - [x] [Binary to Decimal Converter](https://tausiq.wordpress.com/2009/07/27/uab-2005-problem-3-binary-to-decimal-converter/)
 - [x] [Reverse bits](https://leetcode.com/problems/reverse-bits/)
 - [x] [Bit Hacks — Part 1 (Basic)](http://www.techiedelight.com/bit-hacks-part-1-basic/)
-
+- [x] [Bit Hacks — Part 2 (Playing with k’th bit)](http://www.techiedelight.com/bit-hacks-part-2-playing-kth-bit/)
 
 ## Algorithms
 
@@ -172,7 +172,6 @@
 ## To Do
 
 - Bits Manipulation
-    - [ ] [Bit Hacks — Part 2 (Playing with k’th bit)](http://www.techiedelight.com/bit-hacks-part-2-playing-kth-bit/)
     - [ ] [Bit Hacks — Part 3 (Playing with rightmost set bit of a number)](http://www.techiedelight.com/bit-hacks-part-3-playing-rightmost-set-bit-number/)
     - [ ] [Bit Hacks — Part 4 (Playing with letters of English alphabet)](http://www.techiedelight.com/bit-hacks-part-4-playing-letters-english-alphabet/)
     - [ ] [Bit Hacks — Part 5 (Find absolute value of an integer without branching)](http://www.techiedelight.com/bit-hacks-part-5-find-absolute-value-integer-without-branching/)
