@@ -116,6 +116,12 @@
 - [x] [Write an interface with `default` & `static` method](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#38-how-do-you-write-an-interface-with-default-and-static-method)
 - [x] [Illustrate lambda functions](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#40-show-an-example-of-using-lambda-expressions-in-java)
 - [x] [Illustrate overriding & overloading](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#41-show-examples-of-overloading-and-overriding-in-java)
+### Collections
+- [x] Occurrences of a word in a string
+- [x] Reverse order of a list
+- [x] Calculate average in list
+- [x] Words with 5 or fewer characters
+- [x] Indices of sum
 
 
 ## To Do
@@ -205,3 +211,4 @@
 2. [Digital Ocean's Interview Questions](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions)
 3. [Indeed's Java Interview Problems](https://www.indeed.com/career-advice/interviewing/java-coding-interview-questions)
 3. [Coding Interviews for Dummies](https://www.freecodecamp.org/news/coding-interviews-for-dummies-5e048933b82b/)
+4. [LinkedIn's *Java Practice Collections* course](https://www.linkedin.com/learning/java-practice-collections/)
