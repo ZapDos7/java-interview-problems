@@ -134,6 +134,8 @@
 ### Graphs
 - [x] [Terminology and Representations of Graphs](http://www.techiedelight.com/terminology-and-representations-of-graphs/)
 - [x] Given a list of edges and tasked to build your own graph from the edges
+- [x] Implement Dijkstra’s algorithm (implemented Weighted Graph to showcase this)
+
 ### Matrix
 
 ### Trees
@@ -268,7 +270,6 @@
 
 
 - Graphs
-    - [ ] Implement Dijkstra’s algorithm
     - [ ] Implement Topological sort
     - [ ] Implement Bellman-Ford algorithm
     - [ ] Implement Floyd-Warshall algorithm
