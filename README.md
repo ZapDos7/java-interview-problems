@@ -96,6 +96,7 @@
 - [x] [Find the second-largest number in an array](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#19-how-do-you-find-the-second-largest-number-in-an-array-in-java)
 - [x] [Compare two arrays' elements](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#17-write-java-program-that-checks-if-two-arrays-contain-the-same-elements)
 - [x] [Find a pair with the given sum in an array](https://www.techiedelight.com/find-pair-with-given-sum-array/)
+- [x] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
 
 ### Lists
 
@@ -126,11 +127,7 @@
 
 ### Graphs
 
-<!-- BFS, DFS, topological sort, shortest path, etc. -->
-
 ### Matrix
-
-<!-- 2D array problems -->
 
 ### Trees
 
@@ -174,7 +171,6 @@
 
 ## To Do
 
-- [ ] Remove duplicates below 😅
 - Bits Manipulation
     - [ ] [Bit Hacks — Part 1 (Basic)](http://www.techiedelight.com/bit-hacks-part-1-basic/)
     - [ ] [Bit Hacks — Part 2 (Playing with k’th bit)](http://www.techiedelight.com/bit-hacks-part-2-playing-kth-bit/)
@@ -197,7 +193,6 @@
 - Arrays
     - [ ] [Two Sum](https://leetcode.com/problems/two-sum/)
     - [ ] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
-    - [ ] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
     - [ ] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
     - [ ] [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
     - [ ] [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/maximum-product-subarray/)
@@ -238,8 +233,6 @@
     - [ ] [Find minimum platforms needed in the station so to avoid any delay in arrival of any train](http://www.techiedelight.com/minimum-number-of-platforms-needed-avoid-delay-arrival-train)
     - [ ] [Length of longest continuous sequence with same sum in given binary arrays](http://www.techiedelight.com/length-longest-continuous-sequence-same-sum-binary-arrays/)
     - [ ] [Merging Overlapping Intervals](http://www.techiedelight.com/merging-overlapping-intervals)
-    - [ ] [Check if given array represents min heap or not](http://www.techiedelight.com/check-given-array-represents-min-heap-not/)
-    - [ ] [Convert Max Heap to Min Heap in linear time](http://www.techiedelight.com/convert-max-heap-min-heap-linear-time/)
     - [ ] [Find K’th largest element in an array](http://www.techiedelight.com/find-kth-largest-element-array/)
     - [ ] [Sort a K-Sorted Array](http://www.techiedelight.com/sort-k-sorted-array/)
     - [ ] [Find K’th smallest element in an array](http://www.techiedelight.com/find-kth-smallest-element-array/)
@@ -278,8 +271,6 @@
 
 - Graphs
     - [ ] Given a list of edges and tasked to build your own graph from the edges
-    - [ ] Implement BFS
-    - [ ] Implement DFS
     - [ ] Implement Dijkstra’s algorithm
     - [ ] Implement Topological sort
     - [ ] Implement Bellman-Ford algorithm
@@ -297,8 +288,6 @@
     - [ ] [Terminology and Representations of Graphs](http://www.techiedelight.com/terminology-and-representations-of-graphs/)
     - [ ] [Graph Implementation using STL](http://www.techiedelight.com/graph-implementation-using-stl/)
     - [ ] [Graph Implementation in C++ without using STL](http://www.techiedelight.com/graph-implementation-c-without-using-stl/)
-    - [ ] [Breadth First Search (BFS) | Iterative & Recursive Implementation](http://www.techiedelight.com/breadth-first-search/)
-    - [ ] [Depth First Search (DFS) | Iterative & Recursive Implementation](http://www.techiedelight.com/depth-first-search/)
     - [ ] [Arrival and Departure Time of Vertices in DFS](http://www.techiedelight.com/arrival-departure-time-vertices-dfs/)
     - [ ] [Types of edges involved in DFS and relation between them](http://www.techiedelight.com/types-edges-involved-dfs-relation/)
     - [ ] [Bipartite Graph](http://www.techiedelight.com/bipartite-graph/)
@@ -312,7 +301,6 @@
     - [ ] [2-Vertex Connectivity in the graph](http://www.techiedelight.com/2-vertex-connectivity-graph/)
     - [ ] [Check if given digraph is a DAG (Directed Acyclic Graph) or not](http://www.techiedelight.com/check-given-digraph-dag-directed-acyclic-graph-not/)
     - [ ] [Disjoint-Set Data Structure (Union-Find Algorithm)](http://www.techiedelight.com/disjoint-set-data-structure-union-find-algorithm/)
-    - [ ] [Chess Knight Problem — Find Shortest path from source to destination](http://www.techiedelight.com/chess-knight-problem-find-shortest-path-source-destination/)
     - [ ] [Check if given Graph is Strongly Connected or not](http://www.techiedelight.com/check-given-graph-strongly-connected-not/)
     - [ ] [Check if given Graph is Strongly Connected or not using one DFS Traversal](http://www.techiedelight.com/check-graph-strongly-connected-one-dfs-traversal/)
     - [ ] [Union-Find Algorithm for Cycle Detection in undirected graph](http://www.techiedelight.com/union-find-algorithm-cycle-detection-graph/)
@@ -407,7 +395,6 @@
     - [ ] [Find all possible combinations by replacing given digits with characters of the corresponding list](http://www.techiedelight.com/possible-combinations-replacing-given-digits-corresponding-list/)
     - [ ] [Find all words from given list that follows same order of characters as given pattern](http://www.techiedelight.com/find-words-that-follows-given-pattern/)
     - [ ] [Find first k non-repeating characters in a string in single traversal](http://www.techiedelight.com/first-k-non-repeating-characters-string/)
-    - [ ] [Group anagrams together from given list of words](http://www.techiedelight.com/group-anagrams-together-given-list-words/)
     - [ ] [Introduction to Pattern Matching](http://www.techiedelight.com/introduction-pattern-matching/)
     - [ ] [Inplace remove all occurrences of ‘AB’ and ‘C’ from the string](http://www.techiedelight.com/inplace-remove-all-occurrences-ab-c-string/)
     - [ ] [Longest even length palidromic sum substring](http://www.techiedelight.com/longest-even-length-palidromic-sum-substring/)
@@ -443,13 +430,13 @@
     - [ ] [Shortest Common Supersequence | Finding all SCS](http://www.techiedelight.com/shortest-common-supersequence-finding-scs/)
     - [ ] [Shortest Common Supersequence | Using LCS](http://www.techiedelight.com/shortest-common-supersequence-using-lcs/)
 - Tree
-    - [ ] [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
     - [ ] [Same Tree](https://leetcode.com/problems/same-tree/)
-    - [ ] [Invert or Flip Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
     - [ ] [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)
 
 - Binary Tree
     - [ ] [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
+    - [ ] [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
+    - [ ] [Invert or Flip Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
     - [ ] [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
     - [ ] [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
     - [ ] [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
@@ -536,9 +523,6 @@
     - [ ] [Find K’th smallest element in an array](http://www.techiedelight.com/find-kth-smallest-element-array/)
     - [ ] [Find smallest range with at-least one element from each of the given lists](http://www.techiedelight.com/find-smallest-range-least-one-element-given-lists/)
     - [ ] [External merge sort](http://www.techiedelight.com/external-merge-sort/)
-    - [ ] [Find first k maximum occurring words in given set of strings](http://www.techiedelight.com/find-first-k-maximum-occurring-words-given-set-strings/)
-    - [ ] [Find first k non-repeating characters in a string in single traversal](http://www.techiedelight.com/first-k-non-repeating-characters-string/)
-
 
 - Queue
     - [ ] [Chess Knight Problem — Find Shortest path from source to destination](http://www.techiedelight.com/chess-knight-problem-find-shortest-path-source-destination/)
@@ -547,7 +531,6 @@
     - [ ] [Print all Possible Knight’s Tours in a chessboard](http://www.techiedelight.com/print-possible-knights-tours-chessboard/)
     - [ ] [Find Shortest Path in Maze](http://www.techiedelight.com/find-shortest-path-in-maze/)
     - [ ] [Find Longest Possible Route in a Matrix](http://www.techiedelight.com/find-longest-possible-route-matrix/)
-    - [ ] [Chess Knight Problem — Find Shortest path from source to destination](http://www.techiedelight.com/chess-knight-problem-find-shortest-path-source-destination/)
     - [ ] [Lee algorithm | Shortest path in a Maze](http://www.techiedelight.com/lee-algorithm-shortest-path-in-a-maze/)
     - [ ] [Find shortest safe route in a field with sensors present](http://www.techiedelight.com/find-shortest-safe-route-field-sensors-present/)
     - [ ] [Flood fill Algorithm](http://www.techiedelight.com/flood-fill-algorithm/)
@@ -597,7 +580,6 @@
         - [ ] [External merge sort](http://www.techiedelight.com/external-merge-sort/)
         - [ ] [Custom Sort | Sort elements by their frequency and Index](http://www.techiedelight.com/sort-elements-by-their-frequency-and-index/)
         - [ ] [Custom Sort | Sort elements of the array by order of elements defined by the second array](http://www.techiedelight.com/custom-sort-sort-elements-array-order-elements-defined-second-array/)
-        - [ ] [Inversion Count of an array](http://www.techiedelight.com/inversion-count-array/)
         - [ ] [Segregate positive and negative integers in linear time](http://www.techiedelight.com/positive-and-negative-integers-segregate/)
         - [ ] [Sort binary array in linear time](http://www.techiedelight.com/sort-binary-array-linear-time/)
         - [ ] [Group anagrams together from given list of words](http://www.techiedelight.com/group-anagrams-together-given-list-words/)
@@ -628,7 +610,6 @@
         - [ ] [Find Minimum and Maximum element in an array using minimum comparisons](http://www.techiedelight.com/find-minimum-maximum-element-array-using-minimum-comparisons/)
         - [ ] [Efficiently implement power function | Recursive and Iterative](http://www.techiedelight.com/power-function-implementation-recursive-iterative/)
         - [ ] [Merge Sort](http://www.techiedelight.com/merge-sort/)
-        - [ ] [Inversion Count of an array](http://www.techiedelight.com/inversion-count-array/)
         - [ ] [Quicksort](http://www.techiedelight.com/quicksort/)
         - [ ] [Iterative Implementation of Quicksort](http://www.techiedelight.com/iterative-implementation-of-quicksort/)
 
