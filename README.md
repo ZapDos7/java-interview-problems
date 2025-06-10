@@ -131,6 +131,7 @@
 
 ### Trees
 - [ ] [Same Tree](https://leetcode.com/problems/same-tree/)
+- [x] [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)
 ### Heaps
 
 ## Multithreading
@@ -423,8 +424,6 @@
     - [ ] [Shortest Common Supersequence | Introduction & SCS Length](http://www.techiedelight.com/shortest-common-supersequence-introduction-scs-length/)
     - [ ] [Shortest Common Supersequence | Finding all SCS](http://www.techiedelight.com/shortest-common-supersequence-finding-scs/)
     - [ ] [Shortest Common Supersequence | Using LCS](http://www.techiedelight.com/shortest-common-supersequence-using-lcs/)
-- Tree
-    - [ ] [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)
 
 - Binary Tree
     - [ ] [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
