@@ -1,5 +1,6 @@
 package binary;
 
+/* Also check: https://www.techiedelight.com/bit-hacks-part-2-playing-kth-bit/ */
 public class BitManipulation {
     public static void main(String[] args) {
         int num = 42; // 0b101010

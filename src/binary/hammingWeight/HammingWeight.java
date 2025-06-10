@@ -20,6 +20,15 @@ public class HammingWeight {
         return res;
     }
 
+    // Parity
+    public static int findParity(int n) {
+        return getHammingWeight(n) % 2;
+    }
+
+    public static boolean isParityEven(int n) {
+        return findParity(n) / 2 == 0;
+    }
+
     // String logic
     static int getHammingWeight(int input) {
         var toBinary = Integer.toBinaryString(input);
