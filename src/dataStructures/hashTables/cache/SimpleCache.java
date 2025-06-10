@@ -1,4 +1,4 @@
-package dataStructures.hashmap.cache;
+package dataStructures.hashTables.cache;
 
 import java.util.HashMap;
 

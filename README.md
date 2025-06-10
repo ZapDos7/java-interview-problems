@@ -173,7 +173,6 @@
     - [ ] [Word Search](https://leetcode.com/problems/word-search/)
 - Strings
     - [ ] [KMP](https://www.wikiwand.com/en/articles/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm)
-
 - Tree
     - [ ] [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
     - [ ] [Same Tree](https://leetcode.com/problems/same-tree/)
