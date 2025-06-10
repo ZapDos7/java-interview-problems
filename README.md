@@ -38,6 +38,7 @@
 - [x] [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 - [x] [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
 - [x] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses)
+- [x] [Check if given set of moves is circular or not](http://www.techiedelight.com/check-given-set-moves-circular-not/)
 
 ### Dates
 
@@ -313,7 +314,6 @@
     - [ ] [Greedy coloring of graph](http://www.techiedelight.com/greedy-coloring-graph/)
 
 - LinkedLists
-    - [ ] [Reverse a LL](https://leetcode.com/problems/reverse-linked-list/)
     - [ ] [Detect Cycle](https://leetcode.com/problems/linked-list-cycle/)
     - [ ] [Merge 2 Sorted](https://leetcode.com/problems/merge-two-sorted-lists/)
     - [ ] [Merge k Sorted](https://leetcode.com/problems/merge-k-sorted-lists/)
@@ -384,7 +384,6 @@
     - [ ] [Find path from source to destination in a matrix that satisfies given constraints](http://www.techiedelight.com/find-path-source-destination-matrix-satisfies-given-constraints/)
 - Strings
     - [ ] [KMP](https://www.wikiwand.com/en/articles/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm)
-    - [ ] [Check if given set of moves is circular or not](http://www.techiedelight.com/check-given-set-moves-circular-not/)
     - [ ] [Check if given string is a rotated palindrome or not](http://www.techiedelight.com/check-given-string-rotated-palindrome-not/)
     - [ ] [Check if repeated subsequence is present in the string or not](http://www.techiedelight.com/check-repeated-subsequence-present-string-not/)
     - [ ] [Check if strings can be derived from each other by circularly rotating them](http://www.techiedelight.com/check-strings-can-derived-circularly-rotating/)
