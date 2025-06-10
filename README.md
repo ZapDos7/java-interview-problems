@@ -126,7 +126,7 @@
 - [x] [Sort HashMap by value](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#24-write-a-java-program-that-sorts-hashmap-by-value)
 
 ### Graphs
-
+- [x] Given a list of edges and tasked to build your own graph from the edges
 ### Matrix
 
 ### Trees
@@ -267,7 +267,6 @@
 
 
 - Graphs
-    - [ ] Given a list of edges and tasked to build your own graph from the edges
     - [ ] Implement Dijkstra’s algorithm
     - [ ] Implement Topological sort
     - [ ] Implement Bellman-Ford algorithm
