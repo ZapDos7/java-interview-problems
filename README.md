@@ -1,5 +1,11 @@
 # Small Problems & their Solution in Java
 
+## Instructions
+
+1. Checkout code, `cd` in desired folder
+2. Execute `javac FileName.java` followed by `java FileName`
+3. Provide with input where needed & observe the result
+
 ## Basic
 - [x] FizzBuzz
 - [x] [Training Times](https://tausiq.wordpress.com/2009/11/03/training-times/)
@@ -73,6 +79,7 @@
 - [x] [Shuffle an array](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#20-how-do-you-shuffle-an-array-in-java)
 - [x] [Find the second-largest number in an array](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#19-how-do-you-find-the-second-largest-number-in-an-array-in-java)
 - [x] [Compare two arrays' elements](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#17-write-java-program-that-checks-if-two-arrays-contain-the-same-elements)
+- [x] [Find a pair with the given sum in an array](https://www.techiedelight.com/find-pair-with-given-sum-array/)
 ### Lists
 - [x] [Check for odd numbers in a list](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#6-how-do-you-check-if-a-list-of-integers-contains-only-odd-numbers-in-java)
 - [x] [Merge two lists](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#23-how-do-you-merge-two-lists-in-java)
@@ -212,3 +219,4 @@
 3. [Indeed's Java Interview Problems](https://www.indeed.com/career-advice/interviewing/java-coding-interview-questions)
 3. [Coding Interviews for Dummies](https://www.freecodecamp.org/news/coding-interviews-for-dummies-5e048933b82b/)
 4. [LinkedIn's *Java Practice Collections* course](https://www.linkedin.com/learning/java-practice-collections/)
+5. [500 Data Structures and Algorithms Practice Problems](https://kingrayhan.medium.com/500-data-structures-and-algorithms-practice-problems-and-their-solutions-b45a83d803f0)
