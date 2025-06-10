@@ -85,6 +85,7 @@
 - [x] [Merge two lists](https://www.digitalocean.com/community/tutorials/java-programming-interview-questions#23-how-do-you-merge-two-lists-in-java)
 - [x] [Find sublists with zero sums](http://www.techiedelight.com/find-sub-array-with-0-sum/)
 - [x] [Sort binary list in linear time](https://www.techiedelight.com/sort-binary-array-linear-time/)
+- [x] [Find a duplicate element in a limited range array](http://www.techiedelight.com/find-duplicate-element-limited-range-array/)
 
 ### Linked Lists
 <!-- Singly, doubly, circular linked list problems -->
