@@ -86,6 +86,7 @@
 - [x] [Find sublists with zero sums](http://www.techiedelight.com/find-sub-array-with-0-sum/)
 - [x] [Sort binary list in linear time](https://www.techiedelight.com/sort-binary-array-linear-time/)
 - [x] [Find a duplicate element in a limited range array](http://www.techiedelight.com/find-duplicate-element-limited-range-array/)
+- [x] [Find largest sub-list formed by consecutive integers](http://www.techiedelight.com/find-largest-sub-array-formed-by-consecutive-integers/)
 
 ### Linked Lists
 <!-- Singly, doubly, circular linked list problems -->
