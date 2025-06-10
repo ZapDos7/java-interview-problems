@@ -134,6 +134,8 @@
 ### Graphs
 - [x] [Terminology and Representations of Graphs](http://www.techiedelight.com/terminology-and-representations-of-graphs/)
 - [x] Given a list of edges and tasked to build your own graph from the edges
+- [x] Implement Dijkstra’s algorithm (implemented Weighted Graph to showcase this)
+- [x] [Clone graph](https://leetcode.com/problems/clone-graph/)
 ### Matrix
 
 ### Trees
@@ -268,13 +270,11 @@
 
 
 - Graphs
-    - [ ] Implement Dijkstra’s algorithm
     - [ ] Implement Topological sort
     - [ ] Implement Bellman-Ford algorithm
     - [ ] Implement Floyd-Warshall algorithm
     - [ ] Implement Prim’s algorithm
     - [ ] Implement Kruskal’s algorithm
-    - [ ] [Clone graph](https://leetcode.com/problems/clone-graph/)
     - [ ] [Course Schedule](https://leetcode.com/problems/course-schedule/)
     - [ ] [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/)
     - [ ] [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)
