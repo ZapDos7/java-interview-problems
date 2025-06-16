@@ -1,0 +1,25 @@
+name: Sync Markdown to Gist
+
+on:
+  push:
+    paths:
+      - 'notes/questions.md'
+jobs:
+  update-gist:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Update Gist content
+        env:
+          GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
+        run: |
+          FILE_CONTENT=$(cat yourfile.md | jq -Rs .)
+          GIST_ID=076468498c7f080b3a6d0c1f8c618b19
+          
+          curl -X PATCH \
+            -H "Authorization: token $GIST_TOKEN" \
+            -d "{\"files\": {\"notes/questions.md\": {\"content\": $FILE_CONTENT}}}" \
+            https://api.github.com/gists/$GIST_ID
