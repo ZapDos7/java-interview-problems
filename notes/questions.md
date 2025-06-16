@@ -764,17 +764,66 @@ int             Integer
 ## Databases
 
 1. What are the different types of SQL statements?
-> a
+> 1. DDL (Data Definition Language)
+>   * Define or modify database structure
+>   * Examples: `CREATE`, `ALTER`, `DROP`, `TRUNCATE`
+> 2. DML (Data Manipulation Language)
+>   * Manage data within tables
+>   * Examples: `INSERT`, `UPDATE`, `DELETE`, `MERGE`
+> 3. DQL (Data Query Language)
+>   * Retrieve data from the database
+>   * Example: `SELECT`
+> 4. DCL (Data Control Language)
+>   * Control access and permissions
+>   * Examples: `GRANT`, `REVOKE`
+> 5. TCL (Transaction Control Language)
+>   * Manage transactions
+>   * Examples: `COMMIT`, `ROLLBACK`, `SAVEPOINT`
+
 2. When would you use a JOIN, and what types of joins are there?
-> a
+> Use a JOIN in SQL when you want to combine rows from two or more tables based on a related column between them, usually to fetch related data in a single query.
+>
+> 1. `INNER JOIN` :Returns only matching rows between tables.
+> 2. `LEFT (OUTER) JOIN`: Returns all rows from the left table + matching rows from the right table (or NULL if no match).
+> 3. `RIGHT (OUTER) JOIN`: Returns all rows from the right table + matching rows from the left table (or NULL if no match).
+> 4. `FULL (OUTER) JOIN` : Returns all rows when there is a match in either left or right table.
+> 5. `CROSS JOIN`: Returns the Cartesian product of both tables (all combinations).
+> 6. `SELF JOIN`: Joins a table to itself to compare rows within the same table.
+
 3. What’s the difference between WHERE and HAVING?
-> a
+
+| Clause   | Filters On      | Used With Aggregates?  | Runs Before/After Grouping |
+| -------- | --------------- |------------------------| -------------------------- |
+| `WHERE`  | Individual rows | No                     | Before                   |
+| `HAVING` | Grouped results | Yes                    | After                    |
+
+
 4. What is SQL injection, and how can you prevent it in Java?
-> a
+> SQL Injection is a security vulnerability where an attacker injects malicious SQL code into a query, often through user input, to manipulate the database.
+> 
+> How to Prevent It in Java:
+> 1. Use Prepared Statements (Recommended)
+> 2. Use ORM frameworks (e.g., Hibernate, JPA): They manage queries safely under the hood.
+> 3. Validate and sanitize input (Especially for custom SQL or raw queries.)
+> 4. Least privilege principle: Limit DB access rights for the application user.
+> 5. Avoid dynamic SQL unless absolutely necessary.
+
 5. Is Hibernate safe from SQL injection? Why or why not?
-> a
+> Yes, Hibernate is generally safe from SQL injection, if used correctly because:
+> 1. Uses parameterized queries internally: HQL/JPQL and Criteria API bind parameters securely. Also Prevents malicious input from being treated as code.
+> 2. Prevents SQL injection by design: Query inputs are treated as data, not executable SQL.
+> It is not safe if:
+> * We Concatenate user input directly into HQL or native SQL: `Query q = session.createQuery("FROM User WHERE name = '" + userInput + "'");`
+> * Use native SQL queries without parameter binding: `Query q = session.createSQLQuery("SELECT * FROM users WHERE id = " + id);`
+
 6. What is a database transaction?
-> a
+> A database transaction is a sequence of one or more SQL operations treated as a single logical unit of work.
+> 
+> * Atomicity – All operations succeed or none do.
+> * Consistency – Maintains database integrity before and after the transaction.
+> * Isolation – Concurrent transactions don’t interfere with each other.
+> * Durability – Once committed, changes are permanent—even after a crash.
+
 7. What are the pros and cons of using Hibernate vs. plain JDBC or SQL?
 > Pros:
 > 1. Reduces boilerplate
@@ -787,11 +836,42 @@ int             Integer
 > 2. Learning curve
 > 3. Hard to debug generated SQL
 8. When would you choose native SQL over Hibernate?
-> For performance-critical queries, custom joins, analytics, or vendor-specific features.
+> 1. Complex Queries: Advanced joins, subqueries, database-specific functions that are hard or impossible in HQL/JPQL.
+> 2. Performance Optimization: Native SQL may run faster for heavily optimized or fine-tuned queries.
+> 3. Legacy Systems: When integrating with existing SQL or stored procedures.
+> 4. Bulk Operations: For large batch updates/inserts where Hibernate’s entity management overhead is costly.
+> 5. Database-Specific Features: Using vendor-specific SQL (e.g., `LIMIT`, `TOP`, `WITH` clauses).
+> 6. Read-Only Reporting: For reporting tools or analytics where you don’t need entity management.
+
+
 9. What are lazy vs. eager loading in Hibernate, and why do they matter?
-> Lazy loading defers query execution until needed. Misuse can cause LazyInitializationException.
+> These terms refer to how and when Hibernate fetches related entities from the database.
+> 1. Lazy Loading (default)
+>    * Loads related entities only when accessed.
+>    * Improves performance by avoiding unnecessary queries.
+>    * Requires an active Hibernate session when accessed.
+> 2. Eager Loading
+>    * Loads related entities immediately with the main entity.
+>    * May lead to performance issues if too much data is fetched.
+>    * Good when you always need the related data.
+
+| Feature     | Lazy Loading                  | Eager Loading              |
+| ----------- | ----------------------------- | -------------------------- |
+| Performance | More efficient                | Can cause over-fetching    |
+| Queries     | On-demand                     | Immediate (joins)          |
+| Risk        | `LazyInitializationException` | N+1 query problem          |
+| Use Case    | Optional/rarely-used data     | Always-needed associations |
+
+
 10. What’s the N+1 query problem, and how do you avoid it in Hibernate?
-> Happens when fetching related entities in a loop. Fix with JOIN FETCH, batch fetching, or DTO projections.
+> When we fetch a list of parent entities (1 query), and then for each parent, Hibernate fires a separate query to load its children (N queries).<br>
+> ==> Total: 1 + N queries, which hurts performance badly.
+>
+> How to Avoid It
+> 1. Use JOIN FETCH in HQL/JPQL:
+> 2. Batch Fetching: Configure Hibernate to fetch collections in batches:
+> 3. Entity Graphs (JPA 2.1+): Define which associations to fetch eagerly at runtime.
+> 4. FetchMode.JOIN (in Criteria API): Use Criteria with explicit joins.
 
 ## Design Principles
 1. What’s the difference between cohesion and coupling? Why is low coupling and high cohesion desirable?
@@ -836,69 +916,69 @@ int             Integer
 > Strategy Pattern
 > * for interchangeable business logic
 > * e.g.:  In a payment processing module, where different payment types (e.g., credit card, PayPal, wallet) required different processing logic.
-> * ✔ Helped me avoid `if-else` chains and made it easy to plug in new strategies.
-```java
-public interface PaymentStrategy {
-    void pay(double amount);
-}
-
-public class PayPalPayment implements PaymentStrategy { ... }
-public class CreditCardPayment implements PaymentStrategy { ... }
-
-public class PaymentContext {
-    private PaymentStrategy strategy;
-
-    public PaymentContext(PaymentStrategy strategy) {
-        this.strategy = strategy;
-    }
-
-    public void processPayment(double amount) {
-        strategy.pay(amount);
-    }
-}
-```
-
+> * Helped me avoid `if-else` chains and made it easy to plug in new strategies.
+> ```java
+> public interface PaymentStrategy {
+>     void pay(double amount);
+> }
+>
+> public class PayPalPayment implements PaymentStrategy { ... }
+> public class CreditCardPayment implements PaymentStrategy { ... }
+>
+> public class PaymentContext {
+>     private PaymentStrategy strategy;
+>
+>     public PaymentContext(PaymentStrategy strategy) {
+>         this.strategy = strategy;
+>     }
+>
+>     public void processPayment(double amount) {
+>         strategy.pay(amount);
+>     }
+> }
+> ```
+>
 > Factory Pattern
 > for flexible object creation
 > e.g. To create report exporters (PDF, Excel, CSV) based on user input.
 > This removed the need to instantiate the correct class manually and centralized control.
-```java
-public interface ReportExporter { void export(); }
-
-public class PdfExporter implements ReportExporter { ... }
-public class CsvExporter implements ReportExporter { ... }
-
-public class ExporterFactory {
-    public static ReportExporter getExporter(String type) {
-        return switch(type) {
-            case "PDF" -> new PdfExporter();
-            case "CSV" -> new CsvExporter();
-            default -> throw new IllegalArgumentException("Unknown type");
-        };
-    }
-}
-```
+> ```java
+> public interface ReportExporter { void export(); }
+>
+> public class PdfExporter implements ReportExporter { ... }
+> public class CsvExporter implements ReportExporter { ... }
+>
+> public class ExporterFactory {
+>     public static ReportExporter getExporter(String type) {
+>         return switch(type) {
+>             case "PDF" -> new PdfExporter();
+>             case "CSV" -> new CsvExporter();
+>             default -> throw new IllegalArgumentException("Unknown type");
+>         };
+>     }
+> }
+> ```
 > Observer Pattern
 > * for decoupled event handling
 > * e.g. In a notification system where user actions (like signup or purchase) triggered multiple listeners: send email, log analytics, update dashboard.
 > * Allowed me to add/remove listeners easily without modifying core logic.
-```java
-public interface Observer {
-    void update(String eventData);
-}
-
-public class EmailService implements Observer { ... }
-public class AnalyticsService implements Observer { ... }
-
-public class Subject {
-    private List<Observer> observers = new ArrayList<>();
-    public void addObserver(Observer obs) { observers.add(obs); }
-
-    public void notifyAll(String data) {
-        for (Observer o : observers) o.update(data);
-    }
-}
-```
+> ```java
+> public interface Observer {
+>     void update(String eventData);
+> }
+>
+> public class EmailService implements Observer { ... }
+> public class AnalyticsService implements Observer { ... }
+>
+> public class Subject {
+>     private List<Observer> observers = new ArrayList<>();
+>     public void addObserver(Observer obs) { observers.add(obs); }
+> 
+>     public void notifyAll(String data) {
+>         for (Observer o : observers) o.update(data);
+>     }
+> }
+> ```
 
 
 ## Technical Interviews Tips
