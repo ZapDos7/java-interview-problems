@@ -130,10 +130,10 @@ Common Big O complexities:
 
 
 11. How can we declare a variable? 
- ```Java
-int age = 25;          // 'age' is a variable of type int holding the value 25
-String name = "John";  // 'name' is a variable of type String holding "John"
-```
+> ```Java
+> int age = 25;          // 'age' is a variable of type int holding the value 25
+> String name = "John";  // 'name' is a variable of type String holding "John"
+> ```
 12. What's the use of casting in Java?
  > Casting in Java is used to convert a variable from one data type to another. <br>
 > Why use casting?
@@ -158,18 +158,18 @@ String name = "John";  // 'name' is a variable of type String holding "John"
 
 14. Enumerate the syntaxes that can create a Java `main()` method for application development in Java.
  > The Java main method is the entry point of a standalone Java application. Here are the common valid syntaxes to declare the main method:
-```java
-public static void main(String[] args)
-// public: accessible by JVM
-// static: JVM can call without creating an instance
-// void: does not return anything
-// String[] args: command-line arguments
-
-// Alternatives:
-public static void main(String args[])      	// Array syntax with `[]` after variable name
-public static void main(String... args)	        // Uses varargs (Java 5+)
-public static void main(final String[] args)	// Using `final` modifier on parameter
-```
+> ```java
+> public static void main(String[] args)
+> // public: accessible by JVM
+> // static: JVM can call without creating an instance
+> // void: does not return anything
+> // String[] args: command-line arguments
+>
+> // Alternatives:
+> public static void main(String args[])      	// Array syntax with `[]` after variable name
+> public static void main(String... args)	        // Uses varargs (Java 5+)
+> public static void main(final String[] args)	// Using `final` modifier on parameter
+> ```
 15. What are the different types of Java comments?
  > 1. *Single line comments*: used for short comments, e.g. `// comment`
  > 2. *Multi-line comments (Block comments)*: Useful for longer explanations or temporarily commenting out blocks of code, can span multiple lines, e.g. `/* this is a comment */`
@@ -219,32 +219,32 @@ public static void main(final String[] args)	// Using `final` modifier on parame
 > An `Exception` represents problems or abnormal conditions like division by zero, file not found, or null pointer access.<br>
 > Subclasses of `java.lang.Exception` (checked exceptions) and `java.lang.RuntimeException` (unchecked exceptions). <br><br>
 > To handle:
-```java
-try { // Code that might throw an exception
-    int result = 10 / 0;
-} catch (ArithmeticException e) { // Handle the exception
-    System.out.println("Cannot divide by zero!");
-} finally { // Optional block that always executes
-    System.out.println("Execution completed.");
-}
-```
+ > ```java
+>   try { // Code that might throw an exception
+>     int result = 10 / 0;
+> } catch (ArithmeticException e) { // Handle the exception
+>     System.out.println("Cannot divide by zero!");
+> } finally { // Optional block that always executes
+>     System.out.println("Execution completed.");
+> }
+ > ```
 22. Explain `try-with-resources`:
 
 > It's a special form of the `try` statement introduced in Java 7. <br>
 > Designed to automatically close resources (like files, streams, database connections) when the block finishes — no need for explicit finally blocks.<br>
 > Works with any resource that implements the `java.lang.AutoCloseable` interface (including `Closeable`).<br>
 > Ensures automatic resource management, prevents resource leaks (like forgetting to close a file). & makes code cleaner and easier to maintain.
-```java
-try (BufferedReader br = new BufferedReader(new FileReader("file.txt"))) {
-    String line;
-    while ((line = br.readLine()) != null) {
-        System.out.println(line);
-    }
-} catch (IOException e) {
-    e.printStackTrace();
-}
-// br is automatically closed here, even if an exception occurs
-```
+> ```java
+> try (BufferedReader br = new BufferedReader(new FileReader("file.txt"))) {
+>     String line;
+>     while ((line = br.readLine()) != null) {
+>         System.out.println(line);
+>     }
+> } catch (IOException e) {
+>     e.printStackTrace();
+> }
+> // br is automatically closed here, even if an exception occurs
+> ```
 
 23. What's the difference between a thread and a process?
 > * A process is a self-contained program instance with its own memory.
@@ -431,25 +431,23 @@ int             Integer
 > Represents a task to be executed in a thread.
 > Does not itself create or manage a thread.
 > You pass a Runnable to a Thread object to run it.
-
-```java
-Runnable task = () -> System.out.println("Running...");
-Thread thread = new Thread(task);
-thread.start();
-```
+> ```java
+> Runnable task = () -> System.out.println("Running...");
+> Thread thread = new Thread(task);
+> thread.start();
+> ```
 > **Thread** – Class (Extends Runnable)
 > Represents an actual thread of execution.
 > You can subclass Thread and override its run() method, but this is less flexible.
-
-```java
-class MyThread extends Thread {
-    public void run() {
-        System.out.println("Running...");
-    }
-}
-Thread t = new MyThread();
-t.start();
-```
+> ```java
+> class MyThread extends Thread {
+>     public void run() {
+>         System.out.println("Running...");
+>     }
+> }
+> Thread t = new MyThread();
+> t.start();
+> ```
 
 45. Explain the Java class loading process.
 > The Java class loading process is how the Java Virtual Machine (JVM) loads .class files into memory so they can be used at runtime. It involves 3 main phases:
@@ -501,30 +499,234 @@ t.start();
 | **Synchronization guarantees** | Locks (`synchronized`), `volatile`, and other concurrency utilities establish **happens-before relationships** to ensure consistent views of memory.                               |
 | **Safe publication**           | Objects must be safely published (e.g., through synchronization, final fields, or volatile references) to ensure other threads see fully constructed objects.                      |
 
+48. What does the `final` word do in Java? How can we update the value of a final variable?
+> In Java, the `final` keyword is used to mark a variable, method, or class as unchangeable in specific ways:
+> 
+> A. A `final` variable means its value cannot be changed once it's assigned.
+> * For primitive types (like int, float, char), final makes the value immutable.
+> * For reference types (like objects), final means the reference cannot be changed, but the object's internal state can still be modified.
+> ```java
+> final int x = 10;
+> x = 20; // Compilation error!
+>
+> final List<String> list = new ArrayList<>();
+> list.add("hello"); // OK
+> list = new ArrayList<>(); // Compilation error!
+> ```
+> B. A method marked as `final` cannot be overridden by subclasses.
+> ```java
+> class Parent {
+>     final void display() {
+>         System.out.println("Hello");
+>     }
+> }
+>
+> class Child extends Parent {
+>     // void display() { } // Error: Cannot override final method
+> }
+> ```
+> C. A `final` class cannot be subclassed.
+> ```java
+> final class MyClass { }
+>
+> class YourClass extends MyClass { } // Error!
+> ```
+> You cannot reassign a `final` variable once it has been assigned. However:
+> * For reference types, you can modify the object, just not the reference.
+> * For blank final variables (not initialized at declaration), you can assign once (e.g., in a constructor or static block).
+> ```java
+> class Example {
+ > final int a;
+>
+>  Example(int value) {
+>   this.a = value; // Allowed because it's the first and only assignment
+ > }
+> } 
+> ```
+
+49. How does the `happens-before` relationship work in Java?
+> The `happens-before` relationship in Java is a key concept in the Java Memory Model (JMM) that helps determine visibility and ordering guarantees in multithreaded programs.<br>
+> In simple terms, if one action happens-before another, then the first is guaranteed to be visible to and ordered before the second.<br>
+> It's used to reason about which changes to memory made by one thread are visible to other threads.<br>
+> In multithreaded programming, without synchronization, one thread’s updates to variables may not be visible to another thread, or may appear out of order due to CPU or compiler optimizations. The happens-before rule provides the foundation for safe communication between threads.<br>
+
+50. How does `ExecutorService` work?
+> In Java, `ExecutorService` is part of the `java.util.concurrent` package and provides a higher-level replacement for working directly with threads. It manages a pool of threads, allowing you to submit tasks for execution without manually creating or managing threads.
+
+51. What are `Future` and `Callable`, and how are they different from `Runnable`?
+> 1. `Runnable`
+>    * Introduced in: Java 1.0
+>    * Purpose: Represents a task that can be executed by a thread.
+>    * Return value: Does **not** return a result.
+>    * Throws exceptions: **Cannot** throw checked exceptions.
+>    * Example:
+>    ```java
+>    Runnable task = () -> System.out.println("Running task");
+>    new Thread(task).start();
+>    ```
+> 2. `Callable<V>`
+>    * Introduced in: Java 5 (`with java.util.concurrent`)
+>    * Purpose: Represents a task that returns a result and may throw an exception.
+>    * Return value: Returns a result of type V.
+>    * Throws exceptions: Can throw checked exceptions.
+> ```java
+> Callable<Integer> task = () -> {
+>    Thread.sleep(500);
+>    return 42;
+> };
+> ```
+> 3. `Future<V>`
+>    * Introduced in: Java 5
+>    * Purpose: Represents the result of an asynchronous computation.
+>    * It's returned when a `Callable` or `Runnable` is submitted to an `ExecutorService`.
+>    * Provides methods to:
+>        * Get the result (`get()`)
+>        * Cancel the task (`cancel()`)
+>        * Check if the task is complete (`isDone()`)
+> ```java
+> ExecutorService executor = Executors.newSingleThreadExecutor();
+> Callable<Integer> task = () -> 21 * 2;
+> Future<Integer> future = executor.submit(task);
+>
+> Integer result = future.get(); // blocks until result is ready
+> System.out.println("Result: " + result);
+>
+> executor.shutdown();
+> ```
+> Use Case Difference:
+> * Use `Runnable` when you don’t need to return anything or handle checked exceptions.
+> * Use `Callable` + `Future` when you need to get a result or handle errors after the task finishes.
+
+52. What are `CountDownLatch`, `Semaphore`, and `CyclicBarrier` used for?
+
+| Feature       | `CountDownLatch`           | `Semaphore`               | `CyclicBarrier`                |
+| ------------- | -------------------------- | ------------------------- | ------------------------------ |
+| Main Use      | Wait for N tasks to finish | Limit concurrent access   | Sync threads at common barrier |
+| Reusable?     | ❌ One-time use             | ✅ Yes                     | ✅ Yes                          |
+| Waiting Style | One or more threads wait   | Threads block for permit  | All threads wait at barrier    |
+| Trigger Style | Countdown hits 0           | Permits acquired/released | All parties call `await()`     |
+
+53. What are some best practices when using multithreading in Java?
+> * Use `java.util.concurrent` utilities (`ExecutorService`, `CountDownLatch`, etc.) instead of manually managing threads. 
+> * Prefer `Callable` + `Future` over `Runnable` if you need results or exception handling.
+> * Avoid shared mutable state — prefer immutable objects or thread-safe data structures.
+> * Use synchronization wisely (`synchronized`, `ReentrantLock`) — avoid holding locks longer than necessary. 
+> * Avoid deadlocks — always acquire locks in a consistent global order. 
+> * Use `volatile` for visibility, not for atomicity. 
+> * Favor thread-safe classes like `ConcurrentHashMap`, `CopyOnWriteArrayList`.
+> * Avoid busy waiting — use `wait`/`notify`, `Condition`, or blocking queues. 
+> * Use thread pools instead of creating threads manually (`Executors.newFixedThreadPool()`).
+> * Shut down executors properly using `shutdown()` or `try-with-resources` (Java 19+). 
+> * Minimize thread creation — it's expensive; reuse via pools. 
+> * Catch and log exceptions in worker threads to avoid silent failures. 
+> * Benchmark and profile — use tools to identify bottlenecks and race conditions.
+
+54. When do you use an anonymous inner class?
+> You use an anonymous inner class in Java when you need to create a one-time-use class—typically for quick implementation of an interface or subclass—without formally declaring a separate class.
+> e.g.: Custom behavior for a method call:
+> ```java
+> Collections.sort(list, new Comparator<String>() {
+> public int compare(String a, String b) {
+> return a.length() - b.length();
+> }
+> });
+> ```
+> When to use it:
+> * You need a simple override or implementation (usually just 1–2 methods).
+> * You don’t plan to reuse the class elsewhere.
+> * The logic is local and contextual, making it clearer to read inline.
+
+55. What are the different types of iterators in Java?
+> 1. Iterator
+>   * `java.util.Iterator`
+>   * Used with all Collection types
+>   * Methods:
+>      * `hasNext()`
+>      * `next()`
+>      * `remove()` (optional operation)
+>   * Direction: Forward-only
+>   * Fail-fast: Throws ConcurrentModificationException on structural modification during iteration.
+> 2. ListIterator
+>   * `java.util.ListIterator`
+>   * Used with List types (`ArrayList`, `LinkedList`)
+>   * extends `Iterator`
+>   * Bidirectional iteration (`previous()`, `hasPrevious()`)
+>   * Modify list during iteration (`add()`, `set()`, `remove()`)
+>   * Index access (`nextIndex()`, `previousIndex()`)
+> 3. Enumeration
+>   * `java.util.Enumeration`
+>   * Used with legacy classes like `Vector`, `Hashtable`
+>   * Methods:
+>      * `hasMoreElements()`
+>      * `nextElement()` 
+>   * Direction: Forward-only
+>   * Limitation: Cannot remove elements, considered outdated.
+> 4. Spliterator
+>   * `java.util.Spliterator` (Java 8+)
+>   * Used with: Streams, Collections
+>   * Supports: Parallel iteration
+>   * Key Features:
+>      * `tryAdvance()`
+>      * `trySplit()` for parallelism
+>      * Used internally by the Stream API
+
+56. How do you create an iterator in Java?
+> 1. Iterator interface
+> ```java
+> List<String> list = List.of("A", "B", "C");
+> Iterator<String> it = list.iterator();
+>
+> while (it.hasNext()) {
+> System.out.println(it.next());
+> }
+> ```
+> 2. Custom Iterator
+> `class CounterIterator implements Iterator<Integer> {...`
+> 3. Using an Anonymous Class or Lambda (Java 8+)
+> `Iterable<String> iterable = () -> List.of("X", "Y", "Z").iterator();`
+
+57. What is fail-fast in Java? What is fail-safe?
+> * A fail-fast iterator throws a ConcurrentModificationException if the collection is structurally modified (e.g., add/remove) after the iterator is created, except via the iterator's own methods.
+> * A fail-safe iterator does not throw ConcurrentModificationException because it iterates over a copy of the collection or uses concurrent data structures.
+
+58. What are hash map collisions? Why should you implement `equals()` and `hashCode()` together? 
+> When two different keys produce the same hash code, they end up in the same bucket in the hash table. This is called a collision. The map handles collisions by linking entries or using trees internally.
+>
+> * `hashCode()` determines the bucket for the key.
+> * `equals()` checks if keys are actually equal within that bucket.
+> 
+> If you override one without the other, collections like HashMap won't work correctly — you may get inconsistent lookups, duplicates, or lost entries.
+
+59. What does the `@Transient` annotation do in Java?
+> The `@Transient` annotation in Java is used to mark a field to be ignored by persistence frameworks, meaning the field won't be saved to or loaded from the database.
+
+60. Explain the differences & similarities between `Comparator` & `Comparable` interfaces
+
+| Feature             | Comparable                          | Comparator                     |
+| ------------------- | ----------------------------------- | ------------------------------ |
+| Implemented by      | The class itself                    | Separate class or lambda       |
+| Method              | `compareTo(T o)`                    | `compare(T o1, T o2)`          |
+| Purpose             | Natural ordering                    | Custom or multiple orderings   |
+| Used in sorting     | Default sort (no comparator needed) | Sort with specified comparator |
+| Java 8+ convenience | Can use default & static methods    | Supports lambdas & method refs |
 
 
+61. How can you optimize code to help improve performance in Java applications?
+> * Use efficient algorithms and data structures.
+> * Minimize object creation; reuse objects when possible.
+> * Prefer primitive types over boxed types to avoid autoboxing overhead.
+> * Use StringBuilder for string concatenation in loops.
+> * Avoid unnecessary synchronization; use concurrent collections if needed.
+> * Use thread pools instead of creating new threads frequently.
+> * Cache expensive or frequently used results.
+> * Avoid busy waiting; use blocking or wait/notify mechanisms.
+> * Use lazy initialization where appropriate.
+> * Profile and benchmark to find actual bottlenecks.
+> * Use JVM options and tuning (e.g., garbage collector settings).
+> * Leverage parallel streams or concurrency for CPU-bound tasks.
 
-
-TODO:
-1. How does the `happens-before` relationship work in Java?
-2. How does `ExecutorService` work?
-3. What are `Future` and `Callable`, and how are they different from `Runnable`?
-4. What are `CountDownLatch`, `Semaphore`, and `CyclicBarrier` used for?
-5. What are some best practices when using multithreading in Java?
-6. When do you use an anonymous inner class?
-7. What's the purpose of anonymous inner classes?
-8. What are the different types of iterators in Java?
-9. How do you create an iterator in Java?
-10. How can you optimize code to help improve performance in Java applications?
-11. Which method do you use to control system resources in multithreaded environments in Java programming language?
-12. What does the `final` word do in Java? How can we update the value of a final variable?
-> Final means. Reflection
-13. What is failfast in Java? What is failsafe?
-> Concurrent mod exception, e.g. for-i loop wherein we update the i value so the loop gets wonky
-14. What are hash map collisions? Why should you implement `equals()` and `hashCode()` together? 
-15. 15.Explain the differences & similarities between `Comparator` & `Comparable` interfaces
-16. What does the `@Transient` annotation do in Java?
-
+62. Which method do you use to control system resources in multithreaded environments in Java programming language?
+> To control system resources in multithreaded Java programs, you typically use `Semaphore` from `java.util.concurrent`.
 
 ## Spring Boot
 1. What is the difference between Java EE and Spring?
@@ -541,8 +743,8 @@ TODO:
 > * Instead of your code controlling when and how objects are created, the IoC container manages this lifecycle and wiring.
 > * Dependency Injection is one way to implement IoC.
 3. How is DI handled in Spring vs Java EE?
-> Spring: @Autowired, @Component, @Service
-> Java EE: @Inject, @EJB, @Resource
+> * Spring: @Autowired, @Component, @Service
+> * Java EE: @Inject, @EJB, @Resource
 4. What happens if an exception is thrown inside a `@Transactional` method?
  > By default, Spring rolls back for unchecked exceptions (`RuntimeException`) but not for checked ones unless specified.
 4. Can you nest transactions in Spring? What is propagation?
