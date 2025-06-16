@@ -4,13 +4,13 @@ When answering these questions, it's essential to show your ability to communica
 
 ## General
 1. What is a SAN, and how is it used?
- > SAN stands for a Storage Area Network. This is a high-speed, specialized network that gives block-level network access to storage. SANs are used to improve application availability, enhance performance, increase storage utilization and effectiveness and improve data security and protection.
+> SAN stands for a Storage Area Network. This is a high-speed, specialized network that gives block-level network access to storage. SANs are used to improve application availability, enhance performance, increase storage utilization and effectiveness and improve data security and protection.
 2. When is it appropriate to denormalize database design?
- > Denormalization is a database optimization technique used to improve a database's performance for specific queries. Denormalization may be needed when improvements need to be made to a database for it to meet your application requirements. However, denormalization will have an impact on what your database is able to do, so it's important to make sure it's needed for scalability or performance before choosing to use it as an optimization technique.
+> Denormalization is a database optimization technique used to improve a database's performance for specific queries. Denormalization may be needed when improvements need to be made to a database for it to meet your application requirements. However, denormalization will have an impact on what your database is able to do, so it's important to make sure it's needed for scalability or performance before choosing to use it as an optimization technique.
 3. What is the role of continuous integration systems in the automated-build process?
- > Continuous integration is a developmental process that requires developers to integrate code into a shared repository several times throughout the day. Each time the code is integrated, it's verified by the automated build. This allows for early detection of defects and problems within the codebase.
+> Continuous integration is a developmental process that requires developers to integrate code into a shared repository several times throughout the day. Each time the code is integrated, it's verified by the automated build. This allows for early detection of defects and problems within the codebase.
 4. What is Big O notation
- > Big O notation is a way to describe the performance or complexity of an algorithm - specifically how its runtime or space requirements grow as the input size increases. it's about scaling behavior, not exact time.
+> Big O notation is a way to describe the performance or complexity of an algorithm - specifically how its runtime or space requirements grow as the input size increases. it's about scaling behavior, not exact time.
 
 Common Big O complexities:
 
@@ -45,11 +45,11 @@ Common Big O complexities:
 
 ## Java
 1. Why do people call Java the "platform-independent programming language?"
- > One of the primary purposes for Java code was to create a programming language developers could use across multiple platforms without having to change the source code each time. Platform independence means the execution of your program doesn't depend on the operating system being used. Earlier programming languages, such as C and C++, require developers to compile separate source code for every operating system.
+> One of the primary purposes for Java code was to create a programming language developers could use across multiple platforms without having to change the source code each time. Platform independence means the execution of your program doesn't depend on the operating system being used. Earlier programming languages, such as C and C++, require developers to compile separate source code for every operating system.
 2. What are constructors in Java? Are there copy constructors in Java? What is constructor chaining? What happens when you create a new object in Java?
- > A constructor initializes a newly created object. Java supports copy constructor, but it's a requirement to write your own code to do it. Constructor chaining is calling a constructor from another constructor. However, you cannot call a sub-class constructor using a super-class constructor.
+> A constructor initializes a newly created object. Java supports copy constructor, but it's a requirement to write your own code to do it. Constructor chaining is calling a constructor from another constructor. However, you cannot call a sub-class constructor using a super-class constructor.
 3. What's an abstract class? How are abstract classes similar or different in Java from C++?
- > An abstract class in Java is a class that cannot be instantiated on its own and may contain abstract methods (methods without a body). It’s meant to be extended by subclasses, which provide implementations for the abstract methods. We cannot create an instance of an abstract class.
+> An abstract class in Java is a class that cannot be instantiated on its own and may contain abstract methods (methods without a body). It’s meant to be extended by subclasses, which provide implementations for the abstract methods. We cannot create an instance of an abstract class.
 
 | Feature                        | Java Abstract Class               | C++ Abstract Class (Pure Virtual)       |
 |-------------------------------|---------------------------------|-----------------------------------------|
@@ -101,9 +101,9 @@ Common Big O complexities:
 
 7. Can you overload or override static methods in Java?
 > *Overloading* means having multiple methods with the same name but different parameters (different signature). Static methods can be overloaded just like instance methods. <br>
-> *Overriding*: Static methods belong to the class, not instances, so overriding (which is based on runtime polymorphism) does not apply. If a subclass defines a static method with the same signature, it hides the superclass method, but this is called method hiding, not overriding. 
+> *Overriding*: Static methods belong to the class, not instances, so overriding (which is based on runtime polymorphism) does not apply. If a subclass defines a static method with the same signature, it hides the superclass method, but this is called method hiding, not overriding.
 8. What's the purpose of a Java class?
- > The purpose of a Java class is to serve as a blueprint or template for creating objects. It defines the structure (fields/attributes) and behavior (methods) that the objects created from it will have.
+> The purpose of a Java class is to serve as a blueprint or template for creating objects. It defines the structure (fields/attributes) and behavior (methods) that the objects created from it will have.
 > * Encapsulates data (variables) and functions (methods) into one unit.
 > * Supports object-oriented programming principles like encapsulation, inheritance, and polymorphism.
 > * Enables code reuse and modularity by defining reusable components.
@@ -122,30 +122,30 @@ Common Big O complexities:
 | When to use           | When you want to inherit behavior/state                          | When you want to define a capability or role                                      |
 
 10. What's a variable?
- > A variable in programming (including Java) is a named storage location in memory that holds a value which can change during program execution.
+> A variable in programming (including Java) is a named storage location in memory that holds a value which can change during program execution.
 > * Has a name (identifier) to reference it.
 > * Has a data type that defines what kind of values it can hold (e.g., `int`, `String`).
 > * Can store data temporarily while the program runs.
 > * The value of a variable can be changed (hence “variable”).
 
 
-11. How can we declare a variable? 
+11. How can we declare a variable?
 > ```Java
 > int age = 25;          // 'age' is a variable of type int holding the value 25
 > String name = "John";  // 'name' is a variable of type String holding "John"
 > ```
 12. What's the use of casting in Java?
- > Casting in Java is used to convert a variable from one data type to another. <br>
+> Casting in Java is used to convert a variable from one data type to another. <br>
 > Why use casting?
 >   * To change the type of a value explicitly when needed.
 >   * To treat an object reference as a different type within an inheritance hierarchy.
 >   * To work around type compatibility in situations like method calls, assignments, or arithmetic.
-> 
+>
 > Two casting types
 >   * *Primitive casting*: Convert between primitive types (int, double, etc.), e.g.: `int i = (int) 3.14;`
 >   * *Reference casting*: Convert between related object types (upcasting/downcasting), e.g. `Animal a = (Dog) new Animal();`
 13. List some good practices for creating methods in a Java class.
- > 1. *Clear and Descriptive Names*: Method names should clearly describe what the method does. Use verbs like calculateTotal(), sendEmail(), getUserName().
+> 1. *Clear and Descriptive Names*: Method names should clearly describe what the method does. Use verbs like calculateTotal(), sendEmail(), getUserName().
 > 2. *Single Responsibility*: Each method should perform one clear task or responsibility. Avoid methods that try to do too much.
 > 3. *Keep Methods Short*: Shorter methods are easier to read, understand, and maintain. If a method grows too long, consider splitting it.
 > 4. *Use Proper Access Modifiers*: `private` if they’re internal helpers, `public` only for methods meant to be called from outside the class, `protected` or `package-private` as needed.
@@ -157,7 +157,7 @@ Common Big O complexities:
 > 10. *Consistent Naming Conventions*: Follow Java naming conventions: camelCase for methods, meaningful names.
 
 14. Enumerate the syntaxes that can create a Java `main()` method for application development in Java.
- > The Java main method is the entry point of a standalone Java application. Here are the common valid syntaxes to declare the main method:
+> The Java main method is the entry point of a standalone Java application. Here are the common valid syntaxes to declare the main method:
 > ```java
 > public static void main(String[] args)
 > // public: accessible by JVM
@@ -171,13 +171,13 @@ Common Big O complexities:
 > public static void main(final String[] args)	// Using `final` modifier on parameter
 > ```
 15. What are the different types of Java comments?
- > 1. *Single line comments*: used for short comments, e.g. `// comment`
- > 2. *Multi-line comments (Block comments)*: Useful for longer explanations or temporarily commenting out blocks of code, can span multiple lines, e.g. `/* this is a comment */`
- > 3. *Javadoc comments*: Used to generate API documentation with the javadoc tool. Typically placed before classes, methods, or fields., e.g.: `/** This is a javadoc comment */`
+> 1. *Single line comments*: used for short comments, e.g. `// comment`
+> 2. *Multi-line comments (Block comments)*: Useful for longer explanations or temporarily commenting out blocks of code, can span multiple lines, e.g. `/* this is a comment */`
+> 3. *Javadoc comments*: Used to generate API documentation with the javadoc tool. Typically placed before classes, methods, or fields., e.g.: `/** This is a javadoc comment */`
 16. What's a switch statement in Java?
- > A switch statement in Java is a control flow statement that allows you to execute different blocks of code based on the value of a variable (called the "switch expression"). It’s a cleaner alternative to multiple if-else statements when comparing a variable against many possible values.
+> A switch statement in Java is a control flow statement that allows you to execute different blocks of code based on the value of a variable (called the "switch expression"). It’s a cleaner alternative to multiple if-else statements when comparing a variable against many possible values.
 17. How many types of Java loops are there? Describe the different types of Java looping constructs and how you can use them.
- > 4:
+> 4:
 
 | Loop Type                   | Description                                                                                                      |
 | --------------------------- | ---------------------------------------------------------------------------------------------------------------- |
@@ -188,8 +188,8 @@ Common Big O complexities:
 
 
 18. How do you define a nested class in Java?
- > A nested class in Java is a class defined within another class. Nested classes help logically group classes that are only used in one place and increase encapsulation.
-19. What types of nested classes are there? 
+> A nested class in Java is a class defined within another class. Nested classes help logically group classes that are only used in one place and increase encapsulation.
+19. What types of nested classes are there?
 
 | Type                    | Description                                                                                                    |
 | ----------------------- | -------------------------------------------------------------------------------------------------------------- |
@@ -201,25 +201,25 @@ Common Big O complexities:
 
 
 20. Can you explain the purpose of a constructor in Java class?
- > A constructor is a special method in a class that is called automatically when an object of that class is created. Its main purpose is to initialize the new object.
-> 
+> A constructor is a special method in a class that is called automatically when an object of that class is created. Its main purpose is to initialize the new object.
+>
 > Key points:
- > * Same name as the class
+> * Same name as the class
 > * No return type, not even void
 > * Can be overloaded (multiple constructors with different parameters)
 > * If you don’t define any constructor, Java provides a default no-argument constructor
 > * Used to set initial values for object attributes or perform setup tasks
-> 
+>
 > Why use constructors?
 > * To ensure the object starts its life with a valid state
 > * To simplify object creation with initial parameters
 > * To encapsulate initialization logic in one place
 21. What's an exception and how do you handle them in Java? (Checked & unchecked exceptions)
- > An exception in Java is an event that occurs during the execution of a program that disrupts the normal flow of instructions - typically an error or unexpected condition. <br>
+> An exception in Java is an event that occurs during the execution of a program that disrupts the normal flow of instructions - typically an error or unexpected condition. <br>
 > An `Exception` represents problems or abnormal conditions like division by zero, file not found, or null pointer access.<br>
 > Subclasses of `java.lang.Exception` (checked exceptions) and `java.lang.RuntimeException` (unchecked exceptions). <br><br>
 > To handle:
- > ```java
+> ```java
 >   try { // Code that might throw an exception
 >     int result = 10 / 0;
 > } catch (ArithmeticException e) { // Handle the exception
@@ -261,7 +261,7 @@ Common Big O complexities:
 | **Fault Isolation** | Fault in one process usually does not affect others            | Fault in one thread can affect the entire process                         |
 
 24. What's the difference between `Hashtable`, `TreeMap` and `TreeSet` in Java?
- > * *Hashtable*: Thread-safe hash-based map, no ordering, no null keys/values.
+> * *Hashtable*: Thread-safe hash-based map, no ordering, no null keys/values.
 > * *TreeMap*: Sorted map by keys, not thread-safe, allows one null key.
 > * *TreeSet*: Sorted set of unique elements (keys only), no duplicates, no nulls.
 
@@ -284,9 +284,9 @@ Common Big O complexities:
 
 27. Interfaces vs Abstract classes: similarities
 > Similarities:
-> 1. Both can define abstract methods	
-> 2. Both can be implemented/extended	
-> 3. Both can be used for polymorphism	
+> 1. Both can define abstract methods
+> 2. Both can be implemented/extended
+> 3. Both can be used for polymorphism
 > 4. Both can have static methods (for Interfaces in Java 8+)
 > 5. Both can have default method implementations (for Interfaces in Java 8+)
 > 6. Neither can be instantiated directly
@@ -294,25 +294,25 @@ Common Big O complexities:
 28. Interfaces vs Abstract classes: differences
 > Differences:
 > 1. Inheritance
->    * Interface: Multiple allowed
+     >    * Interface: Multiple allowed
 >    * Abstract: single only
 > 2. Fields
->    * Interface: `public static final` only
+     >    * Interface: `public static final` only
 >    * Abstract: can have instance fields
 > 3. Constructors
->    * Interface: no
+     >    * Interface: no
 >    * Abstract: can define
 > 4. Method types
->    * Interface: Abstract, `default`, `static` (Java 8+)
+     >    * Interface: Abstract, `default`, `static` (Java 8+)
 >    * Abstract: Abstract, concrete
 > 5. Access modifiers
->    * Interface: All methods implicitly `public` (before Java 9)
+     >    * Interface: All methods implicitly `public` (before Java 9)
 >    * Abstract: Can use `private`, `protected`, etc.
 > 6. State
->    * Interface: Cannot hold state (no instance variables)
+     >    * Interface: Cannot hold state (no instance variables)
 >    * Abstract: Can hold instance state
 > 7. Use cases
->    * Interface: Capability or behaviour
+     >    * Interface: Capability or behaviour
 >    * Abstract: Base class for shared code/state
 
 29. When should we use abstract classes and when interfaces?
@@ -321,12 +321,12 @@ Common Big O complexities:
 > * You want multiple unrelated classes to implement a shared API.
 > * You don’t need to store state.
 > * You want to benefit from Java 8+ features like default or static methods for convenience.
-> Abstract class when:
+    > Abstract class when:
 > * You want to define a base class with shared code and state (fields).
 > * You want to provide common constructor logic.
 > * You want to control access (e.g., protected methods).
 > * You are building a class hierarchy where inheritance makes semantic sense.
- 
+
 
 30. Where should we use an `ArrayList` and where should we prefer a `LinkedList`?
 > * `ArrayList`: better for read-heavy logic
@@ -348,7 +348,7 @@ int             Integer
 >
 > The `volatile` keyword is used for variables that are shared between threads.
 > * When a variable is declared `volatile`, it guarantees two things:
->   1. Visibility: When one thread updates the variable, all other threads immediately see the new value.
+    >   1. Visibility: When one thread updates the variable, all other threads immediately see the new value.
 >   2. No caching: Threads will always read the value directly from main memory, not from a cached copy.
 > * When a variable is declared volatile, reads and writes go straight to and from the main memory, not just CPU caches.
 > * This means when one thread updates a volatile variable, other threads immediately see that update.
@@ -407,7 +407,7 @@ int             Integer
 > * *Data Inconsistency*: Happens when reads/writes to shared variables aren’t properly synchronized.
 > * *Difficulty in Debugging and Testing*: since non deterministic behaviour
 > * *Performance Overheads*: Poor thread management can cause:
->    1. Excessive context switching
+    >    1. Excessive context switching
 >    2. High memory usage
 >    3. Decreased overall performance
 
@@ -452,41 +452,41 @@ int             Integer
 45. Explain the Java class loading process.
 > The Java class loading process is how the Java Virtual Machine (JVM) loads .class files into memory so they can be used at runtime. It involves 3 main phases:
 > 1. Loading
->     * The JVM locates the .class file (from disk, JAR, etc.) using a ClassLoader.
+     >     * The JVM locates the .class file (from disk, JAR, etc.) using a ClassLoader.
 >     * Converts bytecode into a Class object.
 >     * Each class is loaded only once per ClassLoader.
 >     * Java uses a hierarchical ClassLoader model:
->       * Bootstrap ClassLoader (loads core Java classes)
+        >       * Bootstrap ClassLoader (loads core Java classes)
 >       * Extension ClassLoader (loads JDK extension libraries)
 >       * Application ClassLoader (loads classes from your app’s classpath)
 > 2. Linking
->     * Links the loaded class into the JVM runtime.
+     >     * Links the loaded class into the JVM runtime.
 >     * 3 substeps:
->       1. *Verification*: Confirms bytecode is valid and safe to run
+        >       1. *Verification*: Confirms bytecode is valid and safe to run
 >       2. *Preparation*: Allocates memory for class variables and sets default values (`0`, `null`)
 >       3. *Resolution*: Replaces symbolic references (e.g., class names) with direct memory references
 > 3. Initialization
->     * JVM executes static initializers and assigns final values to static fields.
+     >     * JVM executes static initializers and assigns final values to static fields.
 >     * Happens only once per class when it’s first used (e.g., method call or instantiation).
 
 46. What are memory areas in the JVM?
 > The JVM divides memory into several logical areas to manage code, data, and execution efficiently.
 > 1. Method Area (or Metaspace in Java 8+):
->   * Stores class metadata, static variables, and constants.
+     >   * Stores class metadata, static variables, and constants.
 >   * Shared among all threads.
 > 2. Heap
->   * Stores objects and instance variables.
+     >   * Stores objects and instance variables.
 >   * Shared across all threads.
 >   * Managed by the Garbage Collector (GC).
 > 3. Stack
->   * Stores method frames (local variables, operand stack, return addresses).
+     >   * Stores method frames (local variables, operand stack, return addresses).
 >   * Each thread has its own stack.
 >   * Memory is pushed/popped per method call.
 > 4. Program Counter (PC) Register
->   * Holds the address of the current instruction being executed. 
+     >   * Holds the address of the current instruction being executed.
 >   * Each thread has its own PC.
 > 5. Native Method Stack
->   * Used for native (non-Java) code execution via JNI.
+     >   * Used for native (non-Java) code execution via JNI.
 >   * One per thread.
 
 47. What guarantees does the Java Memory Model (JMM) provide?
@@ -501,7 +501,7 @@ int             Integer
 
 48. What does the `final` word do in Java? How can we update the value of a final variable?
 > In Java, the `final` keyword is used to mark a variable, method, or class as unchangeable in specific ways:
-> 
+>
 > A. A `final` variable means its value cannot be changed once it's assigned.
 > * For primitive types (like int, float, char), final makes the value immutable.
 > * For reference types (like objects), final means the reference cannot be changed, but the object's internal state can still be modified.
@@ -555,17 +555,17 @@ int             Integer
 
 51. What are `Future` and `Callable`, and how are they different from `Runnable`?
 > 1. `Runnable`
->    * Introduced in: Java 1.0
+     >    * Introduced in: Java 1.0
 >    * Purpose: Represents a task that can be executed by a thread.
 >    * Return value: Does **not** return a result.
 >    * Throws exceptions: **Cannot** throw checked exceptions.
 >    * Example:
->    ```java
+     >    ```java
 >    Runnable task = () -> System.out.println("Running task");
 >    new Thread(task).start();
 >    ```
 > 2. `Callable<V>`
->    * Introduced in: Java 5 (`with java.util.concurrent`)
+     >    * Introduced in: Java 5 (`with java.util.concurrent`)
 >    * Purpose: Represents a task that returns a result and may throw an exception.
 >    * Return value: Returns a result of type V.
 >    * Throws exceptions: Can throw checked exceptions.
@@ -576,11 +576,11 @@ int             Integer
 > };
 > ```
 > 3. `Future<V>`
->    * Introduced in: Java 5
+     >    * Introduced in: Java 5
 >    * Purpose: Represents the result of an asynchronous computation.
 >    * It's returned when a `Callable` or `Runnable` is submitted to an `ExecutorService`.
 >    * Provides methods to:
->        * Get the result (`get()`)
+       >        * Get the result (`get()`)
 >        * Cancel the task (`cancel()`)
 >        * Check if the task is complete (`isDone()`)
 > ```java
@@ -607,18 +607,18 @@ int             Integer
 | Trigger Style | Countdown hits 0           | Permits acquired/released | All parties call `await()`     |
 
 53. What are some best practices when using multithreading in Java?
-> * Use `java.util.concurrent` utilities (`ExecutorService`, `CountDownLatch`, etc.) instead of manually managing threads. 
+> * Use `java.util.concurrent` utilities (`ExecutorService`, `CountDownLatch`, etc.) instead of manually managing threads.
 > * Prefer `Callable` + `Future` over `Runnable` if you need results or exception handling.
 > * Avoid shared mutable state — prefer immutable objects or thread-safe data structures.
-> * Use synchronization wisely (`synchronized`, `ReentrantLock`) — avoid holding locks longer than necessary. 
-> * Avoid deadlocks — always acquire locks in a consistent global order. 
-> * Use `volatile` for visibility, not for atomicity. 
+> * Use synchronization wisely (`synchronized`, `ReentrantLock`) — avoid holding locks longer than necessary.
+> * Avoid deadlocks — always acquire locks in a consistent global order.
+> * Use `volatile` for visibility, not for atomicity.
 > * Favor thread-safe classes like `ConcurrentHashMap`, `CopyOnWriteArrayList`.
-> * Avoid busy waiting — use `wait`/`notify`, `Condition`, or blocking queues. 
+> * Avoid busy waiting — use `wait`/`notify`, `Condition`, or blocking queues.
 > * Use thread pools instead of creating threads manually (`Executors.newFixedThreadPool()`).
-> * Shut down executors properly using `shutdown()` or `try-with-resources` (Java 19+). 
-> * Minimize thread creation — it's expensive; reuse via pools. 
-> * Catch and log exceptions in worker threads to avoid silent failures. 
+> * Shut down executors properly using `shutdown()` or `try-with-resources` (Java 19+).
+> * Minimize thread creation — it's expensive; reuse via pools.
+> * Catch and log exceptions in worker threads to avoid silent failures.
 > * Benchmark and profile — use tools to identify bottlenecks and race conditions.
 
 54. When do you use an anonymous inner class?
@@ -638,35 +638,35 @@ int             Integer
 
 55. What are the different types of iterators in Java?
 > 1. Iterator
->   * `java.util.Iterator`
+     >   * `java.util.Iterator`
 >   * Used with all Collection types
 >   * Methods:
->      * `hasNext()`
+      >      * `hasNext()`
 >      * `next()`
 >      * `remove()` (optional operation)
 >   * Direction: Forward-only
 >   * Fail-fast: Throws ConcurrentModificationException on structural modification during iteration.
 > 2. ListIterator
->   * `java.util.ListIterator`
+     >   * `java.util.ListIterator`
 >   * Used with List types (`ArrayList`, `LinkedList`)
 >   * extends `Iterator`
 >   * Bidirectional iteration (`previous()`, `hasPrevious()`)
 >   * Modify list during iteration (`add()`, `set()`, `remove()`)
 >   * Index access (`nextIndex()`, `previousIndex()`)
 > 3. Enumeration
->   * `java.util.Enumeration`
+     >   * `java.util.Enumeration`
 >   * Used with legacy classes like `Vector`, `Hashtable`
 >   * Methods:
->      * `hasMoreElements()`
->      * `nextElement()` 
+      >      * `hasMoreElements()`
+>      * `nextElement()`
 >   * Direction: Forward-only
 >   * Limitation: Cannot remove elements, considered outdated.
 > 4. Spliterator
->   * `java.util.Spliterator` (Java 8+)
+     >   * `java.util.Spliterator` (Java 8+)
 >   * Used with: Streams, Collections
 >   * Supports: Parallel iteration
 >   * Key Features:
->      * `tryAdvance()`
+      >      * `tryAdvance()`
 >      * `trySplit()` for parallelism
 >      * Used internally by the Stream API
 
@@ -681,20 +681,20 @@ int             Integer
 > }
 > ```
 > 2. Custom Iterator
-> `class CounterIterator implements Iterator<Integer> {...`
+     > `class CounterIterator implements Iterator<Integer> {...`
 > 3. Using an Anonymous Class or Lambda (Java 8+)
-> `Iterable<String> iterable = () -> List.of("X", "Y", "Z").iterator();`
+     > `Iterable<String> iterable = () -> List.of("X", "Y", "Z").iterator();`
 
 57. What is fail-fast in Java? What is fail-safe?
 > * A fail-fast iterator throws a ConcurrentModificationException if the collection is structurally modified (e.g., add/remove) after the iterator is created, except via the iterator's own methods.
 > * A fail-safe iterator does not throw ConcurrentModificationException because it iterates over a copy of the collection or uses concurrent data structures.
 
-58. What are hash map collisions? Why should you implement `equals()` and `hashCode()` together? 
+58. What are hash map collisions? Why should you implement `equals()` and `hashCode()` together?
 > When two different keys produce the same hash code, they end up in the same bucket in the hash table. This is called a collision. The map handles collisions by linking entries or using trees internally.
 >
 > * `hashCode()` determines the bucket for the key.
 > * `equals()` checks if keys are actually equal within that bucket.
-> 
+>
 > If you override one without the other, collections like HashMap won't work correctly — you may get inconsistent lookups, duplicates, or lost entries.
 
 59. What does the `@Transient` annotation do in Java?
@@ -728,17 +728,39 @@ int             Integer
 62. Which method do you use to control system resources in multithreaded environments in Java programming language?
 > To control system resources in multithreaded Java programs, you typically use `Semaphore` from `java.util.concurrent`.
 
+63. What are sealed classes?
+> Sealed classes restrict which other classes or interfaces can extend or implement them. (introduced in Java 15+)
+>
+> Use Them:
+> * To control inheritance.
+> * To make code more secure, predictable, and easier to maintain.
+> ```java
+> public sealed class Shape permits Circle, Rectangle {
+>     // only Circle and Rectangle can extend Shape
+> }
+> 
+> final class Circle extends Shape {}
+> final class Rectangle extends Shape {}
+> ```
+
+64. What is Compile-Time Polymorphism (aka Static Polymorphism) in Java?
+> It refers to method overloading, where the method to be called is determined at compile time.
+> * Achieved via method overloading (same method name, different parameters).
+> * Decision made by the compiler, not at runtime.
+> * Improves code readability and flexibility.
+
+
 ## Spring Boot
 1. What is the difference between Java EE and Spring?
 > Java EE is standardized (now Jakarta EE), runs on containers like WildFly.<br>
 > Spring is more lightweight, community-driven, flexible, and now more widely used.<br>
 > Java EE has EJBs, CDI, JPA, etc. Spring uses its own equivalents (`@Service`, `@Autowired`, Spring Data JPA).
 2. What is dependency injection? What’s the difference between dependency injection and inversion of control?
- > DI:
+> DI:
 > * Dependency Injection is a design pattern where an object’s dependencies (other objects it needs) are provided to it, rather than the object creating them itself.
 > * It promotes loose coupling and better testability by separating the creation of dependencies from their usage.
 > * In Spring Boot, DI is mainly done by the framework automatically injecting beans into your classes (via constructors, setters, or fields).
-> IoC: 
+    > IoC:
 > * Inversion of Control is a broader principle where the control of object creation and flow is “inverted” from the program itself to an external framework or container.
 > * Instead of your code controlling when and how objects are created, the IoC container manages this lifecycle and wiring.
 > * Dependency Injection is one way to implement IoC.
@@ -746,7 +768,7 @@ int             Integer
 > * Spring: @Autowired, @Component, @Service
 > * Java EE: @Inject, @EJB, @Resource
 4. What happens if an exception is thrown inside a `@Transactional` method?
- > By default, Spring rolls back for unchecked exceptions (`RuntimeException`) but not for checked ones unless specified.
+> By default, Spring rolls back for unchecked exceptions (`RuntimeException`) but not for checked ones unless specified.
 4. Can you nest transactions in Spring? What is propagation?
 > Spring does not support true nested transactions with full independent commit/rollback out-of-the-box because most databases don’t support it directly.<br>
 > However, Spring provides a “nested” transaction propagation mode (`PROPAGATION_NESTED`), which works only if the underlying database supports savepoints.<br>
@@ -765,19 +787,19 @@ int             Integer
 
 1. What are the different types of SQL statements?
 > 1. DDL (Data Definition Language)
->   * Define or modify database structure
+     >   * Define or modify database structure
 >   * Examples: `CREATE`, `ALTER`, `DROP`, `TRUNCATE`
 > 2. DML (Data Manipulation Language)
->   * Manage data within tables
+     >   * Manage data within tables
 >   * Examples: `INSERT`, `UPDATE`, `DELETE`, `MERGE`
 > 3. DQL (Data Query Language)
->   * Retrieve data from the database
+     >   * Retrieve data from the database
 >   * Example: `SELECT`
 > 4. DCL (Data Control Language)
->   * Control access and permissions
+     >   * Control access and permissions
 >   * Examples: `GRANT`, `REVOKE`
 > 5. TCL (Transaction Control Language)
->   * Manage transactions
+     >   * Manage transactions
 >   * Examples: `COMMIT`, `ROLLBACK`, `SAVEPOINT`
 
 2. When would you use a JOIN, and what types of joins are there?
@@ -800,7 +822,7 @@ int             Integer
 
 4. What is SQL injection, and how can you prevent it in Java?
 > SQL Injection is a security vulnerability where an attacker injects malicious SQL code into a query, often through user input, to manipulate the database.
-> 
+>
 > How to Prevent It in Java:
 > 1. Use Prepared Statements (Recommended)
 > 2. Use ORM frameworks (e.g., Hibernate, JPA): They manage queries safely under the hood.
@@ -812,13 +834,13 @@ int             Integer
 > Yes, Hibernate is generally safe from SQL injection, if used correctly because:
 > 1. Uses parameterized queries internally: HQL/JPQL and Criteria API bind parameters securely. Also Prevents malicious input from being treated as code.
 > 2. Prevents SQL injection by design: Query inputs are treated as data, not executable SQL.
-> It is not safe if:
+     > It is not safe if:
 > * We Concatenate user input directly into HQL or native SQL: `Query q = session.createQuery("FROM User WHERE name = '" + userInput + "'");`
 > * Use native SQL queries without parameter binding: `Query q = session.createSQLQuery("SELECT * FROM users WHERE id = " + id);`
 
 6. What is a database transaction?
 > A database transaction is a sequence of one or more SQL operations treated as a single logical unit of work.
-> 
+>
 > * Atomicity – All operations succeed or none do.
 > * Consistency – Maintains database integrity before and after the transaction.
 > * Isolation – Concurrent transactions don’t interfere with each other.
@@ -830,7 +852,7 @@ int             Integer
 > 2. Automatic object mapping
 > 3. Transparent caching
 > 4. Built-in transaction and connection management
-> 
+>
 > Cons:
 > 1. Can be slower/more complex for large or custom queries
 > 2. Learning curve
@@ -847,11 +869,11 @@ int             Integer
 9. What are lazy vs. eager loading in Hibernate, and why do they matter?
 > These terms refer to how and when Hibernate fetches related entities from the database.
 > 1. Lazy Loading (default)
->    * Loads related entities only when accessed.
+     >    * Loads related entities only when accessed.
 >    * Improves performance by avoiding unnecessary queries.
 >    * Requires an active Hibernate session when accessed.
 > 2. Eager Loading
->    * Loads related entities immediately with the main entity.
+     >    * Loads related entities immediately with the main entity.
 >    * May lead to performance issues if too much data is fetched.
 >    * Good when you always need the related data.
 
@@ -898,16 +920,16 @@ int             Integer
 > * Business rule enforcement
 > * Sending confirmation emails
 > * Persisting to the database
->    
+>
 > Instead of putting all logic in a single service class, I separated responsibilities into clearly focused components:
 > * UserValidator – validated input and constraints
 > * UserService – contained core business logic
-> * EmailService – handled email notifications 
+> * EmailService – handled email notifications
 > * UserRepository – persisted data using JPA
 >
 > The result:
-> * Easier to test each unit in isolation 
-> * Changes were localized, e.g., updating email logic didn’t affect user logic 
+> * Easier to test each unit in isolation
+> * Changes were localized, e.g., updating email logic didn’t affect user logic
 > * Code was cleaner, easier to read, and more maintainable
 >
 > Applying SRP helped me avoid the "god class" anti-pattern and made collaboration across the team much smoother.
