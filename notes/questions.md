@@ -396,55 +396,134 @@ int             Integer
 39. What is variable shadowing?
 > If the instance variable (within a class, outside a method) & a local variable (inside a method) have the same name
 
-//
-1. What are Java generics?
-> aa
-2. What problems can occur with multithreading?
-> lala
-3. How would you make a class thread-safe?
-> lala
-4. What’s the difference between Thread and Runnable?
-> alalal
-1. [JVM Behaviour] Explain the Java class loading process.
-> mm
-7. What are memory areas in the JVM?
-> llaal
-8. What guarantees does the Java Memory Model (JMM) provide?
-> aa
-9. How does the `happens-before` relationship work in Java?
-> a
-10. How does `ExecutorService` work?
-> a
-11. What are `Future` and `Callable`, and how are they different from `Runnable`?
-> a
-12. What are `CountDownLatch`, `Semaphore`, and `CyclicBarrier` used for?
-> a
-13. Why and when would you use `ReentrantLock` over `synchronized`?
-> a
-14. What are some best practices when using multithreading in Java?
-> a
-23. When do you use an anonymous inner class?
-> aa
-24. What's the purpose of anonymous inner classes?
-> w
-25. What are the different types of iterators in Java?
-> w
-26. How do you create an iterator in Java?
-> w
-28. How can you optimize code to help improve performance in Java applications?
-> w
-29. Which method do you use to control system resources in multithreaded environments in Java programming language?
-> w
-30. What does the `final` word do in Java? How can we update the value of a final variable?
+40. What are Java generics?
+> Java Generics allow you to write code that works with different data types while providing compile-time type safety., e.g. `List<String> list = new ArrayList<>();`: the `list` contains `String` items only
+
+41. What problems can occur with multithreading?
+> * *Race Conditions*: when multiple threads access and modify shared data simultaneously without proper synchronization. Leads to unpredictable and incorrect results.
+> * *Deadlocks*: When two or more threads are waiting for each other’s locks and none can proceed.
+> * *Livelocks*: Threads keep changing state in response to each other but still can’t make progress.
+> * *Starvation* : A thread never gets CPU time or access to resources because other threads keep dominating them.
+> * *Data Inconsistency*: Happens when reads/writes to shared variables aren’t properly synchronized.
+> * *Difficulty in Debugging and Testing*: since non deterministic behaviour
+> * *Performance Overheads*: Poor thread management can cause:
+>    1. Excessive context switching
+>    2. High memory usage
+>    3. Decreased overall performance
+
+42. How would you make a class thread-safe?
+> 1. Use `synchronized` methods or blocks
+> 2. Use `volatile` for visibility
+> 3. Use atomic classes, e.g. `java.util.concurrent.atomic`
+> 4. Use thread-safe collections, e.g. `ConcurrentHashMap`, `CopyOnWriteArrayList`
+> 5. Use explicit locks (`Lock lock = new ReentrantLock();`)
+> 6. Make the class immutable (No setters, final fields, initialized via constructor.)
+
+43. Why and when would you use `ReentrantLock` over `synchronized`?
+> You would use `ReentrantLock` over `synchronized` when you need more advanced locking control than `synchronized` provides.
+> * You need timeout or interruptible locking.
+> * You want fair locking (e.g., FIFO order).
+> * You need multiple wait conditions (Condition objects).
+> * You're building complex concurrent utilities or frameworks.
+
+44. What’s the difference between `Thread` and `Runnable`?
+> **Runnable** – Interface (Preferred for flexibility)
+> Represents a task to be executed in a thread.
+> Does not itself create or manage a thread.
+> You pass a Runnable to a Thread object to run it.
+
+```java
+Runnable task = () -> System.out.println("Running...");
+Thread thread = new Thread(task);
+thread.start();
+```
+> **Thread** – Class (Extends Runnable)
+> Represents an actual thread of execution.
+> You can subclass Thread and override its run() method, but this is less flexible.
+
+```java
+class MyThread extends Thread {
+    public void run() {
+        System.out.println("Running...");
+    }
+}
+Thread t = new MyThread();
+t.start();
+```
+
+45. Explain the Java class loading process.
+> The Java class loading process is how the Java Virtual Machine (JVM) loads .class files into memory so they can be used at runtime. It involves 3 main phases:
+> 1. Loading
+>     * The JVM locates the .class file (from disk, JAR, etc.) using a ClassLoader.
+>     * Converts bytecode into a Class object.
+>     * Each class is loaded only once per ClassLoader.
+>     * Java uses a hierarchical ClassLoader model:
+>       * Bootstrap ClassLoader (loads core Java classes)
+>       * Extension ClassLoader (loads JDK extension libraries)
+>       * Application ClassLoader (loads classes from your app’s classpath)
+> 2. Linking
+>     * Links the loaded class into the JVM runtime.
+>     * 3 substeps:
+>       1. *Verification*: Confirms bytecode is valid and safe to run
+>       2. *Preparation*: Allocates memory for class variables and sets default values (`0`, `null`)
+>       3. *Resolution*: Replaces symbolic references (e.g., class names) with direct memory references
+> 3. Initialization
+>     * JVM executes static initializers and assigns final values to static fields.
+>     * Happens only once per class when it’s first used (e.g., method call or instantiation).
+
+46. What are memory areas in the JVM?
+> The JVM divides memory into several logical areas to manage code, data, and execution efficiently.
+> 1. Method Area (or Metaspace in Java 8+):
+>   * Stores class metadata, static variables, and constants.
+>   * Shared among all threads.
+> 2. Heap
+>   * Stores objects and instance variables.
+>   * Shared across all threads.
+>   * Managed by the Garbage Collector (GC).
+> 3. Stack
+>   * Stores method frames (local variables, operand stack, return addresses).
+>   * Each thread has its own stack.
+>   * Memory is pushed/popped per method call.
+> 4. Program Counter (PC) Register
+>   * Holds the address of the current instruction being executed. 
+>   * Each thread has its own PC.
+> 5. Native Method Stack
+>   * Used for native (non-Java) code execution via JNI.
+>   * One per thread.
+
+47. What guarantees does the Java Memory Model (JMM) provide?
+
+| Guarantee                      | Description                                                                                                                                                                        |
+| ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Visibility**                 | Changes made by one thread to shared variables become visible to other threads **after a happens-before relationship** (e.g., via synchronization, volatile).                      |
+| **Atomicity**                  | Operations on **`long` and `double` are atomic only if declared `volatile`**; otherwise, smaller operations like reads/writes of primitives (except 64-bit) are atomic by default. |
+| **Ordering (happens-before)**  | The JMM defines rules about how and when changes made by one thread become visible and in what order other threads see them — **to avoid reordering surprises**.                   |
+| **Synchronization guarantees** | Locks (`synchronized`), `volatile`, and other concurrency utilities establish **happens-before relationships** to ensure consistent views of memory.                               |
+| **Safe publication**           | Objects must be safely published (e.g., through synchronization, final fields, or volatile references) to ensure other threads see fully constructed objects.                      |
+
+
+
+
+
+TODO:
+1. How does the `happens-before` relationship work in Java?
+2. How does `ExecutorService` work?
+3. What are `Future` and `Callable`, and how are they different from `Runnable`?
+4. What are `CountDownLatch`, `Semaphore`, and `CyclicBarrier` used for?
+5. What are some best practices when using multithreading in Java?
+6. When do you use an anonymous inner class?
+7. What's the purpose of anonymous inner classes?
+8. What are the different types of iterators in Java?
+9. How do you create an iterator in Java?
+10. How can you optimize code to help improve performance in Java applications?
+11. Which method do you use to control system resources in multithreaded environments in Java programming language?
+12. What does the `final` word do in Java? How can we update the value of a final variable?
 > Final means. Reflection
-32. What is failfast in Java? What is failsafe?
+13. What is failfast in Java? What is failsafe?
 > Concurrent mod exception, e.g. for-i loop wherein we update the i value so the loop gets wonky
-39. What are hash map collisions? Why should you implement `equals()` and `hashCode()` together?
-> a
-40. Explain the differences & similarities between `Comparator` & `Comparable` interfaces
-> a
-42. What does the `@Transient` annotation do in Java?
-> a
+14. What are hash map collisions? Why should you implement `equals()` and `hashCode()` together? 
+15. 15.Explain the differences & similarities between `Comparator` & `Comparable` interfaces
+16. What does the `@Transient` annotation do in Java?
 
 
 ## Spring Boot
@@ -461,7 +540,6 @@ int             Integer
 > * Inversion of Control is a broader principle where the control of object creation and flow is “inverted” from the program itself to an external framework or container.
 > * Instead of your code controlling when and how objects are created, the IoC container manages this lifecycle and wiring.
 > * Dependency Injection is one way to implement IoC.
-
 3. How is DI handled in Spring vs Java EE?
 > Spring: @Autowired, @Component, @Service
 > Java EE: @Inject, @EJB, @Resource
@@ -476,7 +554,10 @@ int             Integer
 > It controls whether a method should join an existing transaction, start a new one, or run without a transaction.<br>
 
 5. [Describe Spring Response Status Exception](https://www.baeldung.com/spring-response-status-exception)
-> m
+> `ResponseStatusException` is a runtime exception in Spring used to return a specific HTTP status code and error message from a REST controller.
+> Purpose: To manually trigger HTTP error responses (like 404, 400, 403) with custom reasons, without using @ResponseStatus on a class.
+> e.g.: `throw new ResponseStatusException(HttpStatus.NOT_FOUND, "User not found");`
+> If you want to globally handle exceptions, use `@ControllerAdvice` with `ExceptionHandler` instead.
 
 ## Databases
 
@@ -513,21 +594,109 @@ int             Integer
 ## Design Principles
 1. What’s the difference between cohesion and coupling? Why is low coupling and high cohesion desirable?
 > * *Cohesion*: How closely related the responsibilities of a class or module are. <br>
-> *High cohesion* = good (e.g., UserService handles only user-related logic).
+> * *High cohesion* = good (e.g., UserService handles only user-related logic).
 > * *Coupling*: How dependent one class is on another.<br>
 > * *Low coupling* = good (fewer direct dependencies = better modularity).
 2. How have you used polymorphism in a real project?
 > (E.g., an interface PaymentProcessor with CreditCardProcessor, PayPalProcessor implementations)
 3. What’s the difference between interface-based and inheritance-based design?
-> Prefer interfaces to avoid tight coupling; inheritance is for IS-A relationships.
+> * Prefer interfaces to avoid tight coupling
+> * Inheritance is for IS-A relationships.
 4. What’s the benefit of encapsulation in class design?
-> Hides implementation details; protects invariants.
+> * Hides implementation details
+> * Protects invariants
 5. When would you use abstract classes vs interfaces?
-> Abstract class = partial implementation & shared state; interface = capability/contract.
-6. What’s a design principle you consciously applied in your last project?
-> aa
+> * Abstract class = partial implementation & shared state
+> * Interface = capability/contract.
+6. What’s a design principle you consciously applied in your last project? (example)
+> One design principle I consciously applied in my last project was the Single Responsibility Principle (SRP)—part of the SOLID principles.
+>
+> I was working on a Java-based backend service that handled user registration, including:
+> * Input validation
+> * Business rule enforcement
+> * Sending confirmation emails
+> * Persisting to the database
+>    
+> Instead of putting all logic in a single service class, I separated responsibilities into clearly focused components:
+> * UserValidator – validated input and constraints
+> * UserService – contained core business logic
+> * EmailService – handled email notifications 
+> * UserRepository – persisted data using JPA
+>
+> The result:
+> * Easier to test each unit in isolation 
+> * Changes were localized, e.g., updating email logic didn’t affect user logic 
+> * Code was cleaner, easier to read, and more maintainable
+>
+> Applying SRP helped me avoid the "god class" anti-pattern and made collaboration across the team much smoother.
+
 7. Have you used the Strategy, Factory, or Observer pattern in your code?
-> aa
+> Strategy Pattern
+> * for interchangeable business logic
+> * e.g.:  In a payment processing module, where different payment types (e.g., credit card, PayPal, wallet) required different processing logic.
+> * ✔ Helped me avoid `if-else` chains and made it easy to plug in new strategies.
+```java
+public interface PaymentStrategy {
+    void pay(double amount);
+}
+
+public class PayPalPayment implements PaymentStrategy { ... }
+public class CreditCardPayment implements PaymentStrategy { ... }
+
+public class PaymentContext {
+    private PaymentStrategy strategy;
+
+    public PaymentContext(PaymentStrategy strategy) {
+        this.strategy = strategy;
+    }
+
+    public void processPayment(double amount) {
+        strategy.pay(amount);
+    }
+}
+```
+
+> Factory Pattern
+> for flexible object creation
+> e.g. To create report exporters (PDF, Excel, CSV) based on user input.
+> This removed the need to instantiate the correct class manually and centralized control.
+```java
+public interface ReportExporter { void export(); }
+
+public class PdfExporter implements ReportExporter { ... }
+public class CsvExporter implements ReportExporter { ... }
+
+public class ExporterFactory {
+    public static ReportExporter getExporter(String type) {
+        return switch(type) {
+            case "PDF" -> new PdfExporter();
+            case "CSV" -> new CsvExporter();
+            default -> throw new IllegalArgumentException("Unknown type");
+        };
+    }
+}
+```
+> Observer Pattern
+> * for decoupled event handling
+> * e.g. In a notification system where user actions (like signup or purchase) triggered multiple listeners: send email, log analytics, update dashboard.
+> * Allowed me to add/remove listeners easily without modifying core logic.
+```java
+public interface Observer {
+    void update(String eventData);
+}
+
+public class EmailService implements Observer { ... }
+public class AnalyticsService implements Observer { ... }
+
+public class Subject {
+    private List<Observer> observers = new ArrayList<>();
+    public void addObserver(Observer obs) { observers.add(obs); }
+
+    public void notifyAll(String data) {
+        for (Observer o : observers) o.update(data);
+    }
+}
+```
 
 
 ## Technical Interviews Tips
