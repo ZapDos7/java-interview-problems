@@ -766,6 +766,16 @@ int             Integer
 > Choice of synchronization though depends upon a number of threads because the number of thread present more contention,
 > so you go for advanced synchronization technique e.g. lock stripping, which requires more complex code and expertise.
 
+68. How do you call wait() method? using if block or loop? Why?
+> `wait()` method should always be called in loop because it's possible that until thread gets CPU to start running again the condition might not hold, so it's always better to check condition in loop before proceeding, example:
+> ```java
+> // The standard idiom for using the wait method
+> synchronized (obj) {
+> while (condition does not hold)
+>   obj.wait(); // (Releases lock, and reacquires on wakeup)
+>   ... // Perform action appropriate to condition
+> }
+> ```
 ## Spring Boot
 1. What is the difference between Java EE and Spring?
 > Java EE is standardized (now Jakarta EE), runs on containers like WildFly.<br>
