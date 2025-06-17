@@ -16,7 +16,7 @@ jobs:
         env:
           GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
         run: |
-          FILE_CONTENT=$(cat yourfile.md | jq -Rs .)
+          FILE_CONTENT=$(cat notes/questions.md | jq -Rs .)
           GIST_ID=076468498c7f080b3a6d0c1f8c618b19
           
           curl -X PATCH \
