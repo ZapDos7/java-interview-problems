@@ -21,5 +21,6 @@ jobs:
           
           curl -X PATCH \
             -H "Authorization: token $GIST_TOKEN" \
-            -d "{\"files\": {\"notes/questions.md\": {\"content\": $FILE_CONTENT}}}" \
+            -H "Accept: application/vnd.github+json" \
+            -d "{\"files\": {\"questions.md\": {\"content\": $FILE_CONTENT}}}" \
             https://api.github.com/gists/$GIST_ID
