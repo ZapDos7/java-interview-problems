@@ -16,11 +16,15 @@ jobs:
         env:
           GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
         run: |
-          FILE_CONTENT=$(cat notes/questions.md | jq -Rs .)
-          GIST_ID=076468498c7f080b3a6d0c1f8c618b19
-          
-          curl -X PATCH \
+          set -e
+          FILE_PATH="notes/questions.md"
+          GIST_ID="076468498c7f080b3a6d0c1f8c618b19"
+          GIST_FILENAME="00_ivs_questions.md"  # Must match actual filename on Gist
+
+          FILE_CONTENT=$(cat "$FILE_PATH" | jq -Rs .)
+
+          curl -i -X PATCH \
             -H "Authorization: token $GIST_TOKEN" \
             -H "Accept: application/vnd.github+json" \
-            -d "{\"files\": {\"questions.md\": {\"content\": $FILE_CONTENT}}}" \
-            https://api.github.com/gists/$GIST_ID
+            -d "{\"files\": {\"$GIST_FILENAME\": {\"content\": $FILE_CONTENT}}}" \
+            "https://api.github.com/gists/$GIST_ID"
