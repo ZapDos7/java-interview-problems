@@ -752,6 +752,15 @@ int             Integer
 65. Can we make array volatile in Java?
 > Yes, you can make an array volatile in Java but only the reference which is pointing to an array, not the whole array. If one thread changes the reference variable to points to another array, that will provide a volatile guarantee, but if multiple threads are changing individual array elements they won't be having happens before guarantee provided by the volatile modifier.
 
+66. Can volatile make a non-atomic operation to atomic?
+> Volatile is not about atomicity, but there are cases where you can use a volatile variable to make the operation atomic.
+> 
+> One example is having a long field in your class. If you know that a long field is accessed by more than one thread e.g. a counter, a price field or anything, you better make it volatile.
+> 
+> Why? because reading to a long variable is not atomic in Java and done in two steps;
+> 
+> If one thread is writing or updating long value, it's possible for another thread to see half value (fist 32-bit). While reading/writing a volatile long or double (64 bit) is atomic.
+
 ## Spring Boot
 1. What is the difference between Java EE and Spring?
 > Java EE is standardized (now Jakarta EE), runs on containers like WildFly.<br>
