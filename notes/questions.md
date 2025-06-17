@@ -749,6 +749,8 @@ int             Integer
 > * Decision made by the compiler, not at runtime.
 > * Improves code readability and flexibility.
 
+65. Can we make array volatile in Java?
+> Yes, you can make an array volatile in Java but only the reference which is pointing to an array, not the whole array. If one thread changes the reference variable to points to another array, that will provide a volatile guarantee, but if multiple threads are changing individual array elements they won't be having happens before guarantee provided by the volatile modifier.
 
 ## Spring Boot
 1. What is the difference between Java EE and Spring?
