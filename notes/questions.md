@@ -761,6 +761,11 @@ int             Integer
 > 
 > If one thread is writing or updating long value, it's possible for another thread to see half value (fist 32-bit). While reading/writing a volatile long or double (64 bit) is atomic.
 
+67. Which one would be easy to write? synchronization code for 10 threads or 2 threads?
+> In terms of writing code, both will be of same complexity because synchronization code is independent of a number of threads.
+> Choice of synchronization though depends upon a number of threads because the number of thread present more contention,
+> so you go for advanced synchronization technique e.g. lock stripping, which requires more complex code and expertise.
+
 ## Spring Boot
 1. What is the difference between Java EE and Spring?
 > Java EE is standardized (now Jakarta EE), runs on containers like WildFly.<br>
